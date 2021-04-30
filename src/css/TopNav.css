@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+header .top_nav{width: 100%; height: 50px; border-bottom: 2px solid #09d9fe; background: #252525;}
+
+header .top_nav > .left{float: left;}
+header .top_nav > .left > button{background: none; box-shadow: none; border: none; cursor: pointer; margin: 17px 20px 16px 15px; width: 20px; height: 17px; position: relative;}
+header .top_nav > .left > button > span{display: block; width: 20px; height: 3px; background: #fff; position: absolute; transition: .3s;}
+header .top_nav > .left > button:hover span{background: #09d9fe;}
+header .top_nav > .left > button > span:nth-of-type(1){top: 0; left: 0;}
+header .top_nav > .left > button > span:nth-of-type(2){top: 7px; left: 0;}
+header .top_nav > .left > button > span:nth-of-type(3){top: 14px; left: 0;}
+header .top_nav > .left > button.open:hover > span:nth-of-type(1){transform: rotate(-35deg); width: 11px; top: 3px;}
+header .top_nav > .left > button.open:hover > span:nth-of-type(3){transform: rotate(35deg); width: 11px; top: 11px;}
+header .top_nav > .left > button.close:hover > span:nth-of-type(3){transform: rotate(-35deg); width: 11px; top: 11px; left: auto; right: 0;}
+header .top_nav > .left > button.close:hover > span:nth-of-type(1){transform: rotate(35deg); width: 11px; top: 3px; left: auto; right: 0;}
+header .top_nav > .left > a > img{width: 80px; display: inline-block; margin: 12px 0 11px 0;}
+
+header .top_nav > .right{float: right; height: 20px; margin: 15px 30px 15px 0;}
+header .top_nav > .right > a{color: #fff; line-height: 20px;}
+header .top_nav > .right > a:hover{color: #09d9fe; transition: .3s;}
+header .top_nav > .right > span{display: inline-block; width: 1px; height: 10px; background: #fff; margin: 5px 8px;}
