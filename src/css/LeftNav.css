@@ -1,7 +1,11 @@
 @charset "utf-8";
 
-.left_nav{width: 240px; height: calc(100% - 50px); position: absolute; bottom: 0; left: 0; background: #252525; border-right: 1px solid rgba(9, 217, 254, .6);}
-.left_nav > ul{width: 100%; margin-top: 40px;}
-.left_nav > ul > li{width: 100%; height: 50px; border-bottom: 1px solid rgba(9, 217, 254, .3);}
-.left_nav > ul > li > a{display: block; width: 100%; height: 100%; line-height: 50px; color: #fff; font-size: 1.5rem; padding-left: 20px;}
-.left_nav > ul > li > a:hover{color: #09d9fe; transition: .3s;;}
+.left_nav{width: 240px; height: calc(100% - 50px); position: absolute; bottom: 0; left: 0; background: #212529; transition: .5s; transition-timing-function: linear;}
+body.open .left_nav{transform: translateX(0);}
+body.clo .left_nav{transform: translateX(-100%);}
+.left_nav > ul{width: 100%; margin-top: 20px;}
+.left_nav > ul > li{width: 100%; height: 50px;}
+.left_nav > ul > li > a{display: block; width: 100%; height: 100%; color: #aaa; font-size: 1.4rem; padding-left: 20px;}
+.left_nav > ul > li > a:hover{color: #09d9fe; transition: .5s; text-decoration: none;}
+.left_nav > ul > li > a > span:nth-of-type(1){margin-right: 15px; line-height: 45px !important;}
+.left_nav > ul > li > a > span:nth-of-type(2){line-height: 50px !important;}

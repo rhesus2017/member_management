@@ -3,7 +3,9 @@ import React, { Component } from 'react';
 
 // component
 import Content from './Content';
-import Memo from './Memo';
+
+// css
+import '../css/Main.css';
 
 class Main extends Component {
 
@@ -14,7 +16,6 @@ class Main extends Component {
         <main>
           <h1 class="blind">React Example Main</h1>
           <Content></Content>
-          <Memo></Memo>
         </main>
       </div>
     )

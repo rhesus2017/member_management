@@ -1,4 +1,6 @@
 @charset "utf-8";
 
-footer{width: calc(100% - 240px); height: 50px; border-top: 1px solid #09d9fe; position: fixed; bottom: 0; right: 0; background: #252525;}
+footer{height: 50px; border-top: 1px solid #09d9fe; position: absolute; bottom: 0; background: #212529; transition: .5s; transition-timing-function: linear;}
+body.open footer{width: calc(100% - 240px); left: 240px;}
+body.clo footer{width: 100%; left: 0;}
 footer > p{width: 100%; height: 100%; line-height: 50px; text-align: center; color: #fff; font-size: 1.1rem;}

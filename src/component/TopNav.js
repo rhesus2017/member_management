@@ -1,13 +1,15 @@
 // react
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 // css
 import '../css/TopNav.css';
 
 class TopNav extends Component {
 
-  state = { 
-    menuOpenClose : 'open' 
+  menuOpenClose = (e) => {
+    let body = document.querySelector('body');
+    body.getAttribute('class') === 'clo' ? body.setAttribute('class','open') : body.setAttribute('class','clo');
   };
 
   render() {
@@ -17,15 +19,15 @@ class TopNav extends Component {
 
         <div className="left">
 
-          <button className={this.state.menuOpenClose === 'open' ? "open" : "close"}>
+          <button onClick={this.menuOpenClose}>
             <span></span>
             <span></span>
             <span></span>
           </button>
 
-          <a href="/">
+          <Link to="/">
             <img src="/img/logo.png" alt="react" />
-          </a>
+          </Link>
 
         </div>
 

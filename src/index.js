@@ -1,19 +1,19 @@
 // react
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from "react-router-dom";
 
 // component
-import Header from './component/Header';
-import Main from './component/Main';
-import Footer from './component/Footer';
+import App from './component/App';
+
+// css
+import './css/common.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <div className="react_app">
-      <Header></Header>
-      <Main></Main>
-      <Footer></Footer>
-    </div>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <React.StrictMode>
+      <App></App>
+    </React.StrictMode>
+  </BrowserRouter>,
   document.getElementById('root')
 );

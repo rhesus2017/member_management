@@ -1,25 +1,22 @@
 // react
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 // css
 import '../css/LeftNav.css';
 
 class LeftNav extends Component {
 
-  state = { 
-    menuOpenClose : 'open' 
-  };
-
   render() {
 
     return(
-      <nav className={this.state.menuOpenClose === 'open' ? "left_nav open" : "left_nav close"}>
+      <nav className="left_nav">
         <ul>
-          <li><a href="/">FIRST</a></li>
-          <li><a href="/">SECOND</a></li>
-          <li><a href="/">THIRD</a></li>
-          <li><a href="/">FOURTH</a></li>
-          <li><a href="/">FIFTH</a></li>
+          <li><Link to="/First"><span class="glyphicon glyphicon-folder-open"></span><span>FIRST</span></Link></li>
+          <li><Link to="/Second"><span class="glyphicon glyphicon-folder-open"></span><span>SECOND</span></Link></li>
+          <li><Link to="/Third"><span class="glyphicon glyphicon-folder-open"></span><span>THIRD</span></Link></li>
+          <li><Link to="/Fourth"><span class="glyphicon glyphicon-folder-open"></span><span>FOURTH</span></Link></li>
+          <li><Link to="/Fifth"><span class="glyphicon glyphicon-folder-open"></span><span>FIFTH</span></Link></li>
         </ul>
       </nav>
     )
