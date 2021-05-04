@@ -1,4 +1,5 @@
 @charset "utf-8";
 
 body{background: #dfdfdf;}
-.main_title{font-size: 1.8rem; font-weight: bold; background: #fff; padding: 14px 20px; box-shadow: 3px 3px 10px #ccc; margin-bottom: 7px;}
+.main_title{font-size: 1.8rem; font-weight: bold; background: #fff; padding: 0 20px; box-shadow: 3px 3px 10px #ccc; margin-bottom: 7px; height: 50px; line-height: 50px;}
+.main_pannel{width: 100%; height: calc(100% - 57px); background: #fff;}

@@ -1,26 +1,19 @@
-// react
-import React, { Component } from 'react';
-
 // component
 import Content from './Content';
 
 // css
 import '../css/Main.css';
 
-class Main extends Component {
+function Main() {
 
-  render() {
-
-    return(
-      <div class="main">
-        <main>
-          <h1 class="blind">React Example Main</h1>
-          <Content></Content>
-        </main>
-      </div>
-    )
-
-  }
+  return(
+    <div class="main">
+      <main>
+        <h1 class="blind">React Example Main</h1>
+        <Content></Content>
+      </main>
+    </div>
+  )
 
 }
 

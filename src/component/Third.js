@@ -1,20 +1,13 @@
-// react
-import React, { Component } from 'react';
-
 // css
 import '../css/Third.css';
 
-class Third extends Component {
+function Third() {
 
-  render() {
-
-    return(
-      <div className="third">
-        <p className="main_title">THIRD</p>
-      </div>
-    )
-
-  }
+  return(
+    <div className="third">
+      <p className="main_title">THIRD</p>
+    </div>
+  )
 
 }
 

@@ -1,20 +1,13 @@
-// react
-import React, { Component } from 'react';
-
 // css
 import '../css/Fourth.css';
 
-class Fourth extends Component {
+function Fourth() {
 
-  render() {
-
-    return(
-      <div className="fourth">
-        <p className="main_title">FOURTH</p>
-      </div>
-    )
-
-  }
+  return(
+    <div className="fourth">
+      <p className="main_title">FOURTH</p>
+    </div>
+  )
 
 }
 
