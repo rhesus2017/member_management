@@ -2,9 +2,9 @@
 import { Link } from "react-router-dom";
 
 // css
-import '../css/LeftNav.css';
+import './LeftNav.css';
 
-function LeftNav() {
+const LeftNav = () => {
 
   return(
     <nav className="left_nav">

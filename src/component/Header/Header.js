@@ -1,11 +1,11 @@
 // component
-import TopNav from './TopNav';
-import LeftNav from './LeftNav';
+import TopNav from './TopNav/TopNav';
+import LeftNav from './LeftNav/LeftNav';
 
 // css
-import '../css/Header.css';
+import './Header.css';
 
-function Header() {
+const Header = () => {
 
   return(
     <header>

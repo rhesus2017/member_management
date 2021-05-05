@@ -1,16 +1,15 @@
-// component
-import Content from './Content';
-
 // css
-import '../css/Main.css';
+import './Main.css';
 
-function Main() {
+const Main = () => {
 
   return(
     <div class="main">
       <main>
         <h1 class="blind">React Example Main</h1>
-        <Content></Content>
+        <div className="content">
+          <p className="main_title"></p>
+        </div>
       </main>
     </div>
   )

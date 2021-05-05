@@ -1,23 +1,19 @@
 // react
 import { Route } from "react-router-dom";
 
-// component
-import Home from './Home';
-import First from './First';
-import Second from './Second';
-import Third from './Third';
-import Fourth from './Fourth';
-import Fifth from './Fifth';
-import Login from './Login';
-import Join from './Join';
+// page
+import Home from './page/Home/Home';
+import First from './page/First/First';
+import Second from './page/Second/Second';
+import Third from './page/Third/Third';
+import Fourth from './page/Fourth/Fourth';
+import Fifth from './page/Fifth/Fifth';
+import Login from './page/Login/Login';
+import Join from './page/Join/Join';
 
-// css
-import '../css/Content.css';
-
-function Content() {
-
+const App = () => {
   return(
-    <div className="content">
+    <div className="react_app">
       <Route path="/" exact={true} component={Home} />
       <Route path="/First" component={First} />
       <Route path="/Second" component={Second} />
@@ -28,7 +24,6 @@ function Content() {
       <Route path="/Join" component={Join} />
     </div>
   )
-
 }
 
-export default Content;
+export default App;

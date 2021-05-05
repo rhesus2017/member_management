@@ -2,9 +2,9 @@
 import { Link } from "react-router-dom";
 
 // css
-import '../css/TopNav.css';
+import './TopNav.css';
 
-function TopNav() {
+const TopNav = () => {
 
   const menuOpenClose = (e) => {
     let body = document.querySelector('body');

@@ -2,7 +2,7 @@
 
 *{margin: 0; padding: 0; border: none; outline: none; vertical-align: top; box-sizing: border-box;}
 html{width: 100%; height: 100%; font-size: 0.625em; line-height: 1.15; -webkit-text-size-adjust: 100%;}
-body{width: 100%; height: 100%; display: flex; flex-direction: column; position: relative; font: 14px 'Rubik', 'ë‚˜ëˆ”ê³ ë”•', 'ë‹ì›€', Dotum, Helvetica, 'Apple SD Gothic Neo', 'sans-serif'; color: #222; overflow: hidden;}
+body{width: 100%; height: 100%; display: flex; flex-direction: column; position: relative; font: 14px 'Rubik', 'ë‚˜ëˆ”ê³ ë”•', 'ë‹ì›€', Dotum, Helvetica, 'Apple SD Gothic Neo', 'sans-serif'; color: #222; overflow: hidden; background: #dfdfdf;}
 main{display: block;}
 .main{flex: 1 0 auto; width: 100%;}
 footer{flex-shrink: 0;}
