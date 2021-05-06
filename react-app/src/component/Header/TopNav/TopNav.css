@@ -8,10 +8,10 @@ header .top_nav > .left > button:hover span{background: #09d9fe;}
 header .top_nav > .left > button > span:nth-of-type(1){top: 0; left: 0;}
 header .top_nav > .left > button > span:nth-of-type(2){top: 7px; left: 0;}
 header .top_nav > .left > button > span:nth-of-type(3){top: 14px; left: 0;}
-body.open header .top_nav > .left > button:hover > span:nth-of-type(1){transform: rotate(-35deg); width: 11px; top: 3px;}
-body.open header .top_nav > .left > button:hover > span:nth-of-type(3){transform: rotate(35deg); width: 11px; top: 11px;}
-body.clo header .top_nav > .left > button:hover > span:nth-of-type(3){transform: rotate(-35deg); width: 11px; top: 11px; left: auto; right: 0;}
-body.clo header .top_nav > .left > button:hover > span:nth-of-type(1){transform: rotate(35deg); width: 11px; top: 3px; left: auto; right: 0;}
+.react_app.open header .top_nav > .left > button:hover > span:nth-of-type(1){transform: rotate(-35deg); width: 11px; top: 3px;}
+.react_app.open header .top_nav > .left > button:hover > span:nth-of-type(3){transform: rotate(35deg); width: 11px; top: 11px;}
+.react_app.close_ header .top_nav > .left > button:hover > span:nth-of-type(3){transform: rotate(-35deg); width: 11px; top: 11px; left: auto; right: 0;}
+.react_app.close_ header .top_nav > .left > button:hover > span:nth-of-type(1){transform: rotate(35deg); width: 11px; top: 3px; left: auto; right: 0;}
 header .top_nav > .left > a > img{width: 80px; display: inline-block; margin: 12px 0 11px 0;}
 header .top_nav > .right{float: right; height: 20px; margin: 15px 30px 15px 0;}
 header .top_nav > .right > a{color: #fff; line-height: 20px;}

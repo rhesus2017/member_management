@@ -1,29 +1,27 @@
 // react
 import { Link } from "react-router-dom";
 
+// img
+import logo from './logo.png';
+
 // css
 import './TopNav.css';
 
 const TopNav = () => {
-
-  const menuOpenClose = (e) => {
-    let body = document.querySelector('body');
-    body.getAttribute('class') === 'clo' ? body.setAttribute('class','open') : body.setAttribute('class','clo');
-  };
 
   return(
     <div className="top_nav">
 
       <div className="left">
 
-        <button onClick={menuOpenClose}>
+        <button>
           <span></span>
           <span></span>
           <span></span>
         </button>
 
         <Link to="/">
-          <img src="/img/logo.png" alt="react" />
+          <img src={logo} alt="react" />
         </Link>
 
       </div>

@@ -12,8 +12,9 @@ import Login from './page/Login/Login';
 import Join from './page/Join/Join';
 
 const App = () => {
+
   return(
-    <div className="react_app">
+    <div className="react_app open">
       <Route path="/" exact={true} component={Home} />
       <Route path="/First" component={First} />
       <Route path="/Second" component={Second} />
