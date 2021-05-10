@@ -28,9 +28,9 @@ const TopNav = () => {
       </div>
 
       <div className="right">
-        <Link to="/Login/">로그인</Link>
+        <Link to="/Login">로그인</Link>
         <span></span>
-        <Link to="/Join/">회원가입</Link>
+        <Link to="/Join">회원가입</Link>
       </div>
 
     </div>

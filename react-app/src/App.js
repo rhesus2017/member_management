@@ -16,11 +16,11 @@ const App = () => {
     <div className="react_app open">
       <BrowserRouter>
         <Route path="/" exact={true} component={Home} />
-        <Route path="/First/" component={First} />
-        <Route path="/Second/" component={Second} />
-        <Route path="/Third/" component={Third} />
-        <Route path="/Login/" component={Login} />
-        <Route path="/Join/" component={Join} />
+        <Route path="/First" exact={true} component={First} />
+        <Route path="/Second" exact={true} component={Second} />
+        <Route path="/Third" exact={true} component={Third} />
+        <Route path="/Login" exact={true} component={Login} />
+        <Route path="/Join" exact={true} component={Join} />
       </BrowserRouter>
     </div>
   )

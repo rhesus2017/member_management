@@ -11,17 +11,17 @@ const LeftNav = () => {
     <nav className="left_nav">
       <ul>
         <li>
-          <Link to="/First/">
+          <Link to="/First">
             <span className="glyphicon glyphicon-folder-close"></span><span>FIRST</span>
           </Link>
         </li>
         <li>
-          <Link to="/Second/">
+          <Link to="/Second">
             <span className="glyphicon glyphicon-folder-close"></span><span>SECOND</span>
           </Link>
         </li>
         <li>
-          <Link to="/Third/">
+          <Link to="/Third">
             <span className="glyphicon glyphicon-folder-close"></span><span>THIRD</span>
           </Link>
         </li>
