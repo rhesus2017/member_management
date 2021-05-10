@@ -1,3 +1,6 @@
+// react
+import React from 'react';
+
 // component
 import TopNav from './TopNav/TopNav';
 import LeftNav from './LeftNav/LeftNav';

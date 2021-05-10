@@ -1,3 +1,6 @@
+// react
+import React from 'react';
+
 // component
 import Header from '../../component/Header/Header';
 import Main from '../../component/Main/Main';

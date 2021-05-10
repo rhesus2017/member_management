@@ -1,4 +1,5 @@
 // react
+import React from 'react';
 import { Link } from "react-router-dom";
 
 // css
@@ -10,28 +11,18 @@ const LeftNav = () => {
     <nav className="left_nav">
       <ul>
         <li>
-          <Link to="/First">
+          <Link to="/First/">
             <span className="glyphicon glyphicon-folder-close"></span><span>FIRST</span>
           </Link>
         </li>
         <li>
-          <Link to="/Second">
+          <Link to="/Second/">
             <span className="glyphicon glyphicon-folder-close"></span><span>SECOND</span>
           </Link>
         </li>
         <li>
-          <Link to="/Third">
+          <Link to="/Third/">
             <span className="glyphicon glyphicon-folder-close"></span><span>THIRD</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="/Fourth">
-            <span className="glyphicon glyphicon-folder-close"></span><span>FOURTH</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="/Fifth">
-            <span className="glyphicon glyphicon-folder-close"></span><span>FIFTH</span>
           </Link>
         </li>
       </ul>

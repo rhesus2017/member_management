@@ -1,3 +1,6 @@
+// react
+import React from 'react';
+
 // css
 import './Footer.css';
 
