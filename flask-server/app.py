@@ -1,12 +1,27 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify, request
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
 
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
-def index(path):
+def home(path):
     return render_template('index.html')
+
+
+@app.route("/api/login", methods=['POST'])
+def login():
+
+    if request.get_json()['phone']['Phone'] == 'master' and request.get_json()['password']['Password'] == '2019':
+        result = {'result': True}
+    else:
+        result = {'result': False}
+        
+    result_json = jsonify(result)
+    return result_json
 
 
 if __name__ == '__main__':

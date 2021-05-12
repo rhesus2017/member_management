@@ -9,12 +9,12 @@ import Footer from '../../component/Footer/Footer';
 // css
 import './Join.css';
 
-const Join = () => {
+const Join = (props) => {
 
   return(
     <div className="join">
       <Header></Header>
-      <Main></Main>
+      <Main title={props.title} name={props.name}></Main>
       <Footer></Footer>
     </div>
   )

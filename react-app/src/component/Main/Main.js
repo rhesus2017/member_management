@@ -1,24 +1,24 @@
 // react
 import React from 'react';
-import axios from 'axios'
+
+// component
+import Title from './Title/Title';
+import Login from './Login/Login';
 
 // css
 import './Main.css';
 
 const Main = (props) => {
 
-  axios.post('/test', {
-    ph_num: '01039345623',
-  }).then(function (response) {
-    alert('성공!');
-  });
-
   return(
     <div className="main">
       <main>
         <h1 className="blind">React Example Main</h1>
         <div className="content">
-          <p className="main_title"></p>
+          <Title title={props.title} name={props.name}></Title>
+          {
+            props.name === 'login' && <Login></Login>
+          }
         </div>
       </main>
     </div>
