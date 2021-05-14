@@ -1,6 +1,8 @@
 // react
 import React from 'react';
 import { BrowserRouter, Route } from "react-router-dom";
+import { useSelector } from 'react-redux';
+import { MenuClickApp } from './reducer';
 
 // page
 import Home from './page/Home/Home';
@@ -10,10 +12,12 @@ import Third from './page/Third/Third';
 import Login from './page/Login/Login';
 import Join from './page/Join/Join';
 
-const App = () => {
+const App = (state) => {
+
+  console.log(useSelector(state => state.MenuClick));
 
   return(
-    <div className="react_app open">
+    <div className={useSelector(state => state.MenuClick) ? 'react_app open' : 'react_app close_'}>
       <BrowserRouter>
         <Route path="/" exact={true} component={() => <Home title="홈" name="home" />} />
         <Route path="/First" exact={true} component={() => <First title="첫 번째 메뉴" name="first" />} />
@@ -24,6 +28,12 @@ const App = () => {
       </BrowserRouter>
     </div>
   )
+}
+
+const mapStateToProps = (state) => {
+  return {
+      value: state.counter.value
+  }
 }
 
 export default App;

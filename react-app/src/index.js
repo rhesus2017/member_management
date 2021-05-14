@@ -1,6 +1,9 @@
 // react
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createStore } from 'redux';
+import { Provider  } from 'react-redux';
+import menuClickApp from './reducer';
 
 // component
 import App from './App';
@@ -9,9 +12,13 @@ import App from './App';
 import './css/reset.css';
 import './css/class.css';
 
+const store = createStore(menuClickApp);
+
 ReactDOM.render(
   <React.StrictMode>
-    <App></App>
+    <Provider store={store}>
+      <App></App>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );

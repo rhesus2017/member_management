@@ -15,7 +15,7 @@ def home(path):
 @app.route("/api/login", methods=['POST'])
 def login():
 
-    if request.get_json()['phone']['Phone'] == 'master' and request.get_json()['password']['Password'] == '2019':
+    if request.get_json()['id']['Id'] == 'master' and request.get_json()['password']['Password'] == '1234':
         result = {'result': True}
     else:
         result = {'result': False}
