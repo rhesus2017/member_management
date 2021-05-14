@@ -21,7 +21,7 @@ const Login = () => {
   const onPasswordHandler = (event) => {
     setPassword(event.currentTarget.value);
   }
-  const onCheckedHandler = (event) => {
+  const onCheckedHandler = () => {
     Checked ? setChecked(false) : setChecked(true);
   }
 
@@ -65,7 +65,7 @@ const Login = () => {
     <div className="login_wrap">
       <form method="post" autocomplete="off">
         <div>
-          <input type="text" placeholder="아이디" className="loginIp" value={Id} onChange={onIdHandler}/>
+          <input type="text" placeholder="아이디" className="loginIp" value={Id} onChange={onIdHandler} />
           <input type="password" placeholder="비밀번호" className="loginIp" value={Password} onChange={onPasswordHandler}  autocomplete="on" />
         </div>
         <input type="button" value="로그인" className="loginButton" onClick={onSubmitHandler}/>

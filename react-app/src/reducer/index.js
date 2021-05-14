@@ -1,11 +1,11 @@
 import { MENU_OPEN_CLOSE } from '../action';
 import { combineReducers } from 'redux';
 
-const MenuInitialState = {
+const MenuOpenCloseInit = {
     open: true 
 };
 
-const MenuClick = (state = MenuInitialState, action) => {
+const MenuOpenClose = (state = MenuOpenCloseInit, action) => {
     switch(action.type) {
         case MENU_OPEN_CLOSE:
             return {
@@ -16,8 +16,8 @@ const MenuClick = (state = MenuInitialState, action) => {
     }
 }
 
-const MenuClickApp = combineReducers({
-    MenuClick
+const MenuOpenCloseApp = combineReducers({
+    MenuOpenClose
 });
 
-export default MenuClickApp;
+export default MenuOpenCloseApp;

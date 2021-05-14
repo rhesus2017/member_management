@@ -9,12 +9,12 @@ import Footer from '../../component/Footer/Footer';
 // css
 import './Login.css';
 
-const Login = (props) => {
+const Login = ({title, name}) => {
 
   return(
     <div className="login">
       <Header></Header>
-      <Main title={props.title} name={props.name}></Main>
+      <Main title={title} name={name}></Main>
       <Footer></Footer>
     </div>
   )

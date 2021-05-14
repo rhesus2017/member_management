@@ -24,6 +24,20 @@ def login():
     return result_json
 
 
+@app.route("/api/join", methods=['POST'])
+def join():
+    result = {'result': True}    
+    result_json = jsonify(result)
+    return result_json
+
+
+@app.route("/api/join/certification", methods=['POST'])
+def certification():
+    result = {'result': True, 'number' : 000000}    
+    result_json = jsonify(result)
+    return result_json
+
+
 if __name__ == '__main__':
     app.run()
     # app.run(host='0.0.0.0')

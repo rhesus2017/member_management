@@ -1,6 +1,9 @@
 // react
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import { Link } from "react-router-dom";
+import { MenuOpenClose } from '../../../action';
+
 
 // img
 import logo from './logo.png';
@@ -10,12 +13,18 @@ import './TopNav.css';
 
 const TopNav = () => {
 
+  const dispatch = useDispatch();
+
+  const menuOpenClose = () => {
+    dispatch(MenuOpenClose());
+  }
+
   return(
     <div className="top_nav">
 
       <div className="left">
 
-        <button>
+        <button onClick={menuOpenClose}>
           <span></span>
           <span></span>
           <span></span>

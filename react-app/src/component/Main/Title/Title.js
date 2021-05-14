@@ -4,10 +4,10 @@ import React from 'react';
 // css
 import './Title.css';
 
-const Title = (props) => {
+const Title = ({title}) => {
 
   return(
-    <p className="main_title">{props.title}</p>
+    <p className="main_title">{title}</p>
   )
     
 }
