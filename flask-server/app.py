@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask 
 from views import index
 from views import auth
 
