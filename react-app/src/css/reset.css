@@ -10,3 +10,4 @@ ul{list-style-type: none;}
 a{text-decoration: none; background-color: transparent;}
 a:hover{text-decoration: none;}
 img{border: none;}
+.swal2-popup {font-size: 1.6rem !important;}
