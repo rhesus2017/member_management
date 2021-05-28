@@ -8,16 +8,15 @@ import MenuOpenCloseApp from './reducer';
 // component
 import App from './App';
 
-// css
-import './css/reset.css';
-import './css/class.css';
+// js
+import '@fortawesome/fontawesome-free/js/all.js';
 
 const store = createStore(MenuOpenCloseApp);
 
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App></App>
+      <App />
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
