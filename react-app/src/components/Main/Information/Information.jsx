@@ -10,13 +10,20 @@ import './Information.css';
 
 const Information = () => {
 
+  useEffect(() => {
+    userId === "0" &&
+      mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'}).then((result) => {
+        history.push('/');
+      });
+  }, []);
+
   const mySwal = require('sweetalert2');
   const history = useHistory();
   const [Phone] = useState("");
   const [Name, setName] = useState("");
   const [Password, setPassword] = useState("");
   const [PasswordConfirm, setPasswordConfirm] = useState("");
-  const [login] = useLocalStorage("login", false);
+  const [userId] = useLocalStorage("userId", "0");
 
   const onNameHandler = (event) => {
     setName(event.currentTarget.value);
@@ -28,20 +35,13 @@ const Information = () => {
     setPasswordConfirm(event.currentTarget.value);
   }
 
-  useEffect(() => {
-    !login &&
-      mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'}).then((result) => {
-        history.push('/');
-      });
-  }, []);
-
   return(
     <div className="information_wrap">
       <form method="post" autocomplete="off">
         <div>
           <div>
             <p><span>휴대폰번호</span><span>*</span></p>
-            <input type="text" value={Phone} readonly />
+            <input type="text" value={Phone} readOnly />
           </div>
           <div>
             <p> <span>성명</span><span>*</span></p>

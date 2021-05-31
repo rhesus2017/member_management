@@ -13,7 +13,7 @@ import './Login.css';
 const Login = () => {
 
   useEffect(() => {
-    login &&
+    userId !== "0" &&
       mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'}).then((result) => {
         history.push('/');
       });
@@ -25,7 +25,7 @@ const Login = () => {
   const [Password, setPassword] = useState("");
   const [Checked, setChecked] = useState(false);
   const [Cookies, setCookie, removeCookie] = useCookies(['rememberId']);
-  const [login, setLogin] = useLocalStorage("login", false);
+  const [userId, setUserId] = useLocalStorage("userId", "0");
 
   const onPhoneHandler = (event) => {
     setPhone(event.currentTarget.value);
@@ -65,7 +65,7 @@ const Login = () => {
           } else {
             removeCookie('rememberId');
           }
-          setLogin(true);
+          setUserId("3");
           history.push('/');
         } else if ( response['data']['result'] === '000010' ) { 
           mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호 또는 비밀전호가 일치하지 않습니다'});

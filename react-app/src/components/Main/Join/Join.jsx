@@ -11,16 +11,23 @@ import './Join.css';
 
 const Join = () => {
 
+  useEffect(() => {
+    userId !== "0" &&
+      mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'}).then((result) => {
+        history.push('/');
+      });
+  }, []);
+
   const mySwal = require('sweetalert2');
   const history = useHistory();
   const [Phone, setPhone] = useState("");
   const [Name, setName] = useState("");
   const [Certification, setCertification] = useState("");
   const [CertificationButton, setCertificationButton] = useState("인증번호 요청");
-  const [CertificationState, setCertificationProgress] = useState(false);
+  const [CertificationProgress, setCertificationProgress] = useState(false);
   const [Password, setPassword] = useState("");
   const [PasswordConfirm, setPasswordConfirm] = useState("");
-  const [login] = useLocalStorage("login", false);
+  const [userId] = useLocalStorage("userId", "0");
 
   const onPhoneHandler = (event) => {
     setPhone(event.currentTarget.value);
@@ -62,9 +69,14 @@ const Join = () => {
           history.push('/login');
         } else if ( response['data']['result'] === '000010' ) { 
           mySwal.fire({icon: 'error', title: '실패', text: '이미 가입 된 휴대폰 번호입니다'});
+          setPassword('');
+          setPasswordConfirm('');
+          setCertification('');
+        } else if ( response['data']['result'] === '000020' ) { 
           mySwal.fire({icon: 'error', title: '실패', text: '본인 인증이 일치하지 않습니다'});
           setPassword('');
           setPasswordConfirm('');
+          setCertification('');
         }
       }).catch(function(error){
         mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원가입이 실패했습니다'});
@@ -73,54 +85,31 @@ const Join = () => {
       });
   }
   const onCertificationClick = () => {
-    if (!CertificationState) {
-      if ( Phone === '' ) mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호를 입력해주세요'});
-      else 
-        axios({
-          url: 'http://127.0.0.1:5000/auth/api/join/certification',
-          method:'POST',
-          data:{
-            phone: {Phone} 
-          }
-        }).then(function (response) {
-          if ( response['data']['result'] === '000000' ) {
+    if ( Phone === '' ) mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호를 입력해주세요'});
+    else 
+      axios({
+        url: 'http://127.0.0.1:5000/auth/api/join/certification',
+        method:'POST',
+        data:{
+          phone: {Phone} 
+        }
+      }).then(function (response) {
+        if ( response['data']['result'] === '000000' ) {
+          if (!CertificationProgress) {
             mySwal.fire({icon: 'success', title: '성공', text: '인증번호가 발송되었습니다. 인증번호를 입력해주세요'});
             setCertificationButton('인증번호 재요청');
             setCertificationProgress(true);
-          } else if ( response['data']['result'] === '000010' ) {
-            mySwal.fire({icon: 'error', title: '실패', text: '존재하지 않는 휴대폰 번호입니다'});
+          } else {
+            mySwal.fire({icon: 'success', title: '성공', text: '인증번호가 재발송되었습니다. 인증번호를 입력해주세요'});
+            setCertification('');
           }
-        }).catch(function(error){
-          mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 인증번호 발송이 실패했습니다'});
-        });
-    } else {
-        if ( Phone === '' ) mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호를 입력해주세요'});
-        else 
-          axios({
-            url: 'http://127.0.0.1:5000/auth/api/join/certification',
-            method:'POST',
-            data:{
-              phone: {Phone} 
-            }
-          }).then(function (response) {
-            if ( response['data']['result'] === '000000' ) {
-              mySwal.fire({icon: 'success', title: '성공', text: '인증번호가 재발송되었습니다. 인증번호를 입력해주세요'});
-              setCertification('');
-            } else if ( response['data']['result'] === '000010' ) {
-              mySwal.fire({icon: 'error', title: '실패', text: '존재하지 않는 휴대폰 번호입니다'});
-            }
-          }).catch(function(error){
-            mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 인증번호 발송이 실패했습니다'});
-          });
-    }
-  }
-
-  useEffect(() => {
-    login &&
-      mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'}).then((result) => {
-        history.push('/');
+        } else if ( response['data']['result'] === '000010' ) {
+          mySwal.fire({icon: 'error', title: '실패', text: '존재하지 않는 휴대폰 번호입니다'});
+        }
+      }).catch(function(error){
+        mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 인증번호 발송이 실패했습니다'});
       });
-  }, []);
+  }
 
   return(
     <div className="join_wrap">

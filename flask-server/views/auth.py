@@ -9,15 +9,15 @@ def login():
 
     if request.get_json()['phone']['Phone'] == '01039345623' and request.get_json()['password']['Password'] == '1234':
 
-        id = 1
+        userId = 3
         name = '김태진'
 
-        session['id'] = id
+        session['userId'] = userId
         session['name'] = name
         
-        response = {'result': '000000', 'name': name}
+        response = {'result': '000000', 'userId': userId, 'name': name}
     else:
-        response = {'result': '100010'}
+        response = {'result': '000010'}
         
     response = jsonify(response)
     return response
@@ -34,10 +34,12 @@ def logout():
 
 @blueprint.route("/api/join", methods=['POST'])
 def join():
-    if request.get_json()['certification']['Certification'] == '123456':
-        response = {'result': '000000'}
+    if request.get_json()['phone']['Phone'] == '01039345623':
+        response = {'result': '000010'}
+    elif request.get_json()['certification']['Certification'] != '123456':
+        response = {'result': '000020'}
     else:
-        response = {'result': '100010'}
+        response = {'result': '000000'}
 
     response = jsonify(response)
     return response
@@ -45,6 +47,11 @@ def join():
 
 @blueprint.route("/api/join/certification", methods=['POST'])
 def certification():
-    response = {'result': '000000', 'number' : 123456}    
+
+    if request.get_json()['phone']['Phone'] == '01012345678':
+        response = {'result': '000010'}
+    else:
+        response = {'result': '000000', 'number' : 123456}
+
     response = jsonify(response)
     return response
