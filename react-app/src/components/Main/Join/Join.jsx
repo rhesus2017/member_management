@@ -12,7 +12,7 @@ import './Join.css';
 const Join = () => {
 
   useEffect(() => {
-    userId !== "0" &&
+    UserId !== "0" &&
       mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'}).then((result) => {
         history.push('/');
       });
@@ -27,7 +27,7 @@ const Join = () => {
   const [CertificationProgress, setCertificationProgress] = useState(false);
   const [Password, setPassword] = useState("");
   const [PasswordConfirm, setPasswordConfirm] = useState("");
-  const [userId] = useLocalStorage("userId", "0");
+  const [UserId] = useLocalStorage("userId", "0");
 
   const onPhoneHandler = (event) => {
     setPhone(event.currentTarget.value);
@@ -61,7 +61,6 @@ const Join = () => {
           name: {Name},
           certification: {Certification},
           password: {Password},
-          passwordConfirm: {PasswordConfirm}
         }
       }).then(function (response) {
         if ( response['data']['result'] === '000000' ) {

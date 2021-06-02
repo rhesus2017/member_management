@@ -61,6 +61,7 @@
     "resolve-url-loader": "3.1.1",
     "sass-loader": "8.0.2",
     "semver": "6.3.0",
+    "socket.io-client": "^4.1.2",
     "style-loader": "0.23.1",
     "sweetalert2": "^11.0.5",
     "sweetalert2-react": "^0.8.3",

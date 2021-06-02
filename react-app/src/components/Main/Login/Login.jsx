@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import { Link, useHistory } from "react-router-dom";
 import { useCookies } from 'react-cookie';
+import socketio from 'socket.io-client';
 
 // hoc
 import useLocalStorage from "../../../hoc/useLocalStorage";
@@ -13,7 +14,7 @@ import './Login.css';
 const Login = () => {
 
   useEffect(() => {
-    userId !== "0" &&
+    UserId !== "0" &&
       mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'}).then((result) => {
         history.push('/');
       });
@@ -25,7 +26,8 @@ const Login = () => {
   const [Password, setPassword] = useState("");
   const [Checked, setChecked] = useState(false);
   const [Cookies, setCookie, removeCookie] = useCookies(['rememberId']);
-  const [userId, setUserId] = useLocalStorage("userId", "0");
+  const [UserId, setUserId] = useLocalStorage("userId", "0");
+  const [UserName, setUserName] = useLocalStorage("userName", "");
 
   const onPhoneHandler = (event) => {
     setPhone(event.currentTarget.value);
@@ -65,7 +67,19 @@ const Login = () => {
           } else {
             removeCookie('rememberId');
           }
-          setUserId("3");
+          setUserId(response['data']['userId']);
+          setUserName(response['data']['userName']);
+
+          const socket = socketio.connect('http://localhost:5050');
+          (() => {
+            socket.emit('init', { name: 'bella' });
+          
+            socket.on('welcome', (msg) => {
+              console.log(msg);
+            });
+            
+        })();
+
           history.push('/');
         } else if ( response['data']['result'] === '000010' ) { 
           mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호 또는 비밀전호가 일치하지 않습니다'});

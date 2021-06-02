@@ -15,6 +15,7 @@ header .top_nav > .left > button > span:nth-of-type(3){top: 14px; left: 0;}
 header .top_nav > .left > a > img{width: 80px; display: inline-block; margin: 12px 0 11px 0;}
 header .top_nav > .right{float: right; height: 20px; margin: 15px 30px 15px 0;}
 header .top_nav > .right > a{color: #fff; line-height: 20px; font-size: 1.2rem;}
+header .top_nav > .right > a:nth-of-type(1){color: #09d9fe; font-weight: bold;}
 header .top_nav > .right > a:hover{color: #09d9fe; transition: .5s; text-decoration: none;}
 header .top_nav > .right > span:nth-of-type(1){display: inline-block; width: 1px; height: 10px; background: #fff; margin: 5px 8px;}
 header .top_nav > .right > span:nth-of-type(2){color: #fff; line-height: 20px; font-size: 1.2rem; cursor: pointer;}
