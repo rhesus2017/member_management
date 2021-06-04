@@ -11,7 +11,6 @@ import App from './App';
 // js
 import '@fortawesome/fontawesome-free/js/all.js';
 
-
 const store = createStore(MenuOpenCloseApp);
 
 ReactDOM.render(

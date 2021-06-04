@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import { Link, useHistory } from "react-router-dom";
 import { useCookies } from 'react-cookie';
-import socketio from 'socket.io-client';
 
 // hoc
 import useLocalStorage from "../../../hoc/useLocalStorage";
@@ -70,17 +69,8 @@ const Login = () => {
           setUserId(response['data']['userId']);
           setUserName(response['data']['userName']);
 
-          const socket = socketio.connect('http://localhost:5050');
-          (() => {
-            socket.emit('init', { name: 'bella' });
-          
-            socket.on('welcome', (msg) => {
-              console.log(msg);
-            });
-            
-        })();
-
           history.push('/');
+  
         } else if ( response['data']['result'] === '000010' ) { 
           mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호 또는 비밀전호가 일치하지 않습니다'});
           setPassword('');
