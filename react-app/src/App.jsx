@@ -1,8 +1,8 @@
 // react
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { useSelector } from 'react-redux';
-import io from 'socket.io-client';
+import socketio from 'socket.io-client';
 
 // page
 import Home from './pages/Home/Home';
@@ -20,16 +20,16 @@ import './css/class.css';
 const App = () => {
 
   const MenuOpenClose = useSelector(state => state.MenuOpenClose);
-  const socket = io.connect('http://127.0.0.1:5050');
 
-  const [SocketState, setSocketState] = useState(socket.connected);
-  
+  const socket = socketio.connect('http://localhost:5050');
+
   useEffect(() => {
-    socket.emit('joined', {});
-    socket.on('status', function(data) {
-      alert(data.message);
+    console.log(socket);
+    socket.emit('first', {'message': 'Go To Server'});
+    socket.on('second', (data) => {
+        console.log(data.message);
     });
-  }, [SocketState]);
+  }, []);
 
   return(
     <div className={MenuOpenClose.open ? 'react_app open' : 'react_app close_'}>
