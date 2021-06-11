@@ -18372,3 +18372,9 @@
 2021-06-11 18:38:39,101 81455 I 463:_send_packet     Sending packet MESSAGE data 2["first",{"message":"Go To Socket"}]
 2021-06-11 18:38:39,103 81455 I 443:_receive_packet  Received packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
 2021-06-11 18:38:39,103 81455 I 475:_handle_event    Received event "second" [/]
+2021-06-11 18:38:43,260 81455 I 463:_send_packet     Sending packet PING data None
+2021-06-11 18:38:43,263 81455 I 443:_receive_packet  Received packet PONG data None
+2021-06-11 18:38:44,106 81455 I 310:emit             Emitting event "first" [/]
+2021-06-11 18:38:44,106 81455 I 463:_send_packet     Sending packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-11 18:38:44,108 81455 I 443:_receive_packet  Received packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-11 18:38:44,109 81455 I 475:_handle_event    Received event "second" [/]

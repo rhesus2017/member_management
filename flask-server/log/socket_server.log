@@ -5150,3 +5150,9 @@
 2021-06-11 18:38:39,102 88691 I 638:_handle_event    received event "first" from bfa4aad2658e415cb358d7720d56bb9c [/]
 2021-06-11 18:38:39,102 88691 I 283:emit             emitting event "second" to all [/]
 2021-06-11 18:38:39,102 88691 I  92:send             bfa4aad2658e415cb358d7720d56bb9c: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-11 18:38:43,262 88691 I  49:receive          bfa4aad2658e415cb358d7720d56bb9c: Received packet PING data None
+2021-06-11 18:38:43,262 88691 I  92:send             bfa4aad2658e415cb358d7720d56bb9c: Sending packet PONG data None
+2021-06-11 18:38:44,107 88691 I  49:receive          bfa4aad2658e415cb358d7720d56bb9c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-11 18:38:44,107 88691 I 638:_handle_event    received event "first" from bfa4aad2658e415cb358d7720d56bb9c [/]
+2021-06-11 18:38:44,108 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-11 18:38:44,108 88691 I  92:send             bfa4aad2658e415cb358d7720d56bb9c: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
