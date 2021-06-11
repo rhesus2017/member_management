@@ -2,11 +2,10 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from flask import Flask
+import socketio
+import time
 import logging
 from logging.handlers import TimedRotatingFileHandler
-from views import index
-from views import auth
 
 logger = logging.getLogger()
 logger.setLevel('INFO')
@@ -23,12 +22,9 @@ handler.suffix = '%Y%m%d'
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
-app = Flask(__name__)
+socketio_script = socketio.Client()
+socketio_script.connect('http://localhost:5050')
 
-app.register_blueprint(index.blueprint, url_prefix='/')
-app.register_blueprint(auth.blueprint, url_prefix='/auth')
-
-if __name__ == '__main__':
-    app.secret_key = 'secret_key'
-    app.run(port=5000)
-    # app.run(host='0.0.0.0')
+while True:
+    socketio_script.emit('first', {'message': 'Go To Socket'})
+    time.sleep(5)

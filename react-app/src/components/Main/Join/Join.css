@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*.joinBox*/
-.join_wrap{width: 100%; height: calc(100% - 70px); background: #fff; position: relative;}
+.join_wrap{width: 100%; height: calc(100% - 70px); position: relative;}
 .join_wrap > form{display: block; width: 890px; position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); }
 .join_wrap > form > div{height: 45px; border-bottom: 2px solid #e5e5e5; margin-top: 1px; line-height: 45px;}
 .join_wrap > form > div:nth-child(1){border-top: 2px solid #4b4b4b;}

@@ -16,3 +16,5 @@ yarn-error.log*
 .idea
 flask-server/venv
 flask-server/views/__pycache__
+
+flask-server/views/log

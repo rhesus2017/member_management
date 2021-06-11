@@ -37,6 +37,7 @@ const TopNav = () => {
             mySwal.fire({icon: 'success', title: '성공', text: '로그아웃이 완료되었습니다'}).then((result) => {
               setUserId("0");
               setUserName("");
+
               history.push('/');
             });
           }
@@ -65,8 +66,8 @@ const TopNav = () => {
       </div>
       
         {
-          UserId !== "0" ? <div className="right"><Link to="/Information">{UserName}</Link><span></span><span onClick={logOut}>로그아웃</span></div>
-          : <div className="right"><Link to="/Login">로그인</Link><span></span><Link to="/Join">회원가입</Link></div>
+          UserId !== "0" ? <div className="right"><Link to="/Information">{UserName}</Link><span></span><span onClick={logOut}>Logout</span></div>
+          : <div className="right"><Link to="/Login">Login</Link><span></span><Link to="/Join">Join</Link></div>
         }
         
     </div>

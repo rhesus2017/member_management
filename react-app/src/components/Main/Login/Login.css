@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /*.loginBox*/
-.login_wrap{width: 100%; height: calc(100% - 70px); background: #fff; position: relative;}
+.login_wrap{width: 100%; height: calc(100% - 70px); position: relative;}
 .login_wrap form{width: 410px; padding: 50px 30px; position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); border: 1px solid #ebebeb;}
 .login_wrap form:after{content: ""; display: block; clear: both;}
 .login_wrap form > div{float: left;}

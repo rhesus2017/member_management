@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import { Link, useHistory } from "react-router-dom";
 import { useCookies } from 'react-cookie';
+import socketio from 'socket.io-client';
 
 // hoc
 import useLocalStorage from "../../../hoc/useLocalStorage";
@@ -61,6 +62,7 @@ const Login = () => {
         }
       }).then(function (response) {
         if ( response['data']['result'] === '000000' ) {
+
           if ( Checked ) {
             setCookie('rememberId', Phone, {maxAge: 2000});
           } else {
@@ -68,6 +70,11 @@ const Login = () => {
           }
           setUserId(response['data']['userId']);
           setUserName(response['data']['userName']);
+
+          const socket_client = socketio.connect('http://localhost:5050');
+          socket_client.on('second', (data) => {
+              console.log(data.message);
+          });
 
           history.push('/');
   
@@ -82,13 +89,18 @@ const Login = () => {
     }
     
   }
+  const onEnterPress = (e) => {
+    if (e.key === "Enter") {
+      onSubmitHandler();
+    }
+  }
 
   return(
     <div className="login_wrap">
       <form method="post" autocomplete="off">
         <div>
-          <input type="tel" placeholder="휴대폰 번호" className="loginIp" value={Phone} onChange={onPhoneHandler} />
-          <input type="password" placeholder="비밀번호" className="loginIp" value={Password} onChange={onPasswordHandler}  autocomplete="on" />
+          <input type="tel" placeholder="휴대폰 번호" className="loginIp" value={Phone} onChange={onPhoneHandler} onKeyPress={onEnterPress} />
+          <input type="password" placeholder="비밀번호" className="loginIp" value={Password} onChange={onPasswordHandler} onKeyPress={onEnterPress} autocomplete="on" />
         </div>
         <input type="button" value="로그인" className="loginButton" onClick={onSubmitHandler}/>
         <p>

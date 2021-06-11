@@ -65,14 +65,25 @@ const Information = () => {
       if ( response['data']['result'] === '000000' ) {
         setPhone(response['data']['userPhone']);
         setName(response['data']['userName']);
+      }else if ( response['data']['result'] === '000010' ) {
+        mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원정보 가져오기를 실패했습니다'});
+        history.push('/');
       }
     }).catch(function(error){
       mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원정보 가져오기를 실패했습니다'});
+      history.push('/');
     });
   }
   const onChangeClick = () => {
+    let password_regExp = /^[a-zA-Z0-9]{10,15}$/;
+
     if (Name === '' ) mySwal.fire({icon: 'error', title: '실패', text: '이름을 입력해주세요'});
     else if (Password === '' ) mySwal.fire({icon: 'error', title: '실패', text: '비밀번호를 입력해주세요'});
+    else if ( !password_regExp.test(Password) ) {
+      mySwal.fire({icon: 'error', title: '실패', text: '비밀번호를 숫자와 영문자 조합으로 10~15자리로 입력해주세요'});
+      setPassword('');
+      setPasswordConfirm('');
+    }
     else if (PasswordConfirm === '' ) mySwal.fire({icon: 'error', title: '실패', text: '비밀번호 확인을 입력해주세요'});
     else if (Password !== PasswordConfirm ) mySwal.fire({icon: 'error', title: '실패', text: '비밀번호가 일치하지 않습니다'});
     else 
@@ -80,6 +91,7 @@ const Information = () => {
         url: 'http://127.0.0.1:5000/auth/api/change_information',
         method:'POST',
         data:{
+          userId: {UserId},
           name: {Name},
           password: {Password},
         }
@@ -93,12 +105,19 @@ const Information = () => {
         mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원정보 변경이 실패했습니다'});
         setPassword('');
         setPasswordConfirm('');
+        history.push('/');
       });
   }
 
   useEffect(() => {
     getMemberInformation();
   }, []);
+
+  const onEnterPress = (e) => {
+    if (e.key === "Enter") {
+      onChangeClick();
+    }
+  }
   
   return(
     <div className="information_wrap">
@@ -110,17 +129,17 @@ const Information = () => {
           </div>
           <div>
             <p> <span>성명</span><span>*</span></p>
-            <input type="text" value={Name} onChange={onNameHandler} />
+            <input type="text" value={Name} onChange={onNameHandler} onKeyPress={onEnterPress} />
           </div>
         </div>
         <div>
           <div>
             <p><span>비밀번호</span><span>*</span></p>
-            <input type="password" autocomplete="off" value={Password} onChange={onPasswordHandler} />
+            <input type="password" autocomplete="off" value={Password} onChange={onPasswordHandler} onKeyPress={onEnterPress} />
           </div>
           <div>
             <p><span>비밀번호 확인</span><span>*</span></p>       
-            <input type="password" autocomplete="off" value={PasswordConfirm} onChange={onPasswordConfirmHandler} />
+            <input type="password" autocomplete="off" value={PasswordConfirm} onChange={onPasswordConfirmHandler} onKeyPress={onEnterPress} />
           </div>
         </div>
         <p>

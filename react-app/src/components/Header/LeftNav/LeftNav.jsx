@@ -8,7 +8,7 @@ import './LeftNav.css';
 const LeftNav = ({ link }) => {
 
   const [menus] = useState([
-    {id: 1, path: "/SessionAndSocket", name: "Session And Socket", icon: "fas fa-bezier-curve awesome-icon"},
+    {id: 1, path: "/MemberManagement", name: "Member Management", icon: "fas fa-bezier-curve awesome-icon"},
     {id: 2, path: "/HabitTracker", name: "Habit Tracker", icon: "fas fa-id-card awesome-icon"},
   ]);
 

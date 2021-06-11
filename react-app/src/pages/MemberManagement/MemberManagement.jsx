@@ -7,9 +7,9 @@ import Main from '../../components/Main/Main';
 import Footer from '../../components/Footer/Footer';
 
 // css
-import './SessionAndSocket.css';
+import './MemberManagement.css';
 
-const SessionAndSocket = ({ title, name, link }) => {
+const MemberManagement = ({ title, name, link }) => {
 
   return(
     <div className={name}>
@@ -21,4 +21,4 @@ const SessionAndSocket = ({ title, name, link }) => {
 
 }
 
-export default SessionAndSocket;
+export default MemberManagement;
