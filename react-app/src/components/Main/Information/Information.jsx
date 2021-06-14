@@ -12,11 +12,8 @@ import './Information.css';
 const Information = () => {
 
   useEffect(() => {
-    UserId === "0" &&
-      mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'}).then((result) => {
-        history.push('/');
-      });
     sessionCheck();
+    getMemberInformation();
   }, []);
 
   const mySwal = require('sweetalert2');
@@ -43,8 +40,14 @@ const Information = () => {
       url: 'http://127.0.0.1:5000/auth/api/session_check',
       method:'GET',
     }).then(function (response) {
-      if ( UserId != "0" && !response['data']['session'] ) {
-        mySwal.fire({icon: 'success', title: '성공', text: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'}).then((result) => {
+      if ( UserId !== "0" && !response['data']['session'] ) {
+        mySwal.fire({icon: 'error', title: '실패', text: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'}).then((result) => {
+          setUserId("0");
+          setUserName("");
+          history.push('/Login');
+        });
+      } else if ( UserId === "0" && !response['data']['session'] ) {
+        mySwal.fire({icon: 'error', title: '실패', text: '로그인이 필요한 페이지입니다. 로그인 페이지로 이동합니다'}).then((result) => {
           setUserId("0");
           setUserName("");
           history.push('/Login');
@@ -108,10 +111,6 @@ const Information = () => {
         history.push('/');
       });
   }
-
-  useEffect(() => {
-    getMemberInformation();
-  }, []);
 
   const onEnterPress = (e) => {
     if (e.key === "Enter") {

@@ -7,6 +7,7 @@ import Home from './Home/Home';
 import Login from './Login/Login';
 import Join from './Join/Join';
 import Information from './Information/Information';
+import MemberManagement from './MemberManagement/MemberManagement';
 
 // css
 import './Main.css';
@@ -23,6 +24,7 @@ const Main = ({title, name}) => {
           {name === 'login' && <Login />}
           {name === 'join' && <Join />}
           {name === 'information' && <Information />}
+          {name === 'member management' && <MemberManagement />}
         </div>
       </main>
     </div>

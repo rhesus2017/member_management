@@ -2,17 +2,21 @@
 
 /*.joinBox*/
 .join_wrap{width: 100%; height: calc(100% - 70px); position: relative;}
-.join_wrap > form{display: block; width: 890px; position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); }
-.join_wrap > form > div{height: 45px; border-bottom: 2px solid #e5e5e5; margin-top: 1px; line-height: 45px;}
-.join_wrap > form > div:nth-child(1){border-top: 2px solid #4b4b4b;}
-.join_wrap > form div > p{display: inline-block; width: 125px; height: 41px; background: #f7f8f9; padding-left: 25px; margin-bottom: 0;}
-.join_wrap > form div > p > span:nth-child(1){ font-size: 1.4rem; color: #222; }
-.join_wrap > form div > p > span:nth-child(2){color: #e64135; font-size: 1.4rem; display: inline-block; transform: translate(2px, 2px);}
-.join_wrap > form div > input{width: 250px; height: 33px; border: 1px solid #e5e5e5; padding-left: 10px; font-size: 1.6rem; color: #6d6d6d; margin: 4px 0; margin-left: 6px;}
-.join_wrap > form div > button{width: 140px; height: 40px; border: none; background: #0086d1; color: #e5e5e5; font-size: 1.4rem; cursor: pointer; margin-left: 6px; margin-top: 1px; color: #fff;}
+.join_wrap > form{display: block; width: 950px; position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); }
+.join_wrap > form > div{border: 1px solid #fff; padding: 20px 0;}
+.join_wrap > form > div:nth-of-type(1){border-bottom: none; padding-bottom: 10px;}
+.join_wrap > form > div:nth-of-type(2){border-top: none; border-bottom: none; padding-top: 10px; padding-bottom: 10px;}
+.join_wrap > form > div:nth-of-type(3){border-top: none; padding-top: 10px;}
+.join_wrap > form div > p{display: inline-block; width: 125px; height: 41px; color: #fff; padding-left: 25px; margin-bottom: 0;}
+.join_wrap > form div > p > span:nth-child(1){ font-size: 1.4rem; color: #fff; line-height: 41px;}
+.join_wrap > form div > p > span:nth-child(2){color: #e64135; font-size: 1.4rem; display: inline-block; transform: translate(2px, 2px); line-height: 41px;}
+.join_wrap > form div > input{width: 250px; height: 33px; padding-left: 10px; font-size: 1.333rem; color: #fff; margin: 4px 0; margin-left: 6px; border: 1px solid #fff; background: transparent;}
+.join_wrap > form div > button{width: 140px; height: 33px; border: none; background: none; font-size: 1.4rem; cursor: pointer; margin-left: 6px; margin-top: 4px; color: #fff; border: 1px solid #fff;}
 .join_wrap > form > div > div{display: inline-block;}
 #root > div > div > div > main > div > div > form > div:nth-child(2) > div:nth-child(1){margin-right: 12px;}
 #root > div > div > div > main > div > div > form > div:nth-child(2) > div:nth-child(2) > input[type=text]{width: 217px;}
 .join_wrap > form > p{margin-top: 20px; text-align: center; margin-bottom: 0;}
-.join_wrap > form > p > a{width: 140px; height: 39px; display: inline-block; color: #000; font-size: 1.5rem; background: #f7f5f4; line-height: 39px;}
-.join_wrap > form > p > span{width: 140px; height: 39px; display: inline-block; color: #fff; font-size: 1.5rem; cursor: pointer; background: #0086d1; line-height: 39px; margin-right: 12px; border: none; box-shadow: none;}
+.join_wrap > form > p > a{width: 140px; height: 39px; display: inline-block; color: #fff; font-size: 1.5rem; line-height: 39px; border: 1px solid #fff;}
+.join_wrap > form > p > span{width: 140px; height: 39px; display: inline-block; color: #fff; font-size: 1.5rem; cursor: pointer; background: none; line-height: 39px; margin-right: 12px; border: 1px solid #fff; box-shadow: none;}
+#root > div > div > div > main > div > div.join_wrap > form > div:nth-child(1) > div:nth-child(1){margin-right: 0px;}
+#root > div > div > div > main > div > div.join_wrap > form > div:nth-child(1) > div:nth-child(1) input{color: #fff; cursor: text; background: none;}

@@ -15,21 +15,19 @@ const words = [
   {text: 'Not Found', value: Math.random()*100}, {text: 'Route', value: Math.random()*100}, {text: 'Local Storage', value: Math.random()*100},
   {text: 'useEffect', value: Math.random()*100}, {text: 'useState', value: Math.random()*100}, {text: 'Axios', value: Math.random()*100},
   {text: 'useHistory', value: Math.random()*100}, {text: 'useDispatch', value: Math.random()*100}, {text: 'Wordcloud', value: Math.random()*100},
-  {text: 'Sweet Alert', value: Math.random()*100}, {text: 'useCookies', value: Math.random()*100}
+  {text: 'Sweet Alert', value: Math.random()*100}, {text: 'useCookies', value: Math.random()*100}, {text: 'useSelect', value: Math.random()*100},
+  {text: 'Html', value: Math.random()*100}, {text: 'Css', value: Math.random()*100}
 ]
 const options = {
-  colors: ["#fff", "#ccc", "#999", "#d62728"],
+  colors: ["#fff", "#ccc", "#999", "#666"],
   enableTooltip: false,
-  deterministic: false,
   fontFamily: 'Noto Sans KR',
-  fontSizes: [10, 60],
+  fontSizes: [10, 70],
   fontStyle: "normal",
   fontWeight: "bold",
-  padding: 3,
-  rotations: 3,
+  padding: 5,
+  rotations: 2,
   rotationAngles: false,
-  scale: "sqrt",
-  spiral: "archimedean",
   transitionDuration: 1000
 };
 

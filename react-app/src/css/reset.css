@@ -14,3 +14,4 @@ a{text-decoration: none; background-color: transparent;}
 a:hover{text-decoration: none;}
 img{border: none;}
 .swal2-popup {font-size: 1.6rem !important;}
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active { transition: background-color 5000s ease-in-out 0s; -webkit-transition: background-color 9999s ease-out; -webkit-box-shadow: none !important; -webkit-text-fill-color: #fff !important;}

@@ -128,13 +128,9 @@ const Join = () => {
     <div className="join_wrap">
       <form method="post" autocomplete="off">
         <div>
+          <div>
             <p><span>휴대폰번호</span><span>*</span></p>
             <input type="text" value={Phone} onChange={onPhoneHandler} onKeyPress={onEnterPress} />
-        </div>
-        <div>
-          <div>
-            <p> <span>성명</span><span>*</span></p>
-            <input type="text" value={Name} onChange={onNameHandler} onKeyPress={onEnterPress} />
           </div>
           <div>
             <p><span>본인인증</span><span>*</span></p>
@@ -143,12 +139,18 @@ const Join = () => {
           </div>
         </div>
         <div>
-          <p><span>비밀번호</span><span>*</span></p>
-          <input type="password" autocomplete="off" value={Password} onChange={onPasswordHandler} onKeyPress={onEnterPress} />
+          <p> <span>성명</span><span>*</span></p>
+          <input type="text" value={Name} onChange={onNameHandler} onKeyPress={onEnterPress} />
         </div>
         <div>
-          <p><span>비밀번호 확인</span><span>*</span></p>       
-          <input type="password" autocomplete="off" value={PasswordConfirm} onChange={onPasswordConfirmHandler} onKeyPress={onEnterPress} />
+          <div>
+            <p><span>비밀번호</span><span>*</span></p>
+            <input type="password" autocomplete="off" value={Password} onChange={onPasswordHandler} onKeyPress={onEnterPress} />
+          </div>
+          <div>
+            <p><span>비밀번호 확인</span><span>*</span></p>       
+            <input type="password" autocomplete="off" value={PasswordConfirm} onChange={onPasswordConfirmHandler} onKeyPress={onEnterPress} />
+          </div>
         </div>
         <p>
           <span onClick={onSubmitClick}>가입하기</span><Link to="/">취소</Link>
