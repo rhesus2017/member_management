@@ -67,7 +67,7 @@ const Join = () => {
     }
     else 
       axios({
-        url: 'http://127.0.0.1:5000/auth/api/join',
+        url: '/auth/api/join',
         method:'POST',
         data:{
           phone: {Phone},
@@ -100,7 +100,7 @@ const Join = () => {
     if ( Phone === '' ) mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호를 입력해주세요'});
     else 
       axios({
-        url: 'http://127.0.0.1:5000/auth/api/join/certification',
+        url: '/auth/api/join/certification',
         method:'POST',
         data:{
           phone: {Phone} 

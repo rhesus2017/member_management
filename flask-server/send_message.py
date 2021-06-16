@@ -23,7 +23,7 @@ handler.setFormatter(formatter)
 logger.addHandler(handler)
 
 socketio_script = socketio.Client()
-socketio_script.connect('http://localhost:5050')
+socketio_script.connect('http://192.168.0.22:5050/')
 
 while True:
     socketio_script.emit('first', {'message': 'Go To Socket'})

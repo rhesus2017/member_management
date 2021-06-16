@@ -13,7 +13,6 @@ const Information = () => {
 
   useEffect(() => {
     sessionCheck();
-    getMemberInformation();
   }, []);
 
   const mySwal = require('sweetalert2');
@@ -24,6 +23,7 @@ const Information = () => {
   const [PasswordConfirm, setPasswordConfirm] = useState("");
   const [UserId, setUserId] = useLocalStorage("userId", "0");
   const [UserName, setUserName] = useLocalStorage("userName", "");
+  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", "");
 
   const onNameHandler = (event) => {
     setName(event.currentTarget.value);
@@ -37,21 +37,25 @@ const Information = () => {
 
   const sessionCheck = (event) => {
     axios({
-      url: 'http://127.0.0.1:5000/auth/api/session_check',
+      url: '/auth/api/session_check',
       method:'GET',
     }).then(function (response) {
       if ( UserId !== "0" && !response['data']['session'] ) {
         mySwal.fire({icon: 'error', title: '실패', text: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'}).then((result) => {
           setUserId("0");
           setUserName("");
+          setUserGrade("");
           history.push('/Login');
         });
       } else if ( UserId === "0" && !response['data']['session'] ) {
         mySwal.fire({icon: 'error', title: '실패', text: '로그인이 필요한 페이지입니다. 로그인 페이지로 이동합니다'}).then((result) => {
           setUserId("0");
           setUserName("");
+          setUserGrade("");
           history.push('/Login');
         });
+      } else {
+        getMemberInformation();
       }
     }).catch(function(error){
       mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 새션 확인을 실패했습니다'});
@@ -59,7 +63,7 @@ const Information = () => {
   }
   const getMemberInformation = (event) => {
     axios({
-      url: 'http://127.0.0.1:5000/auth/api/get_information',
+      url: '/auth/api/get_information',
       method:'POST',
       data:{
         userId: {UserId},
@@ -91,7 +95,7 @@ const Information = () => {
     else if (Password !== PasswordConfirm ) mySwal.fire({icon: 'error', title: '실패', text: '비밀번호가 일치하지 않습니다'});
     else 
       axios({
-        url: 'http://127.0.0.1:5000/auth/api/change_information',
+        url: '/auth/api/change_information',
         method:'POST',
         data:{
           userId: {UserId},

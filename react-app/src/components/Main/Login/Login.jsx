@@ -28,6 +28,7 @@ const Login = () => {
   const [Cookies, setCookie, removeCookie] = useCookies(['rememberId']);
   const [UserId, setUserId] = useLocalStorage("userId", "0");
   const [UserName, setUserName] = useLocalStorage("userName", "");
+  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", "");
 
   const onPhoneHandler = (event) => {
     setPhone(event.currentTarget.value);
@@ -54,7 +55,7 @@ const Login = () => {
       mySwal.fire({icon: 'error', title: '실패', text: '비밀번호를 입력해주세요'});
     } else {
       axios({
-        url: 'http://127.0.0.1:5000/auth/api/login',
+        url: '/auth/api/login',
         method:'POST',
         data:{
           phone: {Phone},
@@ -70,8 +71,9 @@ const Login = () => {
           }
           setUserId(response['data']['userId']);
           setUserName(response['data']['userName']);
+          setUserGrade(response['data']['userGrade']);
 
-          const socket_client = socketio.connect('http://localhost:5050');
+          const socket_client = socketio.connect('http://192.168.0.22:5050/');
           socket_client.on('second', (data) => {
               console.log(data.message);
           });

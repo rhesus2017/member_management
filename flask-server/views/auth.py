@@ -32,11 +32,13 @@ def login():
             
                 userId = row['id']
                 userName = row['name']
+                userGrade = row['grade']
 
                 session['userId'] = userId
                 session['userName'] = userName
+                session['userGrade'] = userGrade
 
-                response = {'result': '000000', 'userId': userId, 'userName': userName}
+                response = {'result': '000000', 'userId': userId, 'userName': userName, 'userGrade': userGrade}
                 break
             else:
                 coincide = False
@@ -133,6 +135,24 @@ def get_information():
         if coincide == False:
             response = {'result': '000010'}
         
+    response = jsonify(response)
+    return response
+
+
+@blueprint.route("/api/get_all_information", methods=['GET'])
+def get_all_information():
+
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+
+    with db.cursor(pymysql.cursors.DictCursor) as cursor:
+        cursor.execute('select id, phone, name, grade from auth')
+        rows = cursor.fetchall()                                               
+
+    if session['userGrade'] == 'master' or session['userGrade'] == 'admin':
+        response = {'result': '000000', 'rows': rows}
+    else:
+        response = {'result': '000010'}
+
     response = jsonify(response)
     return response
 

@@ -27,9 +27,9 @@ const App = () => {
           <Route path="/" exact={true} render={() => <Home title="Home" name="home" link="/" />} />
           <Route path="/MemberManagement" exact={true} render={() => <MemberManagement title="Member Management" name="member management" link="/MemberManagement" />} />
           <Route path="/HabitTracker" exact={true} render={() => <HabitTracker title="Habit Tracker" name="habit_racker" link="/HabitTracker" />} />
-          <Route path="/Login" exact={true} render={() => <Login title="LOGIN" name="login" link="/login" />} />
-          <Route path="/Join" exact={true} render={() => <Join title="JOIN" name="join" link="/join" />} />
-          <Route path="/Information" exact={true} render={() => <Information title="INFORMATION" name="information" link="/information" />} />
+          <Route path="/Login" exact={true} render={() => <Login title="LOGIN" name="login" link="/Login" />} />
+          <Route path="/Join" exact={true} render={() => <Join title="JOIN" name="join" link="/Join" />} />
+          <Route path="/Information" exact={true} render={() => <Information title="INFORMATION" name="information" link="/Information" />} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>
