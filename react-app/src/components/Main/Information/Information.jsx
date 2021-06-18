@@ -13,7 +13,7 @@ const Information = () => {
 
   useEffect(() => {
     sessionCheck();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const mySwal = require('sweetalert2');
   const history = useHistory();
@@ -21,9 +21,9 @@ const Information = () => {
   const [Name, setName] = useState("");
   const [Password, setPassword] = useState("");
   const [PasswordConfirm, setPasswordConfirm] = useState("");
-  const [UserId, setUserId] = useLocalStorage("userId", "0");
-  const [UserName, setUserName] = useLocalStorage("userName", "");
-  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", "");
+  const [UserId, setUserId] = useLocalStorage("userId", 0);
+  const [UserName, setUserName] = useLocalStorage("userName", ""); // eslint-disable-line no-unused-vars
+  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", ""); // eslint-disable-line no-unused-vars
 
   const onNameHandler = (event) => {
     setName(event.currentTarget.value);
@@ -40,16 +40,16 @@ const Information = () => {
       url: '/auth/api/session_check',
       method:'GET',
     }).then(function (response) {
-      if ( UserId !== "0" && !response['data']['session'] ) {
+      if ( UserId !== 0 && !response['data']['session'] ) {
         mySwal.fire({icon: 'error', title: '실패', text: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'}).then((result) => {
-          setUserId("0");
+          setUserId(0);
           setUserName("");
           setUserGrade("");
           history.push('/Login');
         });
       } else if ( UserId === "0" && !response['data']['session'] ) {
         mySwal.fire({icon: 'error', title: '실패', text: '로그인이 필요한 페이지입니다. 로그인 페이지로 이동합니다'}).then((result) => {
-          setUserId("0");
+          setUserId(0);
           setUserName("");
           setUserGrade("");
           history.push('/Login');
@@ -126,21 +126,21 @@ const Information = () => {
     <div className="information_wrap">
       <form method="post" autocomplete="off">
         <div>
-          <div>
+          <div className="front">
             <p><span>휴대폰번호</span><span>*</span></p>
             <input type="text" value={Phone} readOnly />
           </div>
-          <div>
+          <div className="end">
             <p> <span>성명</span><span>*</span></p>
             <input type="text" value={Name} onChange={onNameHandler} onKeyPress={onEnterPress} />
           </div>
         </div>
         <div>
-          <div>
+          <div className="front">
             <p><span>비밀번호</span><span>*</span></p>
             <input type="password" autocomplete="off" value={Password} onChange={onPasswordHandler} onKeyPress={onEnterPress} />
           </div>
-          <div>
+          <div className="end">
             <p><span>비밀번호 확인</span><span>*</span></p>       
             <input type="password" autocomplete="off" value={PasswordConfirm} onChange={onPasswordConfirmHandler} onKeyPress={onEnterPress} />
           </div>

@@ -15,7 +15,7 @@ def login():
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
 
     session.permanent = True
-    current_app.permanent_session_lifetime = timedelta(minutes=10)
+    current_app.permanent_session_lifetime = timedelta(minutes=30)
 
     phone = request.get_json()['phone']['Phone']
     password = request.get_json()['password']['Password']
@@ -35,7 +35,6 @@ def login():
                 userGrade = row['grade']
 
                 session['userId'] = userId
-                session['userName'] = userName
                 session['userGrade'] = userGrade
 
                 response = {'result': '000000', 'userId': userId, 'userName': userName, 'userGrade': userGrade}
@@ -166,14 +165,39 @@ def change_information():
     password = request.get_json()['password']['Password']
     password = (bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())).decode('utf-8')
     userId = request.get_json()['userId']['UserId']
+    
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
         cursor.execute('UPDATE auth SET name = %s, password = %s where id = %s', [name, password, userId])
         db.commit()
 
-    session['userName'] = name
-
     response = {'result': '000000', 'userName': name}
+    response = jsonify(response)
+    return response
+
+
+@blueprint.route("/api/change_member_information", methods=['POST'])
+def change_member_information():
+
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+
+    name = request.get_json()['name']['Name']
+    password = request.get_json()['password']['Password']
+    password = (bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())).decode('utf-8')
+    grade = request.get_json()['grade']['Grade']
+    memberId = request.get_json()['memberId']['MemberId']
+
+    with db.cursor(pymysql.cursors.DictCursor) as cursor:
+
+        if password != '':
+            cursor.execute('UPDATE auth SET name = %s, password = %s, grade = %s where id = %s', [name, password, grade, memberId])
+        else:
+            cursor.execute('UPDATE auth SET name = %s, grade = %s where id = %s', [name, grade, memberId])
+        db.commit()
+
+    session['grade'] = grade
+
+    response = {'result': '000000'}
     response = jsonify(response)
     return response
 

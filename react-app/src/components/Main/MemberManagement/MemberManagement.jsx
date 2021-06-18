@@ -3,6 +3,9 @@ import React, { useEffect, useState } from 'react'
 import { useHistory } from "react-router-dom";
 import axios from 'axios';
 
+// component
+import MemberTable from './MemberTable/MemberTable';
+
 // hoc
 import useLocalStorage from "../../../hoc/useLocalStorage";
 
@@ -13,31 +16,30 @@ const MemberManagement = () => {
 
   useEffect(() => {
     sessionCheck()
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const grades = ['master', 'admin', 'guest']
   const mySwal = require('sweetalert2');
   const history = useHistory();
   const [Members, setMembers] = useState([]);
-  const [UserId, setUserId] = useLocalStorage("userId", "0");
-  const [UserName, setUserName] = useLocalStorage("userName", "");
-  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", "");
+  const [UserId, setUserId] = useLocalStorage("userId", 0);
+  const [UserName, setUserName] = useLocalStorage("userName", ""); // eslint-disable-line no-unused-vars
+  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", ""); // eslint-disable-line no-unused-vars
 
   const sessionCheck = (event) => {
     axios({
       url: '/auth/api/session_check',
       method:'GET',
     }).then(function (response) {
-      if ( UserId !== "0" && !response['data']['session'] ) {
+      if ( UserId !== 0 && !response['data']['session'] ) {
         mySwal.fire({icon: 'error', title: '실패', text: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'}).then((result) => {
-          setUserId("0");
+          setUserId(0);
           setUserName("");
           setUserGrade("");
           history.push('/Login');
         });
       } else if ( UserId === "0" && !response['data']['session'] ) {
         mySwal.fire({icon: 'error', title: '실패', text: '로그인이 필요한 페이지입니다. 로그인 페이지로 이동합니다'}).then((result) => {
-          setUserId("0");
+          setUserId(0);
           setUserName("");
           setUserGrade("");
           history.push('/Login');
@@ -65,19 +67,6 @@ const MemberManagement = () => {
       history.push('/');
     });
   }
-  const onChangeClick = (thisUserId) => {
-    const thisUserMember = Members.find((element) => {
-      if (element.id === thisUserId) { return true } 
-    });
-
-    // 테이블에 있는 값을 어떻게 가져오는가
-
-    console.log(thisUserMember);
-
-    let newMembers = [...Members];
-    newMembers[0] = thisUserMember // 내가 원하는 줄의 배열을 어떻게 가져오는가
-    setMembers(newMembers);
-  }
 
   return(
     <div className="management_wrap">
@@ -93,19 +82,7 @@ const MemberManagement = () => {
         { 
           Members.map((Member) => {
             return (
-              <div className="tr">
-                <div className="td"><input type="tel" value={Member.phone} readOnly /></div>
-                <div className="td"><input type="text" value={Member.name} /></div>
-                <div className="td"><input type="password" value="" /></div>
-                <div className="td"><input type="password" value="" /></div>
-                <div className="td">
-                  <select disabled={UserGrade === 'admin' ? true : false || Member.grade === 'master' ? true : false}>
-                    {grades.map((grade) => { return <option selected={grade === Member.grade ? true : false} >{grade}</option> })}
-                  </select>
-                </div>
-                <div className="td"><button onClick={() => onChangeClick(Member.id)}>변경</button></div>
-                <div className="td"><button>알림</button></div>
-              </div>
+              <MemberTable Member={Member}></MemberTable>
             )
           })
         }     

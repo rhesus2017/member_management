@@ -11,12 +11,11 @@ const words = [
   {text: 'Python', value: Math.random()*100}, {text: 'Flask', value: Math.random()*100}, {text: 'MySQL', value: Math.random()*100},
   {text: 'DB', value: Math.random()*100}, {text: 'Socket', value: Math.random()*100}, {text: 'Bcrypt', value: Math.random()*100},
   {text: 'Session', value: Math.random()*100}, {text: 'Pymysql', value: Math.random()*100}, {text: 'Random', value: Math.random()*100},
-  {text: 'Cors', value: Math.random()*100}, {text: 'Logger', value: Math.random()*100}, {text: 'Redux', value: Math.random()*100},
-  {text: 'Not Found', value: Math.random()*100}, {text: 'Route', value: Math.random()*100}, {text: 'Local Storage', value: Math.random()*100},
+  {text: 'Cors', value: Math.random()*100}, {text: 'Redux', value: Math.random()*100}, {text: 'Not Found', value: Math.random()*100},
+  {text: 'Route', value: Math.random()*100}, {text: 'Local Storage', value: Math.random()*100}, {text: 'useSelect', value: Math.random()*100},
   {text: 'useEffect', value: Math.random()*100}, {text: 'useState', value: Math.random()*100}, {text: 'Axios', value: Math.random()*100},
   {text: 'useHistory', value: Math.random()*100}, {text: 'useDispatch', value: Math.random()*100}, {text: 'Wordcloud', value: Math.random()*100},
-  {text: 'Sweet Alert', value: Math.random()*100}, {text: 'useCookies', value: Math.random()*100}, {text: 'useSelect', value: Math.random()*100},
-  {text: 'Html', value: Math.random()*100}, {text: 'Css', value: Math.random()*100}
+  {text: 'Sweet Alert', value: Math.random()*100}, {text: 'useCookies', value: Math.random()*100}
 ]
 const options = {
   colors: ["#fff", "#ccc", "#999", "#666"],
@@ -35,10 +34,7 @@ const Home = () => {
 
   return(
     <div className="home_wrap">
-      <ReactWordcloud
-        words={words}
-        options={options}
-      />
+      <ReactWordcloud words={words} options={options} />
     </div>
   )
     

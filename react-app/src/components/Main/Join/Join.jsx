@@ -12,11 +12,11 @@ import './Join.css';
 const Join = () => {
 
   useEffect(() => {
-    UserId !== "0" &&
+    UserId !== 0 &&
       mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'}).then((result) => {
         history.push('/');
       });
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const mySwal = require('sweetalert2');
   const history = useHistory();
@@ -27,7 +27,7 @@ const Join = () => {
   const [CertificationProgress, setCertificationProgress] = useState(false);
   const [Password, setPassword] = useState("");
   const [PasswordConfirm, setPasswordConfirm] = useState("");
-  const [UserId] = useLocalStorage("userId", "0");
+  const [UserId] = useLocalStorage("userId", 0);
 
   const onPhoneHandler = (event) => {
     setPhone(event.currentTarget.value);
@@ -94,6 +94,7 @@ const Join = () => {
         mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원가입이 실패했습니다'});
         setPassword('');
         setPasswordConfirm('');
+        setCertification('');
       });
   }
   const onCertificationClick = () => {
@@ -128,26 +129,28 @@ const Join = () => {
     <div className="join_wrap">
       <form method="post" autocomplete="off">
         <div>
-          <div>
+          <div className="front">
             <p><span>휴대폰번호</span><span>*</span></p>
             <input type="text" value={Phone} onChange={onPhoneHandler} onKeyPress={onEnterPress} />
           </div>
-          <div>
+          <div className="end">
             <p><span>본인인증</span><span>*</span></p>
             <input type="text" value={Certification} onChange={onCertificationHandler} onKeyPress={onEnterPress} />
             <button type="button" onClick={onCertificationClick} >{CertificationButton}</button>
           </div>
         </div>
         <div>
-          <p> <span>성명</span><span>*</span></p>
-          <input type="text" value={Name} onChange={onNameHandler} onKeyPress={onEnterPress} />
+          <div className="front">
+            <p> <span>성명</span><span>*</span></p>
+            <input type="text" value={Name} onChange={onNameHandler} onKeyPress={onEnterPress} />
+          </div>
         </div>
         <div>
-          <div>
+          <div className="front">
             <p><span>비밀번호</span><span>*</span></p>
             <input type="password" autocomplete="off" value={Password} onChange={onPasswordHandler} onKeyPress={onEnterPress} />
           </div>
-          <div>
+          <div className="end">
             <p><span>비밀번호 확인</span><span>*</span></p>       
             <input type="password" autocomplete="off" value={PasswordConfirm} onChange={onPasswordConfirmHandler} onKeyPress={onEnterPress} />
           </div>

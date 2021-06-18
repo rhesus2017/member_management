@@ -1,7 +1,7 @@
 // react
 import React from 'react';
-import { useDispatch } from 'react-redux';
 import axios from 'axios';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link, useHistory } from "react-router-dom";
 import { MenuOpenClose } from '../../../action';
 
@@ -19,9 +19,10 @@ const TopNav = () => {
   const mySwal = require('sweetalert2');
   const history = useHistory();
   const dispatch = useDispatch();
-  const [UserId, setUserId] = useLocalStorage("userId", "0");
-  const [UserName, setUserName] = useLocalStorage("userName", "");
-  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", "");
+  // const UserNameSetting = useSelector(state => state.UserNameSetting);
+  const [UserId, setUserId] = useLocalStorage("userId", 0);
+  const [UserName, setUserName] = useLocalStorage("userName", ""); // eslint-disable-line no-unused-vars
+  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", ""); // eslint-disable-line no-unused-vars
 
   const menuOpenClose = () => {
     dispatch(MenuOpenClose());
@@ -36,7 +37,7 @@ const TopNav = () => {
         }).then(function (response) {
           if ( response['data']['result'] === '000000' ) {
             mySwal.fire({icon: 'success', title: '성공', text: '로그아웃이 완료되었습니다'}).then((result) => {
-              setUserId("0");
+              setUserId(0);
               setUserName("");
               setUserGrade("");
               history.push('/');
@@ -67,7 +68,7 @@ const TopNav = () => {
       </div>
       
         {
-          UserId !== "0" ? <div className="right"><Link to="/Information">{UserName}</Link><span></span><span onClick={logOut}>Logout</span></div>
+          UserId !== 0 ? <div className="right"><Link to="/Information">{UserName}</Link><span></span><span onClick={logOut}>Logout</span></div>
           : <div className="right"><Link to="/Login">Login</Link><span></span><Link to="/Join">Join</Link></div>
         }
         

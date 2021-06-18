@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import { Link, useHistory } from "react-router-dom";
 import { useCookies } from 'react-cookie';
-import socketio from 'socket.io-client';
 
 // hoc
 import useLocalStorage from "../../../hoc/useLocalStorage";
@@ -14,11 +13,11 @@ import './Login.css';
 const Login = () => {
 
   useEffect(() => {
-    UserId !== "0" &&
+    UserId !== 0 &&
       mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'}).then((result) => {
         history.push('/');
       });
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   
   const mySwal = require('sweetalert2');
   const history = useHistory();
@@ -26,9 +25,9 @@ const Login = () => {
   const [Password, setPassword] = useState("");
   const [Checked, setChecked] = useState(false);
   const [Cookies, setCookie, removeCookie] = useCookies(['rememberId']);
-  const [UserId, setUserId] = useLocalStorage("userId", "0");
-  const [UserName, setUserName] = useLocalStorage("userName", "");
-  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", "");
+  const [UserId, setUserId] = useLocalStorage("userId", 0);
+  const [UserName, setUserName] = useLocalStorage("userName", ""); // eslint-disable-line no-unused-vars
+  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", ""); // eslint-disable-line no-unused-vars
 
   const onPhoneHandler = (event) => {
     setPhone(event.currentTarget.value);
@@ -72,11 +71,6 @@ const Login = () => {
           setUserId(response['data']['userId']);
           setUserName(response['data']['userName']);
           setUserGrade(response['data']['userGrade']);
-
-          const socket_client = socketio.connect('http://192.168.0.22:5050/');
-          socket_client.on('second', (data) => {
-              console.log(data.message);
-          });
 
           history.push('/');
   

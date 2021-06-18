@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
 import { Provider  } from 'react-redux';
-import MenuOpenCloseApp from './reducer';
+import ReducersApp from './reducer';
 
 // component
 import App from './App';
@@ -11,7 +11,7 @@ import App from './App';
 // js
 import '@fortawesome/fontawesome-free/js/all.js';
 
-const store = createStore(MenuOpenCloseApp);
+const store = createStore(ReducersApp);
 
 ReactDOM.render(
   <React.StrictMode>
