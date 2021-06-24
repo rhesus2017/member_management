@@ -9,6 +9,7 @@ import Footer from '../../components/Footer/Footer';
 // css
 import './Join.css';
 
+
 const Join = ({ title, name, link }) => {
 
   return(
@@ -20,5 +21,6 @@ const Join = ({ title, name, link }) => {
   )
 
 }
+
 
 export default Join;

@@ -1,0 +1,283 @@
+2021-06-14 00:51:09,516 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet PING data None
+2021-06-14 00:51:09,517 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet PONG data None
+2021-06-14 00:51:11,081 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 00:51:11,081 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 00:51:11,082 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 00:51:11,082 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 00:51:16,087 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 00:51:16,088 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 00:51:16,088 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 00:51:16,089 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 00:51:21,095 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 00:51:21,096 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 00:51:21,097 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 00:51:21,098 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 00:51:26,100 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 00:51:26,101 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 00:51:26,102 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 00:51:26,102 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 00:51:31,108 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 00:51:31,109 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 00:51:31,110 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 00:51:31,110 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 00:51:34,670 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet PING data None
+2021-06-14 00:51:34,671 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet PONG data None
+2021-06-14 00:51:36,117 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 00:51:36,117 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 00:51:36,119 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 00:51:36,119 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 00:51:41,124 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 00:51:41,125 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 00:51:41,126 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 00:51:41,127 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 00:51:46,136 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 00:51:46,136 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 00:51:46,137 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 00:51:46,138 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 00:51:51,138 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 00:51:51,139 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 00:51:51,140 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 00:51:51,141 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 00:51:56,151 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 00:51:56,151 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 00:51:56,152 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 00:51:56,153 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 00:51:59,674 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet PING data None
+2021-06-14 00:51:59,675 88691 I  92:send             d7c37286210a4a17bc8f33d3ad930ea2: Sending packet PONG data None
+2021-06-14 02:39:16,746 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:39:16,747 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 02:39:16,748 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 02:39:16,749 88691 I  75:check_ping_timeo d7c37286210a4a17bc8f33d3ad930ea2: Client is gone, closing socket
+2021-06-14 02:39:16,749 88691 I  75:check_ping_timeo d7c37286210a4a17bc8f33d3ad930ea2: Client is gone, closing socket
+2021-06-14 02:39:21,738 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:39:21,739 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 02:39:21,739 88691 W 641:_handle_event    d7c37286210a4a17bc8f33d3ad930ea2 is not connected to namespace /
+2021-06-14 02:39:26,733 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:39:26,734 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 02:39:26,734 88691 W 641:_handle_event    d7c37286210a4a17bc8f33d3ad930ea2 is not connected to namespace /
+2021-06-14 02:39:31,735 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:39:31,736 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 02:39:31,736 88691 W 641:_handle_event    d7c37286210a4a17bc8f33d3ad930ea2 is not connected to namespace /
+2021-06-14 02:39:36,736 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:39:36,737 88691 I 638:_handle_event    received event "first" from d7c37286210a4a17bc8f33d3ad930ea2 [/]
+2021-06-14 02:39:36,737 88691 W 641:_handle_event    d7c37286210a4a17bc8f33d3ad930ea2 is not connected to namespace /
+2021-06-14 02:39:39,463 88691 I  49:receive          d7c37286210a4a17bc8f33d3ad930ea2: Received packet PING data None
+2021-06-14 02:39:39,463 88691 I 236:_websocket_handl Receive error -- socket is closed
+2021-06-14 02:39:40,067 88691 I  92:send             4dc85c5ec6d04ccd983712331620714c: Sending packet OPEN data {'sid': '4dc85c5ec6d04ccd983712331620714c', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2021-06-14 02:39:40,067 88691 I  92:send             4dc85c5ec6d04ccd983712331620714c: Sending packet MESSAGE data 0
+2021-06-14 02:39:40,078 88691 I 104:handle_get_reque 4dc85c5ec6d04ccd983712331620714c: Received request to upgrade to websocket
+2021-06-14 02:39:40,083 88691 I 210:_websocket_handl 4dc85c5ec6d04ccd983712331620714c: Upgrade to websocket successful
+2021-06-14 02:39:40,084 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet PING data None
+2021-06-14 02:39:40,085 88691 I  92:send             4dc85c5ec6d04ccd983712331620714c: Sending packet PONG data None
+2021-06-14 02:39:41,742 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:39:41,742 88691 I 638:_handle_event    received event "first" from 4dc85c5ec6d04ccd983712331620714c [/]
+2021-06-14 02:39:41,744 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 02:39:41,744 88691 I  92:send             4dc85c5ec6d04ccd983712331620714c: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 02:39:46,746 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:39:46,746 88691 I 638:_handle_event    received event "first" from 4dc85c5ec6d04ccd983712331620714c [/]
+2021-06-14 02:39:46,748 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 02:39:46,748 88691 I  92:send             4dc85c5ec6d04ccd983712331620714c: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 02:39:51,749 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:39:51,750 88691 I 638:_handle_event    received event "first" from 4dc85c5ec6d04ccd983712331620714c [/]
+2021-06-14 02:39:51,751 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 02:39:51,752 88691 I  92:send             4dc85c5ec6d04ccd983712331620714c: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 02:39:56,749 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:39:56,750 88691 I 638:_handle_event    received event "first" from 4dc85c5ec6d04ccd983712331620714c [/]
+2021-06-14 02:39:56,751 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 02:39:56,751 88691 I  92:send             4dc85c5ec6d04ccd983712331620714c: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 02:40:01,756 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:40:01,756 88691 I 638:_handle_event    received event "first" from 4dc85c5ec6d04ccd983712331620714c [/]
+2021-06-14 02:40:01,757 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 02:40:01,758 88691 I  92:send             4dc85c5ec6d04ccd983712331620714c: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 02:40:05,083 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet PING data None
+2021-06-14 02:40:05,084 88691 I  92:send             4dc85c5ec6d04ccd983712331620714c: Sending packet PONG data None
+2021-06-14 02:40:06,763 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 02:40:06,764 88691 I 638:_handle_event    received event "first" from 4dc85c5ec6d04ccd983712331620714c [/]
+2021-06-14 02:40:06,765 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 02:40:06,765 88691 I  92:send             4dc85c5ec6d04ccd983712331620714c: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 04:27:26,666 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:27:26,666 88691 I 638:_handle_event    received event "first" from 4dc85c5ec6d04ccd983712331620714c [/]
+2021-06-14 04:27:26,667 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 04:27:26,667 88691 I  75:check_ping_timeo 4dc85c5ec6d04ccd983712331620714c: Client is gone, closing socket
+2021-06-14 04:27:26,667 88691 I  75:check_ping_timeo 4dc85c5ec6d04ccd983712331620714c: Client is gone, closing socket
+2021-06-14 04:27:31,710 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:27:31,710 88691 I 638:_handle_event    received event "first" from 4dc85c5ec6d04ccd983712331620714c [/]
+2021-06-14 04:27:31,710 88691 W 641:_handle_event    4dc85c5ec6d04ccd983712331620714c is not connected to namespace /
+2021-06-14 04:27:36,713 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:27:36,713 88691 I 638:_handle_event    received event "first" from 4dc85c5ec6d04ccd983712331620714c [/]
+2021-06-14 04:27:36,714 88691 W 641:_handle_event    4dc85c5ec6d04ccd983712331620714c is not connected to namespace /
+2021-06-14 04:27:41,717 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:27:41,717 88691 I 638:_handle_event    received event "first" from 4dc85c5ec6d04ccd983712331620714c [/]
+2021-06-14 04:27:41,718 88691 W 641:_handle_event    4dc85c5ec6d04ccd983712331620714c is not connected to namespace /
+2021-06-14 04:27:45,024 88691 I  49:receive          4dc85c5ec6d04ccd983712331620714c: Received packet PING data None
+2021-06-14 04:27:45,024 88691 I 236:_websocket_handl Receive error -- socket is closed
+2021-06-14 04:27:46,466 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet OPEN data {'sid': 'aef42e446c8649628d443ddbc1c808dc', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2021-06-14 04:27:46,467 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet MESSAGE data 0
+2021-06-14 04:27:46,477 88691 I 104:handle_get_reque aef42e446c8649628d443ddbc1c808dc: Received request to upgrade to websocket
+2021-06-14 04:27:46,482 88691 I 210:_websocket_handl aef42e446c8649628d443ddbc1c808dc: Upgrade to websocket successful
+2021-06-14 04:27:46,485 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet PING data None
+2021-06-14 04:27:46,485 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet PONG data None
+2021-06-14 04:27:46,724 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:27:46,725 88691 I 638:_handle_event    received event "first" from aef42e446c8649628d443ddbc1c808dc [/]
+2021-06-14 04:27:46,726 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 04:27:46,727 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 04:27:51,727 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:27:51,728 88691 I 638:_handle_event    received event "first" from aef42e446c8649628d443ddbc1c808dc [/]
+2021-06-14 04:27:51,729 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 04:27:51,729 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 04:27:56,732 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:27:56,733 88691 I 638:_handle_event    received event "first" from aef42e446c8649628d443ddbc1c808dc [/]
+2021-06-14 04:27:56,734 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 04:27:56,735 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 04:28:01,740 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:28:01,740 88691 I 638:_handle_event    received event "first" from aef42e446c8649628d443ddbc1c808dc [/]
+2021-06-14 04:28:01,741 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 04:28:01,742 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 04:28:06,744 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:28:06,745 88691 I 638:_handle_event    received event "first" from aef42e446c8649628d443ddbc1c808dc [/]
+2021-06-14 04:28:06,746 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 04:28:06,747 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 04:28:11,488 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet PING data None
+2021-06-14 04:28:11,489 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet PONG data None
+2021-06-14 04:28:11,747 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:28:11,748 88691 I 638:_handle_event    received event "first" from aef42e446c8649628d443ddbc1c808dc [/]
+2021-06-14 04:28:11,749 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 04:28:11,750 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 04:28:16,759 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 04:28:16,759 88691 I 638:_handle_event    received event "first" from aef42e446c8649628d443ddbc1c808dc [/]
+2021-06-14 04:28:16,760 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 04:28:16,761 88691 I  92:send             aef42e446c8649628d443ddbc1c808dc: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 06:15:36,157 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 06:15:36,157 88691 I 638:_handle_event    received event "first" from aef42e446c8649628d443ddbc1c808dc [/]
+2021-06-14 06:15:36,157 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 06:15:36,158 88691 I  75:check_ping_timeo aef42e446c8649628d443ddbc1c808dc: Client is gone, closing socket
+2021-06-14 06:15:36,158 88691 I  75:check_ping_timeo aef42e446c8649628d443ddbc1c808dc: Client is gone, closing socket
+2021-06-14 06:15:41,159 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 06:15:41,160 88691 I 638:_handle_event    received event "first" from aef42e446c8649628d443ddbc1c808dc [/]
+2021-06-14 06:15:41,160 88691 W 641:_handle_event    aef42e446c8649628d443ddbc1c808dc is not connected to namespace /
+2021-06-14 06:15:46,167 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 06:15:46,168 88691 I 638:_handle_event    received event "first" from aef42e446c8649628d443ddbc1c808dc [/]
+2021-06-14 06:15:46,168 88691 W 641:_handle_event    aef42e446c8649628d443ddbc1c808dc is not connected to namespace /
+2021-06-14 06:15:50,889 88691 I  49:receive          aef42e446c8649628d443ddbc1c808dc: Received packet PING data None
+2021-06-14 06:15:50,889 88691 I 236:_websocket_handl Receive error -- socket is closed
+2021-06-14 06:15:51,718 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet OPEN data {'sid': '4f6f6c7757474745b5bf0cf15da11998', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2021-06-14 06:15:51,718 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet MESSAGE data 0
+2021-06-14 06:15:51,729 88691 I 104:handle_get_reque 4f6f6c7757474745b5bf0cf15da11998: Received request to upgrade to websocket
+2021-06-14 06:15:51,734 88691 I 210:_websocket_handl 4f6f6c7757474745b5bf0cf15da11998: Upgrade to websocket successful
+2021-06-14 06:15:51,735 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet PING data None
+2021-06-14 06:15:51,736 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet PONG data None
+2021-06-14 06:15:56,178 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 06:15:56,178 88691 I 638:_handle_event    received event "first" from 4f6f6c7757474745b5bf0cf15da11998 [/]
+2021-06-14 06:15:56,180 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 06:15:56,181 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 06:16:01,187 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 06:16:01,188 88691 I 638:_handle_event    received event "first" from 4f6f6c7757474745b5bf0cf15da11998 [/]
+2021-06-14 06:16:01,189 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 06:16:01,190 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 06:16:06,190 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 06:16:06,190 88691 I 638:_handle_event    received event "first" from 4f6f6c7757474745b5bf0cf15da11998 [/]
+2021-06-14 06:16:06,191 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 06:16:06,192 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 06:16:11,194 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 06:16:11,194 88691 I 638:_handle_event    received event "first" from 4f6f6c7757474745b5bf0cf15da11998 [/]
+2021-06-14 06:16:11,195 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 06:16:11,196 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 06:16:16,199 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 06:16:16,200 88691 I 638:_handle_event    received event "first" from 4f6f6c7757474745b5bf0cf15da11998 [/]
+2021-06-14 06:16:16,201 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 06:16:16,202 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 06:16:16,743 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet PING data None
+2021-06-14 06:16:16,743 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet PONG data None
+2021-06-14 06:16:21,208 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 06:16:21,209 88691 I 638:_handle_event    received event "first" from 4f6f6c7757474745b5bf0cf15da11998 [/]
+2021-06-14 06:16:21,210 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 06:16:21,211 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 06:16:26,214 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 06:16:26,214 88691 I 638:_handle_event    received event "first" from 4f6f6c7757474745b5bf0cf15da11998 [/]
+2021-06-14 06:16:26,216 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 06:16:26,217 88691 I  92:send             4f6f6c7757474745b5bf0cf15da11998: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 08:03:46,051 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 08:03:46,051 88691 I 638:_handle_event    received event "first" from 4f6f6c7757474745b5bf0cf15da11998 [/]
+2021-06-14 08:03:46,052 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 08:03:46,052 88691 I  75:check_ping_timeo 4f6f6c7757474745b5bf0cf15da11998: Client is gone, closing socket
+2021-06-14 08:03:46,052 88691 I  75:check_ping_timeo 4f6f6c7757474745b5bf0cf15da11998: Client is gone, closing socket
+2021-06-14 08:03:51,044 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 08:03:51,045 88691 I 638:_handle_event    received event "first" from 4f6f6c7757474745b5bf0cf15da11998 [/]
+2021-06-14 08:03:51,045 88691 W 641:_handle_event    4f6f6c7757474745b5bf0cf15da11998 is not connected to namespace /
+2021-06-14 08:03:56,050 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 08:03:56,050 88691 I 638:_handle_event    received event "first" from 4f6f6c7757474745b5bf0cf15da11998 [/]
+2021-06-14 08:03:56,051 88691 W 641:_handle_event    4f6f6c7757474745b5bf0cf15da11998 is not connected to namespace /
+2021-06-14 08:03:56,557 88691 I  49:receive          4f6f6c7757474745b5bf0cf15da11998: Received packet PING data None
+2021-06-14 08:03:56,558 88691 I 236:_websocket_handl Receive error -- socket is closed
+2021-06-14 08:03:57,578 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet OPEN data {'sid': '623e29418e46415dbba738ce2d062708', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2021-06-14 08:03:57,578 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet MESSAGE data 0
+2021-06-14 08:03:57,589 88691 I 104:handle_get_reque 623e29418e46415dbba738ce2d062708: Received request to upgrade to websocket
+2021-06-14 08:03:57,594 88691 I 210:_websocket_handl 623e29418e46415dbba738ce2d062708: Upgrade to websocket successful
+2021-06-14 08:03:57,597 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet PING data None
+2021-06-14 08:03:57,597 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet PONG data None
+2021-06-14 08:04:01,054 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 08:04:01,055 88691 I 638:_handle_event    received event "first" from 623e29418e46415dbba738ce2d062708 [/]
+2021-06-14 08:04:01,056 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 08:04:01,057 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 08:04:06,055 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 08:04:06,056 88691 I 638:_handle_event    received event "first" from 623e29418e46415dbba738ce2d062708 [/]
+2021-06-14 08:04:06,057 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 08:04:06,058 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 08:04:11,059 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 08:04:11,059 88691 I 638:_handle_event    received event "first" from 623e29418e46415dbba738ce2d062708 [/]
+2021-06-14 08:04:11,060 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 08:04:11,061 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 08:04:16,062 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 08:04:16,062 88691 I 638:_handle_event    received event "first" from 623e29418e46415dbba738ce2d062708 [/]
+2021-06-14 08:04:16,063 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 08:04:16,064 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 08:04:21,068 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 08:04:21,068 88691 I 638:_handle_event    received event "first" from 623e29418e46415dbba738ce2d062708 [/]
+2021-06-14 08:04:21,069 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 08:04:21,070 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 08:04:22,590 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet PING data None
+2021-06-14 08:04:22,590 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet PONG data None
+2021-06-14 08:04:26,077 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 08:04:26,077 88691 I 638:_handle_event    received event "first" from 623e29418e46415dbba738ce2d062708 [/]
+2021-06-14 08:04:26,078 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 08:04:26,079 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 08:04:31,080 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 08:04:31,080 88691 I 638:_handle_event    received event "first" from 623e29418e46415dbba738ce2d062708 [/]
+2021-06-14 08:04:31,083 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 08:04:31,084 88691 I  92:send             623e29418e46415dbba738ce2d062708: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 09:06:12,337 88691 I  75:check_ping_timeo 623e29418e46415dbba738ce2d062708: Client is gone, closing socket
+2021-06-14 09:06:12,338 88691 I  75:check_ping_timeo 623e29418e46415dbba738ce2d062708: Client is gone, closing socket
+2021-06-14 09:06:13,043 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 09:06:13,043 88691 I 638:_handle_event    received event "first" from 623e29418e46415dbba738ce2d062708 [/]
+2021-06-14 09:06:13,043 88691 W 641:_handle_event    623e29418e46415dbba738ce2d062708 is not connected to namespace /
+2021-06-14 09:06:18,223 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 09:06:18,223 88691 I 638:_handle_event    received event "first" from 623e29418e46415dbba738ce2d062708 [/]
+2021-06-14 09:06:18,223 88691 W 641:_handle_event    623e29418e46415dbba738ce2d062708 is not connected to namespace /
+2021-06-14 09:06:23,225 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 09:06:23,226 88691 I 638:_handle_event    received event "first" from 623e29418e46415dbba738ce2d062708 [/]
+2021-06-14 09:06:23,226 88691 W 641:_handle_event    623e29418e46415dbba738ce2d062708 is not connected to namespace /
+2021-06-14 09:06:24,730 88691 I  49:receive          623e29418e46415dbba738ce2d062708: Received packet PING data None
+2021-06-14 09:06:24,731 88691 I 236:_websocket_handl Receive error -- socket is closed
+2021-06-14 09:06:25,677 88691 I  92:send             205f067ffc964686afbea3fc52d6e3aa: Sending packet OPEN data {'sid': '205f067ffc964686afbea3fc52d6e3aa', 'upgrades': ['websocket'], 'pingTimeout': 60000, 'pingInterval': 25000}
+2021-06-14 09:06:25,677 88691 I  92:send             205f067ffc964686afbea3fc52d6e3aa: Sending packet MESSAGE data 0
+2021-06-14 09:06:25,681 88691 I 104:handle_get_reque 205f067ffc964686afbea3fc52d6e3aa: Received request to upgrade to websocket
+2021-06-14 09:06:25,683 88691 I 210:_websocket_handl 205f067ffc964686afbea3fc52d6e3aa: Upgrade to websocket successful
+2021-06-14 09:06:25,683 88691 I  49:receive          205f067ffc964686afbea3fc52d6e3aa: Received packet PING data None
+2021-06-14 09:06:25,683 88691 I  92:send             205f067ffc964686afbea3fc52d6e3aa: Sending packet PONG data None
+2021-06-14 09:06:28,227 88691 I  49:receive          205f067ffc964686afbea3fc52d6e3aa: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 09:06:28,227 88691 I 638:_handle_event    received event "first" from 205f067ffc964686afbea3fc52d6e3aa [/]
+2021-06-14 09:06:28,227 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 09:06:28,228 88691 I  92:send             205f067ffc964686afbea3fc52d6e3aa: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 09:06:33,230 88691 I  49:receive          205f067ffc964686afbea3fc52d6e3aa: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 09:06:33,230 88691 I 638:_handle_event    received event "first" from 205f067ffc964686afbea3fc52d6e3aa [/]
+2021-06-14 09:06:33,230 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 09:06:33,230 88691 I  92:send             205f067ffc964686afbea3fc52d6e3aa: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 09:06:38,234 88691 I  49:receive          205f067ffc964686afbea3fc52d6e3aa: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 09:06:38,235 88691 I 638:_handle_event    received event "first" from 205f067ffc964686afbea3fc52d6e3aa [/]
+2021-06-14 09:06:38,236 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 09:06:38,236 88691 I  92:send             205f067ffc964686afbea3fc52d6e3aa: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 09:06:43,237 88691 I  49:receive          205f067ffc964686afbea3fc52d6e3aa: Received packet MESSAGE data 2["first",{"message":"Go To Socket"}]
+2021-06-14 09:06:43,237 88691 I 638:_handle_event    received event "first" from 205f067ffc964686afbea3fc52d6e3aa [/]
+2021-06-14 09:06:43,238 88691 I 283:emit             emitting event "second" to all [/]
+2021-06-14 09:06:43,238 88691 I  92:send             205f067ffc964686afbea3fc52d6e3aa: Sending packet MESSAGE data 2["second",{"message":"Go To Client : connecting to socket"}]
+2021-06-14 09:06:46,113 88691 I  49:receive          205f067ffc964686afbea3fc52d6e3aa: Received packet CLOSE data None

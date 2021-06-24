@@ -1,0 +1,613 @@
+2021-06-23 10:40:14,892 33168 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:40:14] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:40:14,895 33168 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:40:14] "[36mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 304 -
+2021-06-23 10:45:02,350 33168 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:45:02] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 10:45:05,719 33168 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:45:05] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 10:45:07,311 33168 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:45:07] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:45:07,320 33168 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:45:07] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 10:46:35,260 47469 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 10:46:38,702 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:46:38] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 10:46:38,783 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:46:38] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 10:46:38,784 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:46:38] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 10:46:38,787 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:46:38] "[37mGET /static/react/static/js/main.8e1b32d1.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 10:46:39,642 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:46:39] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 10:46:39,674 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:46:39] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 10:46:39,702 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:46:39] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:46:39,717 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:46:39] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 10:46:39,982 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:46:39] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 10:46:44,399 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:46:44] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:56:42,009 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:56:42] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 10:56:50,854 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:56:50] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 10:56:52,415 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:56:52] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:56:52,425 47469 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:56:52] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 10:57:06,960 48846 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 10:57:27,158 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:27] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 10:57:27,258 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:27] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 10:57:27,260 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:27] "[37mGET /static/react/static/js/main.be537de3.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 10:57:27,261 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:27] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 10:57:28,021 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:28] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 10:57:28,058 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:28] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 10:57:28,081 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:28] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:57:28,099 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:28] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 10:57:28,366 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:28] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 10:57:38,565 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:38] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 10:57:38,639 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:38] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 10:57:38,642 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:38] "[37mGET /static/react/static/js/main.be537de3.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 10:57:38,645 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:38] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 10:57:38,975 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:38] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 10:57:39,014 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:39] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 10:57:39,035 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:39] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:57:39,110 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:39] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 10:57:48,839 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:48] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 10:57:52,256 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:52] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 10:57:56,524 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:57:56] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 10:58:05,414 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:05] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 10:58:23,624 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:23] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 10:58:25,352 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:25] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:58:25,364 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:25] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 10:58:35,732 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:35] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 10:58:35,810 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:35] "[37mGET /static/react/static/js/main.be537de3.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 10:58:35,811 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:35] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 10:58:35,812 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:35] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 10:58:36,102 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:36] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 10:58:36,137 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:36] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 10:58:36,158 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:36] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:58:36,171 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:36] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 10:58:40,247 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:40] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:58:42,772 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:42] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 10:58:54,586 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:54] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-23 10:58:54,647 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:54] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 10:58:54,648 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:54] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 10:58:54,648 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:54] "[37mGET /static/react/static/js/main.be537de3.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 10:58:54,977 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:54] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 10:58:55,010 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:55] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 10:58:55,304 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:55] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 10:58:55,950 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 10:58:55] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 11:07:30,479 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 11:07:30] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 11:07:49,650 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 11:07:49] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 11:07:49,661 48846 I 113:_log             127.0.0.1 - - [23/Jun/2021 11:07:49] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 14:08:58,954 54988 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 14:09:00,273 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:09:00] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 14:09:00,348 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:09:00] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 14:09:00,348 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:09:00] "[37mGET /static/react/static/js/main.a1dad7ee.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:09:00,513 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:09:00] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:09:01,028 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:09:01] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 14:09:01,057 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:09:01] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 14:09:01,075 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:09:01] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:09:01,401 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:09:01] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 14:11:30,577 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:11:30] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:11:32,753 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:11:32] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:11:32,764 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:11:32] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 14:12:01,216 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:12:01] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 14:12:03,289 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:12:03] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:12:55,630 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:12:55] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:13:07,503 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:13:07] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:13:07,512 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:13:07] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 14:15:04,567 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:15:04] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:15:12,981 54988 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:15:12] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:20:12,000 56478 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 14:20:17,752 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:17] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-23 14:20:17,826 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:17] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:20:17,827 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:17] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 14:20:17,828 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:17] "[37mGET /static/react/static/js/main.b4f58016.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:20:18,792 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:18] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 14:20:18,803 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:18] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 14:20:19,106 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:19] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 14:20:19,895 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:19] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:20:22,179 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:22] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:20:24,014 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:24] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:20:26,194 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:20:26] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:21:13,887 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:21:13] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:21:16,638 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:21:16] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:21:18,402 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:21:18] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:21:18,413 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:21:18] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 14:21:22,405 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:21:22] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:21:22,415 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:21:22] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 14:21:34,935 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:21:34] "[37mPOST /auth/api/change_information HTTP/1.1[0m" 200 -
+2021-06-23 14:23:31,012 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:23:31] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:23:31,022 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:23:31] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 14:31:15,051 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:15] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 14:31:15,186 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:15] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 14:31:15,186 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:15] "[37mGET /static/react/static/js/main.b4f58016.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:31:15,188 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:15] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:31:16,043 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:16] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 14:31:16,076 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:16] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 14:31:16,721 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:16] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 14:31:18,576 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:18] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 14:31:29,216 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:29] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:31:31,796 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:31] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:31:58,474 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:58] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:31:58,484 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:31:58] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 14:36:18,577 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:36:18] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:36:22,517 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:36:22] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:36:26,915 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:36:26] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-23 14:38:21,124 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:38:21] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:38:21,135 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:38:21] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 14:38:23,317 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:38:23] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 14:40:20,395 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:40:20] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:40:23,022 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:40:23] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:40:24,900 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:40:24] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:40:26,997 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:40:26] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:40:58,991 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:40:58] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 14:40:59,195 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:40:59] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:41:06,416 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:41:06] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:41:08,586 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:41:08] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:41:10,141 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:41:10] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:41:30,562 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:41:30] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:41:35,149 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:41:35] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-23 14:41:43,205 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:41:43] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-23 14:41:49,889 56478 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:41:49] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-23 14:42:46,040 59445 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 14:42:48,174 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:42:48] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 14:42:48,239 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:42:48] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:42:48,244 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:42:48] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 14:42:48,248 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:42:48] "[37mGET /static/react/static/js/main.fcc82a84.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:42:49,046 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:42:49] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 14:42:49,079 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:42:49] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 14:42:49,667 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:42:49] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 14:42:54,443 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:42:54] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-23 14:42:59,382 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:42:59] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-23 14:43:04,794 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:04] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-23 14:43:11,105 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:11] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-23 14:43:16,654 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:16] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:43:16,666 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:16] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 14:43:20,067 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:20] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 14:43:25,856 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:25] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 14:43:26,023 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:26] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:43:32,367 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:32] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 14:43:32,537 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:32] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:43:44,901 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:44] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:43:47,744 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:47] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:43:50,873 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:43:50] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:44:23,210 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:44:23] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:45:02,127 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:45:02] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 14:45:02,194 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:45:02] "[37mGET /static/react/static/js/main.fcc82a84.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:45:02,194 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:45:02] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 14:45:02,196 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:45:02] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:45:02,482 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:45:02] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 14:45:02,512 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:45:02] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 14:45:03,059 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:45:03] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 14:45:09,142 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:45:09] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:46:15,754 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:15] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-23 14:46:19,930 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:19] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 14:46:19,986 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:19] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 14:46:19,988 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:19] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:46:19,988 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:19] "[37mGET /static/react/static/js/main.fcc82a84.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:46:20,262 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:20] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 14:46:20,289 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:20] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 14:46:20,774 59445 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:20] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 14:46:51,562 60000 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 14:46:54,483 60000 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:54] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 14:46:54,547 60000 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:54] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 14:46:54,547 60000 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:54] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:46:54,548 60000 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:54] "[37mGET /static/react/static/js/main.fcc82a84.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:46:55,736 60000 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:55] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 14:46:55,763 60000 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:55] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 14:46:56,309 60000 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:46:56] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 14:47:01,316 60000 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:47:01] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:47:03,841 60000 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:47:03] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:47:53,373 60178 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 14:47:57,532 60178 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:47:57] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 14:47:57,614 60178 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:47:57] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:47:57,614 60178 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:47:57] "[37mGET /static/react/static/js/main.436e1457.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:47:57,614 60178 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:47:57] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 14:47:58,295 60178 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:47:58] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 14:47:58,326 60178 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:47:58] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 14:47:58,926 60178 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:47:58] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 14:51:36,527 60745 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 14:51:37,375 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:37] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-23 14:51:37,453 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:37] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 14:51:37,453 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:37] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:51:37,454 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:37] "[37mGET /static/react/static/js/main.72c7a0c5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 14:51:38,203 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:38] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 14:51:38,233 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:38] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 14:51:38,540 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:38] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 14:51:47,271 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:47] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 14:51:47,486 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:47] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:51:59,342 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:59] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 14:51:59,506 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:51:59] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:52:02,060 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:52:02] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:52:03,404 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:52:03] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:52:03,893 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:52:03] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:52:04,424 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:52:04] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:52:04,925 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:52:04] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:52:06,254 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:52:06] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:52:13,708 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:52:13] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:52:38,285 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:52:38] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:52:42,350 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:52:42] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 14:53:00,448 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:53:00] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:53:00,460 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:53:00] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 14:53:06,120 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:53:06] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:53:06,130 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:53:06] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 14:53:08,494 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:53:08] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 14:53:08,504 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 14:53:08] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 15:26:57,177 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:26:57] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 15:27:00,777 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:27:00] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 15:27:04,808 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:27:04] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:27:15,122 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:27:15] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:27:18,263 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:27:18] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:27:20,158 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:27:20] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:27:20,168 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:27:20] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 15:27:23,322 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:27:23] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 15:27:32,871 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:27:32] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:29:13,288 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:29:13] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:29:16,525 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:29:16] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 15:29:32,094 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:29:32] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:29:35,106 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:29:35] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:29:37,813 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:29:37] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 15:29:54,576 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:29:54] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:30:20,764 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:30:20] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 15:31:03,063 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:31:03] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:31:04,497 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:31:04] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:31:04,508 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:31:04] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 15:31:06,720 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:31:06] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 15:31:13,595 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:31:13] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 15:31:13,876 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:31:13] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 15:31:20,512 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:31:20] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:31:21,761 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:31:21] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:31:21,772 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:31:21] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 15:31:23,225 60745 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:31:23] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 15:33:58,796 66117 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 15:34:00,553 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:00] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 15:34:00,627 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:00] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 15:34:00,627 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:00] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 15:34:00,627 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:00] "[37mGET /static/react/static/js/main.2f671b87.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 15:34:01,526 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:01] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 15:34:01,557 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:01] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 15:34:02,202 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:02] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 15:34:09,791 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:09] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:34:11,592 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:11] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:34:11,602 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:11] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 15:34:13,080 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:13] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 15:34:15,936 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:15] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:34:39,652 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:39] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:34:55,785 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:55] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:34:58,990 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:34:58] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:35:13,710 66117 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:35:13] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:37:22,164 66587 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 15:37:24,865 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:24] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-23 15:37:24,964 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:24] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 15:37:24,965 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:24] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 15:37:24,966 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:24] "[37mGET /static/react/static/js/main.8da58397.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 15:37:25,708 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:25] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 15:37:25,740 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:25] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 15:37:26,033 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:26] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 15:37:33,097 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:33] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:37:35,451 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:35] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:37:35,462 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:35] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 15:37:36,803 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:36] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 15:37:46,989 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:37:46] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:41:12,947 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:12] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 15:41:13,095 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:13] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 15:41:13,103 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:13] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 15:41:13,105 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:13] "[37mGET /static/react/static/js/main.8da58397.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 15:41:14,469 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:14] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:41:14,473 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:14] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 15:41:14,482 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:14] "[37mGET /static/react/static/js/main.8da58397.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-23 15:41:14,483 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:14] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-23 15:41:14,484 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:14] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-23 15:41:14,485 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:14] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 15:41:15,797 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:15] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 15:41:25,217 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:41:25] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:43:57,301 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:43:57] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:44:00,343 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:44:00] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:44:00,361 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:44:00] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 15:44:07,002 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:44:07] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:44:07,004 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:44:07] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:44:07,021 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:44:07] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 15:44:07,028 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:44:07] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 15:44:18,977 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:44:18] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:44:20,552 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:44:20] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:44:20,562 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:44:20] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 15:44:29,903 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:44:29] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 15:44:35,290 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:44:35] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 15:44:47,039 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:44:47] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:44:54,762 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:44:54] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 15:45:02,095 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:45:02] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:46:52,301 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:46:52] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:47:02,449 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:47:02] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 15:47:07,246 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:47:07] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 15:47:11,113 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:47:11] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 15:47:11,140 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:47:11] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 15:47:22,149 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:47:22] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 15:47:32,342 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 15:47:32] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 15:50:16,531 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 15:50:16] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 16:15:39,300 66587 E 1891:log_exception    Exception on /auth/api/change_member_information [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 21, in decoratored_function
+    cursor.execute('select state from auth where id = %s', [session['userId']])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/werkzeug/local.py", line 377, in <lambda>
+    __getitem__ = lambda x, i: x._get_current_object()[i]
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super(SecureCookieSession, self).__getitem__(key)
+KeyError: 'userId'
+2021-06-23 16:15:39,310 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:15:39] "[35m[1mPOST /auth/api/change_member_information HTTP/1.1[0m" 500 -
+2021-06-23 16:15:46,346 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:15:46] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:15:58,578 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:15:58] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 16:15:58,578 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:15:58] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 16:15:58,580 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:15:58] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 16:16:10,238 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:16:10] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 16:16:14,005 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:16:14] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:16:14,020 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:16:14] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:16:26,373 66587 E 1891:log_exception    Exception on /auth/api/change_member_information [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 21, in decoratored_function
+    cursor.execute('select state from auth where id = %s', [session['userId']])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/werkzeug/local.py", line 377, in <lambda>
+    __getitem__ = lambda x, i: x._get_current_object()[i]
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super(SecureCookieSession, self).__getitem__(key)
+KeyError: 'userId'
+2021-06-23 16:16:26,374 66587 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:16:26] "[35m[1mPOST /auth/api/change_member_information HTTP/1.1[0m" 500 -
+2021-06-23 16:25:15,694 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:25:15] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:25:15,715 66587 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:25:15] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:29:24,498 72642 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 16:29:38,167 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:29:38] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 16:29:38,279 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:29:38] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:29:38,280 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:29:38] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 16:29:38,281 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:29:38] "[37mGET /static/react/static/js/main.a45ebf73.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:29:39,197 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:29:39] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 16:29:39,228 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:29:39] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 16:29:39,246 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:29:39] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:30:10,207 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:30:10] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 16:30:13,344 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:30:13] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:30:13,355 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:30:13] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:30:19,066 72642 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:30:19] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 16:31:04,034 72859 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 16:31:04,637 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:31:04] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 16:31:04,721 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:31:04] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 16:31:04,723 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:31:04] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:31:04,725 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:31:04] "[37mGET /static/react/static/js/main.a45ebf73.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:31:05,410 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:31:05] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 16:31:05,445 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:31:05] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 16:31:06,046 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:31:06] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 16:31:06,684 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:31:06] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:31:06,696 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:31:06] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:31:10,364 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:31:10] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 16:34:05,152 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:34:05] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:34:05,163 72859 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:34:05] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:40:46,019 74154 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 16:40:46,656 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:46] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 16:40:46,730 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:46] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 16:40:46,732 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:46] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:40:46,907 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:46] "[37mGET /static/react/static/js/main.dd6a9689.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:40:47,408 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:47] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 16:40:47,439 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:47] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 16:40:47,452 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:47] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:40:47,549 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:47] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:40:47,742 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:47] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 16:40:51,281 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:51] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:40:51,301 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:51] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 16:40:53,118 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:53] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:40:53,154 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:53] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:40:57,325 74154 E 1891:log_exception    Exception on /auth/api/change_member_information [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 36, in decoratored_function
+    return f(*args, **kwargs)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 248, in change_member_information
+    elif row_['grade'] != 'master' and row_['grade'] != 'admin':
+TypeError: 'NoneType' object is not subscriptable
+2021-06-23 16:40:57,328 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:57] "[35m[1mPOST /auth/api/change_member_information HTTP/1.1[0m" 500 -
+2021-06-23 16:40:59,309 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:59] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 16:40:59,377 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:59] "[37mGET /static/react/static/js/main.dd6a9689.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:40:59,378 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:59] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:40:59,378 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:59] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 16:40:59,652 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:59] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 16:40:59,684 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:59] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 16:40:59,699 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:59] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:40:59,715 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:59] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:40:59,948 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:40:59] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 16:41:04,943 74154 E 1891:log_exception    Exception on /auth/api/change_member_information [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 36, in decoratored_function
+    return f(*args, **kwargs)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 248, in change_member_information
+    elif row_['grade'] != 'master' and row_['grade'] != 'admin':
+TypeError: 'NoneType' object is not subscriptable
+2021-06-23 16:41:04,944 74154 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:41:04] "[35m[1mPOST /auth/api/change_member_information HTTP/1.1[0m" 500 -
+2021-06-23 16:42:05,315 74383 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 16:42:07,494 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:07] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 16:42:07,565 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:07] "[37mGET /static/react/static/js/main.dd6a9689.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:42:07,567 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:07] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 16:42:07,568 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:07] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:42:07,837 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:07] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 16:42:07,867 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:07] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 16:42:07,881 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:07] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:42:07,905 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:07] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:42:08,112 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:08] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 16:42:10,377 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:10] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:42:10,388 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:10] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 16:42:12,020 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:12] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:42:12,030 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:12] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:42:15,285 74383 E 1891:log_exception    Exception on /auth/api/change_member_information [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 36, in decoratored_function
+    return f(*args, **kwargs)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 243, in change_member_information
+    elif session['grade'] != 'master' and session['grade'] != 'admin':
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/werkzeug/local.py", line 377, in <lambda>
+    __getitem__ = lambda x, i: x._get_current_object()[i]
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/sessions.py", line 84, in __getitem__
+    return super(SecureCookieSession, self).__getitem__(key)
+KeyError: 'grade'
+2021-06-23 16:42:15,290 74383 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:42:15] "[35m[1mPOST /auth/api/change_member_information HTTP/1.1[0m" 500 -
+2021-06-23 16:43:32,711 74581 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 16:43:34,675 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:43:34] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 16:43:34,765 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:43:34] "[37mGET /static/react/static/js/main.dd6a9689.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:43:34,768 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:43:34] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:43:34,768 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:43:34] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 16:43:35,034 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:43:35] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 16:43:35,063 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:43:35] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 16:43:35,079 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:43:35] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:43:35,163 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:43:35] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:43:35,381 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:43:35] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 16:43:39,063 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:43:39] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 16:43:42,377 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:42] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 16:43:42,467 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:42] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:43:42,468 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:42] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 16:43:42,470 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:42] "[37mGET /static/react/static/js/main.dd6a9689.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:43:48,383 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:48] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:43:48,388 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:48] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 16:43:48,390 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:48] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-23 16:43:48,391 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:48] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 16:43:48,392 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:48] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-23 16:43:48,393 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:48] "[37mGET /static/react/static/js/main.dd6a9689.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-23 16:43:55,521 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:43:55] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 16:44:00,276 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:44:00] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 16:44:02,904 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:44:02] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:44:02,921 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:44:02] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:44:15,152 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:44:15] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 16:44:36,597 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 16:44:36] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 16:44:39,794 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:44:39] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 16:44:39,857 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:44:39] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 16:44:39,858 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:44:39] "[37mGET /static/react/static/js/main.dd6a9689.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:44:39,858 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:44:39] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 16:44:40,143 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:44:40] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 16:44:40,180 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:44:40] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 16:44:40,195 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:44:40] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 16:44:40,216 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:44:40] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 16:44:40,457 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 16:44:40] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 17:01:00,740 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:00] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 17:01:11,879 74581 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:01:11] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 17:01:17,780 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:17] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 17:01:17,944 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:17] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 17:01:17,951 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:17] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 17:01:17,954 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:17] "[37mGET /static/react/static/js/main.dd6a9689.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 17:01:20,553 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:20] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 17:01:20,555 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:20] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 17:01:20,556 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:20] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 17:01:20,558 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:20] "[37mGET /static/react/static/js/main.dd6a9689.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-23 17:01:20,561 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:20] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-23 17:01:20,562 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:20] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-23 17:01:20,597 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:20] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 17:01:20,800 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:20] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 17:01:33,898 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:33] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 17:01:40,924 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:40] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 17:01:40,957 74581 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:01:40] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 17:22:44,890 79489 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 17:22:48,196 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:48] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 17:22:48,306 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:48] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 17:22:48,307 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:48] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 17:22:48,309 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:48] "[37mGET /static/react/static/js/main.0c6c4a7a.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 17:22:49,186 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:49] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 17:22:49,217 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:49] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 17:22:49,231 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:49] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 17:22:49,326 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:49] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 17:22:49,517 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:49] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 17:22:52,591 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:52] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 17:22:55,711 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:22:55] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 17:23:04,986 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:04] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-23 17:23:05,076 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:05] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 17:23:05,078 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:05] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 17:23:05,089 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:05] "[37mGET /static/react/static/js/main.0c6c4a7a.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 17:23:07,095 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:07] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 17:23:07,101 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:07] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 17:23:07,104 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:07] "[37mGET /static/react/static/js/main.0c6c4a7a.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-23 17:23:07,104 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:07] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-23 17:23:07,105 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:07] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 17:23:07,106 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:07] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-23 17:23:07,118 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:07] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 17:23:13,220 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:23:13] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 17:23:15,692 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:15] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 17:23:15,712 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:15] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 17:23:21,879 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:23:21] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 17:23:26,771 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:26] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-23 17:23:34,403 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:34] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 17:23:34,421 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:34] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 17:23:41,936 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:41] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 17:23:41,956 79489 I 113:_log             192.168.0.75 - - [23/Jun/2021 17:23:41] "[37mPOST /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-23 17:24:15,282 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:24:15] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 17:24:15,303 79489 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:24:15] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 17:29:00,379 80319 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 17:29:01,275 80319 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:29:01] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 17:29:01,375 80319 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:29:01] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 17:29:01,377 80319 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:29:01] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 17:29:01,378 80319 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:29:01] "[37mGET /static/react/static/js/main.cda468f4.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 17:29:02,247 80319 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:29:02] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 17:29:02,278 80319 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:29:02] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 17:29:02,301 80319 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:29:02] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 17:29:02,319 80319 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:29:02] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 17:29:02,602 80319 I 113:_log             127.0.0.1 - - [23/Jun/2021 17:29:02] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 18:30:16,613 86965 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-23 18:30:18,131 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:18] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-23 18:30:18,211 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:18] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 18:30:18,213 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:18] "[37mGET /static/react/static/js/main.fb5eb210.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 18:30:18,215 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:18] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 18:30:19,103 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:19] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 18:30:19,132 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:19] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 18:30:19,150 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:19] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 18:30:19,168 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:19] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 18:30:19,426 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:19] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 18:30:35,639 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:35] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-23 18:30:48,583 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:30:48] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 18:31:10,770 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:31:10] "[37mPOST /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-23 18:31:10,779 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:31:10] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-23 18:32:04,493 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:32:04] "[37mPOST /auth/api/out_member HTTP/1.1[0m" 200 -
+2021-06-23 18:32:20,428 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:32:20] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-23 18:32:20,491 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:32:20] "[37mGET /static/react/static/css/main.2892f6d7.chunk.css HTTP/1.1[0m" 200 -
+2021-06-23 18:32:20,492 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:32:20] "[37mGET /static/react/static/js/2.d9c1c4f5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 18:32:20,494 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:32:20] "[37mGET /static/react/static/js/main.fb5eb210.chunk.js HTTP/1.1[0m" 200 -
+2021-06-23 18:32:20,767 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:32:20] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-23 18:32:20,801 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:32:20] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-23 18:32:21,369 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:32:21] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-23 18:32:28,633 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:32:28] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-23 18:32:31,916 86965 I 113:_log             127.0.0.1 - - [23/Jun/2021 18:32:31] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -

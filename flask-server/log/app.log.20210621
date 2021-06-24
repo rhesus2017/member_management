@@ -1,0 +1,1108 @@
+2021-06-21 09:50:23,213 40144 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 09:50:27,188 40144 I 113:_log             127.0.0.1 - - [21/Jun/2021 09:50:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 09:50:27,354 40144 I 113:_log             127.0.0.1 - - [21/Jun/2021 09:50:27] "[37mGET /static/react/static/js/2.b5e74c64.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 09:50:27,355 40144 I 113:_log             127.0.0.1 - - [21/Jun/2021 09:50:27] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 09:50:27,356 40144 I 113:_log             127.0.0.1 - - [21/Jun/2021 09:50:27] "[37mGET /static/react/static/js/main.08aed1c8.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 09:50:28,203 40144 I 113:_log             127.0.0.1 - - [21/Jun/2021 09:50:28] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 09:50:28,230 40144 I 113:_log             127.0.0.1 - - [21/Jun/2021 09:50:28] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 09:50:28,888 40144 I 113:_log             127.0.0.1 - - [21/Jun/2021 09:50:28] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 09:50:36,645 40144 I 113:_log             127.0.0.1 - - [21/Jun/2021 09:50:36] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 10:18:01,894 40686 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:18:03,894 40686 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:18:03] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 10:18:03,969 40686 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:18:03] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:18:03,971 40686 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:18:03] "[37mGET /static/react/static/js/2.8eda3822.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:18:03,972 40686 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:18:03] "[37mGET /static/react/static/js/main.9d505626.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:18:04,827 40686 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:18:04] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 10:18:04,863 40686 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:18:04] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 10:18:05,374 40686 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:18:05] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:19:20,445 40758 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:19:26,345 40758 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:19:26] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 10:19:26,421 40758 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:19:26] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:19:26,422 40758 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:19:26] "[37mGET /static/react/static/js/main.84ee424f.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:19:26,422 40758 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:19:26] "[37mGET /static/react/static/js/2.8eda3822.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:19:26,750 40758 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:19:26] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 10:19:26,785 40758 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:19:26] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 10:19:27,369 40758 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:19:27] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:19:29,436 40758 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:19:29] "[37mGET /static/react/static/js/main.84ee424f.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:19:29,437 40758 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:19:29] "[37mGET /static/react/static/js/2.8eda3822.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:19:29,648 40758 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:19:29] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:21:09,128 40859 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:21:11,015 40859 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:21:11] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 10:21:11,195 40859 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:21:11] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:21:11,197 40859 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:21:11] "[37mGET /static/react/static/js/2.8eda3822.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:21:11,199 40859 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:21:11] "[37mGET /static/react/static/js/main.d23b594a.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:21:11,449 40859 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:21:11] "[37mGET /static/react/static/js/2.8eda3822.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:21:11,451 40859 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:21:11] "[37mGET /static/react/static/js/main.d23b594a.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:21:11,500 40859 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:21:11] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 10:21:11,543 40859 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:21:11] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 10:21:11,579 40859 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:21:11] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:21:12,118 40859 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:21:12] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:25:30,811 41024 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:25:39,724 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:39] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 10:25:39,866 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:39] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:25:39,867 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:39] "[37mGET /static/react/static/js/2.8eda3822.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:25:39,869 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:39] "[37mGET /static/react/static/js/main.ed74e280.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:25:40,511 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:40] "[37mGET /static/react/static/js/main.ed74e280.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:25:40,513 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:40] "[37mGET /static/react/static/js/2.8eda3822.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:25:40,562 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:40] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 10:25:40,605 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:40] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 10:25:40,637 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:40] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:25:41,406 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:41] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:25:54,884 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:54] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:25:54,894 41024 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:25:54] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 10:33:51,420 41241 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:33:55,362 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:33:55] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-21 10:33:55,477 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:33:55] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:33:55,481 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:33:55] "[37mGET /static/react/static/js/2.2af12576.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:33:55,484 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:33:55] "[37mGET /static/react/static/js/main.42feeb79.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:33:56,437 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:33:56] "[37mGET /static/react/static/js/2.2af12576.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:33:56,439 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:33:56] "[37mGET /static/react/static/js/main.42feeb79.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:33:56,501 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:33:56] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:33:56,620 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:33:56] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:36:55,331 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:36:55] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 10:36:55,387 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:36:55] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:36:55,389 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:36:55] "[37mGET /static/react/static/js/main.42feeb79.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:36:55,390 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:36:55] "[37mGET /static/react/static/js/2.2af12576.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:36:55,726 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:36:55] "[37mGET /static/react/static/js/2.2af12576.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:36:55,726 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:36:55] "[37mGET /static/react/static/js/main.42feeb79.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:36:55,762 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:36:55] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:36:55,831 41241 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:36:55] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:37:39,930 41392 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:37:44,733 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:44] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 10:37:44,816 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:44] "[37mGET /static/react/static/js/2.2af12576.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:37:44,818 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:44] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:37:44,820 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:44] "[37mGET /static/react/static/js/main.51fd3128.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:37:45,104 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:45] "[37mGET /static/react/static/js/2.2af12576.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:37:45,105 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:45] "[37mGET /static/react/static/js/main.51fd3128.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:37:45,236 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:45] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:37:45,577 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:45] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:37:46,575 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:46] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 10:37:46,639 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:46] "[37mGET /static/react/static/js/2.2af12576.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:37:46,640 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:46] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:37:46,644 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:46] "[37mGET /static/react/static/js/main.51fd3128.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:37:46,906 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:46] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:37:46,944 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:46] "[37mGET /static/react/static/js/2.2af12576.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:37:46,949 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:46] "[37mGET /static/react/static/js/main.51fd3128.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:37:47,055 41392 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:37:47] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:38:40,296 41454 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:38:41,677 41454 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:38:41] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 10:38:41,783 41454 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:38:41] "[37mGET /static/react/static/js/main.ef1435c0.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:38:41,784 41454 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:38:41] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:38:41,786 41454 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:38:41] "[37mGET /static/react/static/js/2.1ab72ccd.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:38:42,066 41454 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:38:42] "[37mGET /static/react/static/js/2.1ab72ccd.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:38:42,074 41454 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:38:42] "[37mGET /static/react/static/js/main.ef1435c0.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:38:42,204 41454 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:38:42] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:38:42,542 41454 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:38:42] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:40:34,679 41572 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:40:37,488 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:37] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 10:40:37,568 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:37] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:40:37,575 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:37] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:40:37,577 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:37] "[37mGET /static/react/static/js/main.8d0f3541.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:40:37,848 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:37] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 10:40:37,880 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:37] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 10:40:37,895 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:37] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:40:37,907 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:37] "[37mGET /static/react/static/js/main.8d0f3541.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:40:37,919 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:37] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:40:38,494 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:38] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:40:41,338 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:41] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:40:41,348 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:41] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:40:49,150 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:49] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:40:49,420 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:49] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:40:49,428 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:49] "[37mGET /static/react/static/js/main.8d0f3541.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:40:49,451 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:49] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:40:49,460 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:49] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:40:49,569 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:49] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:40:56,070 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:56] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:40:56,341 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:56] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:40:56,348 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:56] "[37mGET /static/react/static/js/main.8d0f3541.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:40:56,362 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:56] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:40:56,370 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:56] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:40:56,402 41572 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:40:56] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:42:30,851 41650 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:42:37,235 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:42:37,329 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:42:37,335 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /static/react/static/js/main.b3da992c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:42:37,338 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:42:37,679 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 10:42:37,712 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 10:42:37,734 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:37,745 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /static/react/static/js/main.b3da992c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:37,751 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:42:37,766 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:37,844 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:37] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:42:38,032 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:38] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:42:39,839 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:39] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:42:40,087 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:40] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:40,095 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:40] "[37mGET /static/react/static/js/main.b3da992c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:40,108 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:40] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:42:40,118 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:40] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:40,147 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:40] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:42:42,503 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:42] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:42:42,740 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:42] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:42,741 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:42] "[37mGET /static/react/static/js/main.b3da992c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:42,758 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:42] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:42:42,762 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:42] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:42,797 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:42] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:42:43,539 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:43] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:42:43,757 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:43] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:43,758 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:43] "[37mGET /static/react/static/js/main.b3da992c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:43,778 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:43] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:42:43,781 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:43] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:43,806 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:43] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:42:44,469 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:44] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:42:44,690 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:44] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:44,692 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:44] "[37mGET /static/react/static/js/main.b3da992c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:44,703 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:44] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:44,709 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:44] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:42:44,747 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:44] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:42:45,543 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:45] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:42:45,766 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:45] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:45,767 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:45] "[37mGET /static/react/static/js/main.b3da992c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:45,779 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:45] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:42:45,785 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:45] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:42:45,824 41650 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:42:45] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:44:47,495 41728 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:44:52,415 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:52] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:44:52,490 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:52] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:44:52,494 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:52] "[37mGET /static/react/static/js/main.4a40d880.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:44:52,494 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:52] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:44:52,850 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:52] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 10:44:52,887 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:52] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 10:44:52,905 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:52] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:44:52,915 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:52] "[37mGET /static/react/static/js/main.4a40d880.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:44:52,921 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:52] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:44:52,930 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:52] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:44:53,002 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:53] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:44:53,194 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:53] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:44:55,900 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:55] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:44:56,096 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:56] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:44:56,098 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:56] "[37mGET /static/react/static/js/main.4a40d880.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:44:56,195 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:56] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:44:56,244 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:56] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:44:56,562 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:56] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:44:57,778 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:57] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:44:58,019 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:58] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:44:58,025 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:58] "[37mGET /static/react/static/js/main.4a40d880.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:44:58,042 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:58] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:44:58,047 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:58] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:44:58,077 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:44:58] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:45:03,622 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:03] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:45:03,888 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:03] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:45:03,889 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:03] "[37mGET /static/react/static/js/main.4a40d880.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:45:03,898 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:03] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:45:03,908 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:03] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:45:03,940 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:03] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:45:05,490 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:05] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:45:05,729 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:05] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:45:05,730 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:05] "[37mGET /static/react/static/js/main.4a40d880.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:45:05,743 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:05] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:45:05,756 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:05] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:45:05,865 41728 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:45:05] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:48:57,338 41825 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:49:05,316 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:05] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:49:05,396 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:05] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:49:05,398 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:05] "[37mGET /static/react/static/js/main.8d0f3541.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:49:05,399 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:05] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:49:06,104 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:06] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:06,167 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:06] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 10:49:06,183 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:06] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 10:49:06,198 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:06] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:06,200 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:06] "[37mGET /static/react/static/js/main.8d0f3541.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:06,206 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:06] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:49:06,226 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:06] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:49:06,483 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:06] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:49:07,922 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:07] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:49:08,237 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:08] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:08,238 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:08] "[37mGET /static/react/static/js/main.8d0f3541.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:08,249 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:08] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:49:08,255 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:08] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:08,371 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:08] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:49:13,773 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:13] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:49:13,783 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:13] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 10:49:26,788 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:26] "[37mPOST /auth/api/change_information HTTP/1.1[0m" 200 -
+2021-06-21 10:49:31,418 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:31] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:49:31,427 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:31] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:49:32,777 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:32] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:49:32,844 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:32] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:49:32,846 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:32] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:49:32,849 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:32] "[37mGET /static/react/static/js/main.8d0f3541.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:49:33,127 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:33] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 10:49:33,163 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:33] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 10:49:33,186 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:33] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:33,187 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:33] "[37mGET /static/react/static/js/main.8d0f3541.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:33,196 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:33] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:49:33,200 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:33] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:33,295 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:33] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:49:33,638 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:33] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:49:36,941 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:36] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:49:37,197 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:37] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:37,199 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:37] "[37mGET /static/react/static/js/main.8d0f3541.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:37,209 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:37] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:49:37,221 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:37] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:49:37,323 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:37] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:49:40,726 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:40] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:49:40,802 41825 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:49:40] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:02,096 41916 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 10:52:04,317 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:04,411 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mGET /static/react/static/css/main.dd447975.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 10:52:04,413 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:52:04,415 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 10:52:04,762 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 10:52:04,802 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 10:52:04,827 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:04,829 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:04,843 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:04,849 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:04,956 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:04] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:05,219 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:05] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 10:52:05,714 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:05] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:05,724 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:05] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:07,015 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:07] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:07,218 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:07] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:07,219 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:07] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:07,255 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:07] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:07,291 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:07] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:07,403 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:07] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:08,926 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:08] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:09,160 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:09] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:09,162 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:09] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:09,176 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:09] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:09,182 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:09] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:09,212 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:09] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:10,050 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:10] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:10,274 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:10] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:10,274 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:10] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:10,285 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:10] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:10,293 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:10] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:10,325 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:10] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:11,029 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:11] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:11,247 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:11] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:11,248 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:11] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:11,260 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:11] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:11,273 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:11] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:11,296 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:11] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:11,941 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:11] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:12,160 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:12] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:12,162 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:12] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:12,174 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:12] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:12,182 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:12] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:12,219 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:12] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:12,734 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:12] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:12,954 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:12] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:12,955 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:12] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:12,969 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:12] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:12,976 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:12] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:13,004 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:13] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:13,650 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:13] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:13,868 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:13] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:13,870 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:13] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:13,883 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:13] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:13,890 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:13] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:13,920 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:13] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:14,783 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:14] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:15,009 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:15] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:15,010 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:15] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:15,022 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:15] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:15,029 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:15] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:15,060 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:15] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:15,814 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:15] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:16,037 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:16] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:16,039 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:16] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:16,050 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:16] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:16,058 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:16] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:16,089 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:16] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:17,273 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:17] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:17,427 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:17] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:17,500 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:17] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:17,501 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:17] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:17,509 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:17] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:17,539 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:17] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:18,723 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:18] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:18,879 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:18] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:18,951 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:18] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:18,952 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:18] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:18,961 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:18] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:18,991 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:18] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:19,748 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:19] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:19,894 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:19] "[37mGET /static/react/static/css/main.dd447975.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:19,964 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:19] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:19,965 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:19] "[37mGET /static/react/static/js/main.d71d0e15.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 10:52:19,975 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:19] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:20,008 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:20] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:25,540 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:25] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:25,780 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:25] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:25,848 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:25] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:26,674 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:26] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:26,814 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:26] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:26,844 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:26] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:27,509 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:27] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:27,633 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:27] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:27,664 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:27] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:27,968 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:27] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:28,090 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:28] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:28,121 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:28] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 10:52:28,353 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:28] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 10:52:28,473 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:28] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 10:52:28,501 41916 I 113:_log             127.0.0.1 - - [21/Jun/2021 10:52:28] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 11:03:49,964 42182 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 11:03:50,108 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:03:50] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 11:03:50,178 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:03:50] "[37mGET /static/react/static/css/main.7f21f954.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 11:03:50,179 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:03:50] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 11:03:50,663 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:03:50] "[37mGET /static/react/static/js/main.7a04b888.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 11:03:50,875 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:03:50] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 11:03:50,906 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:03:50] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 11:03:50,925 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:03:50] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 11:03:50,943 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:03:50] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 11:03:51,203 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:03:51] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 11:03:54,963 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:03:54] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 11:04:06,460 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:04:06] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 11:04:06,461 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:04:06] "[37mGET /static/react/static/js/main.7a04b888.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 11:04:06,468 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:04:06] "[37mGET /static/react/static/css/main.7f21f954.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 11:06:49,640 42182 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:06:49] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 11:11:24,481 42915 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 11:11:32,752 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:32] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 11:11:32,830 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:32] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 11:11:32,832 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:32] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 11:11:32,836 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:32] "[37mGET /static/react/static/js/main.7a04b888.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 11:11:33,738 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:33] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 11:11:33,777 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:33] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 11:11:33,800 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:33] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 11:11:33,803 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:33] "[37mGET /static/react/static/js/main.7a04b888.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 11:11:33,810 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:33] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 11:11:33,821 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:33] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 11:11:33,931 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:33] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 11:11:34,129 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:34] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 11:11:36,688 42915 I 113:_log             127.0.0.1 - - [21/Jun/2021 11:11:36] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 14:41:22,242 46191 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 14:41:33,793 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:33] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 14:41:33,894 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:33] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 14:41:33,895 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:33] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 14:41:33,897 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:33] "[37mGET /static/react/static/js/main.2b7f21a8.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,034 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,094 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,095 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,095 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /static/react/static/js/main.2b7f21a8.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,654 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,688 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,711 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,714 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /static/react/static/js/main.2b7f21a8.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,719 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,725 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 14:41:34,826 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:34] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 14:41:35,012 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:35] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 14:41:37,548 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:41:37] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 14:55:38,868 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:55:38] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 14:55:42,005 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:55:42] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 14:55:45,770 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:55:45] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 14:55:55,102 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:55:55] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 14:56:14,457 46191 I 113:_log             127.0.0.1 - - [21/Jun/2021 14:56:14] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 14:57:54,706 48020 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 15:01:08,240 48442 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 15:01:18,987 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:18] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 15:01:19,069 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:19] "[37mGET /static/react/static/js/main.f56db336.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:01:19,069 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:19] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 15:01:19,071 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:19] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:01:20,025 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:20] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 15:01:20,059 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:20] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 15:01:20,082 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:20] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:01:20,084 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:20] "[37mGET /static/react/static/js/main.f56db336.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:01:20,096 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:20] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 15:01:20,102 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:20] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 15:01:20,202 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:20] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 15:01:21,827 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:21] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 15:01:21,840 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:21] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 15:01:25,215 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:25] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 15:01:43,170 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:01:43] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 15:02:10,070 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:02:10] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 15:02:10,228 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:02:10] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 15:02:10,320 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:02:10] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:02:10,321 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:02:10] "[37mGET /static/react/static/js/main.f56db336.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:02:10,335 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:02:10] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 15:02:10,362 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:02:10] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 15:02:10,507 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:02:10] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 15:03:54,486 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:03:54] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 15:04:03,746 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:04:03] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 15:04:11,330 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:04:11] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 15:04:17,469 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:04:17] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 15:04:35,564 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:04:35] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 15:04:44,923 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:04:44] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 15:05:12,590 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:05:12] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 15:06:42,389 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:06:42] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-21 15:06:42,568 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:06:42] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 15:06:42,670 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:06:42] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:06:42,672 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:06:42] "[37mGET /static/react/static/js/main.f56db336.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:06:42,811 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:06:42] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 15:06:48,234 48442 I 102:certification    인증번호 [102753] 발급 완료
+2021-06-21 15:06:48,235 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:06:48] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:07:14,481 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:07:14] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:07:20,654 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:07:20] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 15:07:23,526 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:07:23] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 15:07:23,535 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:07:23] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 15:07:30,155 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:07:30] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 15:07:36,982 48442 I 102:certification    인증번호 [319086] 발급 완료
+2021-06-21 15:07:36,983 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:07:36] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:08:05,155 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:08:05] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:08:14,947 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:08:14] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 15:08:17,958 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:08:17] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 15:09:39,514 48442 I 102:certification    인증번호 [415863] 발급 완료
+2021-06-21 15:09:39,515 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:09:39] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:09:54,627 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:09:54] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:20:54,397 48442 I 102:certification    인증번호 [506918] 발급 완료
+2021-06-21 15:20:54,398 48442 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:20:54] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:21:06,326 50912 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 15:21:17,426 50912 E 1891:log_exception    Exception on /auth/api/join/certification [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 101, in certification
+    phone_number = request.get_json()['userId']['UserId']
+KeyError: 'userId'
+2021-06-21 15:21:17,430 50912 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:17] "[35m[1mPOST /auth/api/join/certification HTTP/1.1[0m" 500 -
+2021-06-21 15:21:29,637 50981 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 15:21:29,885 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:29] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-21 15:21:29,971 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:29] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:21:29,973 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:29] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 15:21:29,974 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:29] "[37mGET /static/react/static/js/main.f56db336.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:21:30,910 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:30] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 15:21:30,935 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:30] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 15:21:30,970 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:30] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:21:30,972 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:30] "[37mGET /static/react/static/js/main.f56db336.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:21:30,973 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:30] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 15:21:31,391 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:31] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 15:21:34,863 50981 E 1891:log_exception    Exception on /auth/api/join/certification [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 101, in certification
+    phone_number = request.get_json()['userId']['UserId']
+KeyError: 'userId'
+2021-06-21 15:21:34,865 50981 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:21:34] "[35m[1mPOST /auth/api/join/certification HTTP/1.1[0m" 500 -
+2021-06-21 15:22:07,097 51061 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 15:22:22,683 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:22] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-21 15:22:22,757 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:22] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:22:22,759 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:22] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 15:22:22,761 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:22] "[37mGET /static/react/static/js/main.f56db336.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:22:23,053 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:23] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 15:22:23,093 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:23] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 15:22:23,120 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:23] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:22:23,121 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:23] "[37mGET /static/react/static/js/main.f56db336.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:22:23,127 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:23] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 15:22:23,405 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:23] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 15:22:27,974 51061 I 106:certification    인증번호 [452619] 발급 완료
+2021-06-21 15:22:27,975 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:27] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:22:40,782 51061 E 1891:log_exception    Exception on /auth/api/join [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 86, in join
+    cursor.execute('insert into auth (phone, name, password) values(%s, %s, %s)', [phone, name, password])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/cursors.py", line 163, in execute
+    result = self._query(query)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/connections.py", line 724, in _read_query_result
+    result.read()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '01039345623' for key 'auth.phone_UNIQUE'")
+2021-06-21 15:22:40,789 51061 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:22:40] "[35m[1mPOST /auth/api/join HTTP/1.1[0m" 500 -
+2021-06-21 15:24:03,836 51317 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 15:24:10,772 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:10] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-21 15:24:10,914 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:10] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 15:24:10,915 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:10] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:24:10,916 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:10] "[37mGET /static/react/static/js/main.f56db336.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:24:11,356 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:11] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 15:24:11,392 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:11] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 15:24:11,417 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:11] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:24:11,419 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:11] "[37mGET /static/react/static/js/main.f56db336.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:24:11,428 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:11] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 15:24:11,655 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:11] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 15:24:16,141 51317 I 106:certification    인증번호 [096324] 발급 완료
+2021-06-21 15:24:16,142 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:16] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:24:31,819 51317 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:24:31] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:26:53,031 51672 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 15:26:54,622 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:26:54] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-06-21 15:26:54,792 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:26:54] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 15:26:54,792 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:26:54] "[37mGET /static/react/static/js/main.f56db336.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:26:54,793 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:26:54] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:26:55,260 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:26:55] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 15:26:55,297 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:26:55] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 15:26:55,323 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:26:55] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:26:55,324 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:26:55] "[37mGET /static/react/static/js/main.f56db336.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:26:55,335 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:26:55] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 15:26:55,604 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:26:55] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 15:32:01,989 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:32:01] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-21 15:32:02,064 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:32:02] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:32:02,065 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:32:02] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 15:32:02,066 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:32:02] "[37mGET /static/react/static/js/main.f56db336.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:32:03,069 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:32:03] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 15:32:03,105 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:32:03] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 15:32:03,166 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:32:03] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:32:03,168 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:32:03] "[37mGET /static/react/static/js/main.f56db336.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:32:03,170 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:32:03] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 15:32:03,420 51672 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:32:03] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 15:33:21,305 52481 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 15:34:24,505 52481 I 106:certification    인증번호 [175904] 발급 완료
+2021-06-21 15:34:24,506 52481 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:34:24] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:34:47,810 52481 I 106:certification    인증번호 [142039] 발급 완료
+2021-06-21 15:34:47,811 52481 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:34:47] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:34:59,141 52481 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:34:59] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:35:11,164 52481 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:35:11] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 15:35:13,902 52481 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:35:13] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 15:35:38,864 52481 I 106:certification    인증번호 [960458] 발급 완료
+2021-06-21 15:35:38,864 52481 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:35:38] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:35:55,436 52481 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:35:55] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:36:51,098 52481 I 106:certification    인증번호 [685109] 발급 완료
+2021-06-21 15:36:51,099 52481 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:36:51] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:37:06,796 52481 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:37:06] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:38:19,083 53118 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 15:38:19,583 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:19] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-21 15:38:19,671 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:19] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 15:38:19,671 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:19] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:38:19,673 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:19] "[37mGET /static/react/static/js/main.f56db336.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:38:20,609 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:20] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 15:38:20,644 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:20] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 15:38:20,678 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:20] "[37mGET /static/react/static/js/main.f56db336.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:38:20,679 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:20] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:38:20,686 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:20] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 15:38:20,963 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:20] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 15:38:30,452 53118 I 106:certification    인증번호 [493850] 발급 완료
+2021-06-21 15:38:30,453 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:38:30] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:39:03,431 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:39:03] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:39:21,464 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:39:21] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:39:39,402 53118 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:39:39] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:44:49,728 53933 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 15:44:52,060 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:44:52] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-06-21 15:44:52,136 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:44:52] "[37mGET /static/react/static/js/main.f56db336.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:44:52,139 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:44:52] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 15:44:52,140 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:44:52] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 15:44:52,919 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:44:52] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 15:44:52,990 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:44:52] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 15:44:53,002 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:44:53] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 15:44:53,020 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:44:53] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:44:53,022 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:44:53] "[37mGET /static/react/static/js/main.f56db336.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 15:44:53,298 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:44:53] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 15:45:24,977 53933 I 106:certification    인증번호 [637498] 발급 완료
+2021-06-21 15:45:24,978 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:45:24] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:45:54,979 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:45:54] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:46:09,993 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:46:09] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:46:26,230 53933 I 106:certification    인증번호 [601475] 발급 완료
+2021-06-21 15:46:26,231 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:46:26] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:46:36,262 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:46:36] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:46:51,696 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:46:51] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:47:00,894 53933 I 106:certification    인증번호 [462815] 발급 완료
+2021-06-21 15:47:00,894 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:47:00] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 15:47:18,442 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:47:18] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 15:47:32,884 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:47:32] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 15:47:50,450 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:47:50] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 15:48:19,821 53933 I 113:_log             127.0.0.1 - - [21/Jun/2021 15:48:19] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 16:14:18,640 57692 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 16:14:30,449 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:30] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 16:14:30,529 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:30] "[37mGET /static/react/static/js/main.541731c7.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 16:14:30,530 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:30] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 16:14:30,532 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:30] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 16:14:31,482 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:31] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 16:14:31,522 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:31] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 16:14:31,540 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:31] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 16:14:31,543 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:31] "[37mGET /static/react/static/js/main.541731c7.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 16:14:31,549 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:31] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 16:14:32,502 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:32] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 16:14:36,595 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:14:36] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 16:15:18,926 57692 I 107:certification    인증번호 [740359] 발급 완료
+2021-06-21 16:15:18,927 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:15:18] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 16:15:59,796 57692 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:15:59] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 16:17:24,037 58126 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 16:17:24,497 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:17:24] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-21 16:17:24,596 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:17:24] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 16:17:24,597 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:17:24] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 16:17:24,746 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:17:24] "[37mGET /static/react/static/js/main.db554488.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 16:17:25,310 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:17:25] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 16:17:25,346 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:17:25] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 16:17:25,369 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:17:25] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 16:17:25,371 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:17:25] "[37mGET /static/react/static/js/main.db554488.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 16:17:25,379 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:17:25] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 16:17:25,645 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:17:25] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 16:20:55,363 58126 I 107:certification    인증번호 [148506] 발급 완료
+2021-06-21 16:20:55,364 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:20:55] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 16:21:57,022 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:21:57] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 16:22:05,047 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:22:05] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 16:22:23,596 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:22:23] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 16:22:34,300 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:22:34] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 16:22:41,201 58126 I 107:certification    인증번호 [326819] 발급 완료
+2021-06-21 16:22:41,202 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:22:41] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 16:22:50,379 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:22:50] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 16:29:12,415 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:29:12] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 16:29:15,467 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:29:15] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 16:29:25,242 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:29:25] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 16:29:27,957 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:29:27] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 16:29:43,054 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:29:43] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 16:29:48,802 58126 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:29:48] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 16:56:56,561 63233 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 16:57:04,437 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:57:04] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-21 16:57:04,547 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:57:04] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 16:57:04,548 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:57:04] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 16:57:04,550 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:57:04] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 16:57:05,464 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:57:05] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 16:57:05,503 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:57:05] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 16:57:05,528 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:57:05] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 16:57:05,530 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:57:05] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 16:57:05,539 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:57:05] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 16:57:05,816 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:57:05] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 16:58:00,524 63233 I 124:certification    인증번호 [950836] 발급 완료
+2021-06-21 16:58:00,524 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:58:00] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 16:58:53,811 63233 E 1891:log_exception    Exception on /auth/api/join [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 89, in join
+    cursor.execute('UPDATE auth SET name = %s, password = %s, grade = %s, state = %s where id = %s', [name, password, 'guest', 'J'])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/cursors.py", line 161, in execute
+    query = self.mogrify(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/cursors.py", line 140, in mogrify
+    query = query % self._escape_args(args, conn)
+TypeError: not enough arguments for format string
+2021-06-21 16:58:53,816 63233 I 113:_log             127.0.0.1 - - [21/Jun/2021 16:58:53] "[35m[1mPOST /auth/api/join HTTP/1.1[0m" 500 -
+2021-06-21 17:00:31,809 63698 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:00:31,961 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:31] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-21 17:00:32,046 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:32] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:00:32,048 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:32] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:00:32,050 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:32] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:00:32,929 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:32] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:00:32,965 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:32] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:00:32,989 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:32] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:00:32,992 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:32] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:00:33,001 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:33] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:00:33,274 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:33] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:00:57,819 63698 I 124:certification    인증번호 [592784] 발급 완료
+2021-06-21 17:00:57,819 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:00:57] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 17:01:04,419 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:01:04] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 17:01:11,642 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:01:11] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 17:01:13,017 63698 I 124:certification    인증번호 [871094] 발급 완료
+2021-06-21 17:01:13,018 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:01:13] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 17:01:21,319 63698 E 1891:log_exception    Exception on /auth/api/join [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rhesus2016/Documents/github/react_example/flask-server/views/auth.py", line 89, in join
+    cursor.execute('UPDATE auth SET name = %s, password = %s, grade = "guest", state = "J" where id = %s', [name, password])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/cursors.py", line 161, in execute
+    query = self.mogrify(query, args)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/pymysql/cursors.py", line 140, in mogrify
+    query = query % self._escape_args(args, conn)
+TypeError: not enough arguments for format string
+2021-06-21 17:01:21,321 63698 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:01:21] "[35m[1mPOST /auth/api/join HTTP/1.1[0m" 500 -
+2021-06-21 17:02:08,070 63895 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:02:22,441 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:22] "[37mGET /Join HTTP/1.1[0m" 200 -
+2021-06-21 17:02:22,662 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:22] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:02:22,664 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:22] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:02:22,666 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:22] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:02:23,503 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:23] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:02:23,536 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:23] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:02:23,557 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:23] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:02:23,560 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:23] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:02:23,571 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:23] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:02:23,834 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:23] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:02:38,217 63895 I 124:certification    인증번호 [538742] 발급 완료
+2021-06-21 17:02:38,218 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:02:38] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 17:03:29,461 63895 I 124:certification    인증번호 [109634] 발급 완료
+2021-06-21 17:03:29,462 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:03:29] "[37mPOST /auth/api/join/certification HTTP/1.1[0m" 200 -
+2021-06-21 17:03:36,183 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:03:36] "[37mPOST /auth/api/join HTTP/1.1[0m" 200 -
+2021-06-21 17:03:54,889 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:03:54] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:04:18,061 63895 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:04:18] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:09:23,050 64827 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:09:24,198 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:24] "[37mGET /login HTTP/1.1[0m" 200 -
+2021-06-21 17:09:24,282 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:24] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:09:24,285 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:24] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:09:24,286 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:24] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:09:25,186 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:25] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:09:25,220 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:25] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:09:25,244 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:25] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:09:25,245 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:25] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:09:25,255 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:25] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:09:25,565 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:25] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:09:27,477 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 17:09:27,558 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:27] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:09:27,560 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:27] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:09:27,562 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:27] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:09:27,845 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:27] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:09:27,877 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:27] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:09:27,892 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:27] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:09:27,894 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:27] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:09:27,903 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:27] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:09:28,452 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:28] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:09:30,656 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:30] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:09:38,561 64827 I  14:login            !
+2021-06-21 17:09:38,562 64827 I  24:login            !
+2021-06-21 17:09:38,793 64827 I  30:login            !
+2021-06-21 17:09:38,793 64827 I  49:login            !
+2021-06-21 17:09:38,794 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:38] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:09:42,730 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:42] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-21 17:09:42,905 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:42] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:09:42,978 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:42] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:09:42,979 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:42] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:09:43,224 64827 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:09:43] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:13:00,753 65359 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:13:01,815 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:01] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 17:13:01,892 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:01] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:13:01,894 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:01] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:13:02,067 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:02] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:13:02,582 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:02] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:13:02,616 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:02] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:13:02,632 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:02] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:13:02,633 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:02] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:13:02,645 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:02] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:13:03,162 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:03] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:13:04,674 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:04] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:13:12,564 65359 I  28:login            J
+2021-06-21 17:13:12,565 65359 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:13:12] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:14:58,330 65602 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:14:58,595 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:14:58] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-21 17:14:58,669 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:14:58] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:14:58,671 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:14:58] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:14:58,841 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:14:58] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:14:59,386 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:14:59] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:14:59,420 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:14:59] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:14:59,440 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:14:59] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:14:59,442 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:14:59] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:14:59,451 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:14:59] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:14:59,788 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:14:59] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:15:11,107 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:15:11] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 17:15:11,118 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:15:11] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 17:15:15,709 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:15:15] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 17:15:15,718 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:15:15] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 17:15:17,228 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:15:17] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:15:28,188 65602 I  40:login            J
+2021-06-21 17:15:28,189 65602 I  51:login            <Response 84 bytes [200 OK]>
+2021-06-21 17:15:28,189 65602 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:15:28] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:20:39,643 66362 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:20:39,679 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:39] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-21 17:20:39,768 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:39] "[37mGET /static/react/static/js/main.e1394886.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:20:39,771 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:39] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:20:39,771 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:39] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:20:40,671 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:40] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:20:40,703 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:40] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:20:40,725 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:40] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:20:40,726 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:40] "[37mGET /static/react/static/js/main.e1394886.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:20:40,734 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:40] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:20:41,069 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:41] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:20:44,418 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:44] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:20:51,553 66362 I  48:login            <Response 84 bytes [200 OK]>
+2021-06-21 17:20:51,554 66362 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:20:51] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:22:30,681 66628 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:22:44,111 66664 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:22:44,439 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:44] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 17:22:44,512 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:44] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:22:44,513 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:44] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:22:44,687 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:44] "[37mGET /static/react/static/js/main.df0a9fa8.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:22:45,328 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:45] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:22:45,363 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:45] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:22:45,379 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:45] "[37mGET /static/react/static/js/main.df0a9fa8.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:22:45,380 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:45] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:22:45,392 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:45] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:22:45,935 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:45] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:22:49,186 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:22:49] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:25:16,419 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:16] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-21 17:25:16,484 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:16] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:25:16,485 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:16] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:25:16,487 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:16] "[37mGET /static/react/static/js/main.df0a9fa8.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:25:17,473 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:17] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:25:17,506 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:17] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:25:17,528 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:17] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:25:17,529 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:17] "[37mGET /static/react/static/js/main.df0a9fa8.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:25:17,538 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:17] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:25:17,818 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:17] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:25:55,879 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:25:55] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:27:02,586 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:02] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:27:28,289 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:28] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-21 17:27:28,352 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:28] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:27:28,354 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:28] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:27:28,356 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:28] "[37mGET /static/react/static/js/main.df0a9fa8.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:27:29,051 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:29] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:27:29,084 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:29] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:27:29,107 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:29] "[37mGET /static/react/static/js/2.0d53a7ce.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:27:29,108 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:29] "[37mGET /static/react/static/js/main.df0a9fa8.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:27:29,120 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:29] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:27:29,388 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:27:29] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:28:06,028 66664 I  48:login            <Response 83 bytes [200 OK]>
+2021-06-21 17:28:06,029 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:28:06] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:28:12,168 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:28:12] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:28:21,542 66664 I  48:login            <Response 84 bytes [200 OK]>
+2021-06-21 17:28:21,543 66664 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:28:21] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:31:47,838 67867 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:31:49,735 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:49] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 17:31:49,822 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:49] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:31:49,825 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:49] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:31:49,829 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:49] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:31:50,687 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:50] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:31:50,751 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:50] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:31:50,762 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:50] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:31:50,776 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:50] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:31:50,778 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:50] "[37mGET /static/react/static/js/main.c5eb4b73.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:31:51,366 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:51] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:31:54,835 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:31:54] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:32:01,668 67867 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:32:01] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:32:58,440 68050 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:32:59,765 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:32:59] "[37mGET /Login HTTP/1.1[0m" 200 -
+2021-06-21 17:32:59,833 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:32:59] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:32:59,841 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:32:59] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:33:00,016 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:00] "[37mGET /static/react/static/js/main.a18f8d05.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:33:00,176 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:00] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:33:00,208 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:00] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:33:00,230 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:00] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:33:00,232 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:00] "[37mGET /static/react/static/js/main.a18f8d05.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:33:00,242 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:00] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:33:00,559 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:00] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:33:02,807 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:02] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 17:33:02,817 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:02] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 17:33:04,436 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:04] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:33:11,316 68050 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:33:11] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:40:09,447 69281 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:41:47,867 69529 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:41:58,308 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:41:58] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:41:59,645 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:41:59] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 17:41:59,771 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:41:59] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:41:59,774 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:41:59] "[37mGET /static/react/static/js/main.aca06e99.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:41:59,776 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:41:59] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:42:00,608 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:42:00] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:42:00,638 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:42:00] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:42:00,657 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:42:00] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:42:00,658 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:42:00] "[37mGET /static/react/static/js/main.aca06e99.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:42:00,664 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:42:00] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:42:01,202 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:42:01] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:42:07,515 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:42:07] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:52:00,415 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:00] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 17:52:00,484 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:00] "[33mGET /static/react/static/js/main.aca06e99.chunk.js HTTP/1.1[0m" 404 -
+2021-06-21 17:52:00,486 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:00] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:52:00,489 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:00] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:52:01,479 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:01] "[33mGET /static/react/static/js/main.aca06e99.chunk.js HTTP/1.1[0m" 404 -
+2021-06-21 17:52:01,482 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:01] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:52:01,528 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:01] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:52:01,590 69529 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:01] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:52:12,086 70883 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:52:21,810 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:21] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 17:52:21,890 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:21] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:52:21,893 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:21] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:52:21,893 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:21] "[37mGET /static/react/static/js/main.d7ba142a.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:52:22,233 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:22] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:52:22,268 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:22] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:52:22,285 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:22] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:52:22,288 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:22] "[37mGET /static/react/static/js/main.d7ba142a.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:52:22,299 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:22] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:52:22,831 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:22] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:52:25,478 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:25] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:52:32,960 70883 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:52:32] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:53:31,341 71096 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 17:53:31,415 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:31] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 17:53:31,498 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:31] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:53:31,500 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:31] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:53:31,504 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:31] "[37mGET /static/react/static/js/main.5623fd08.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:53:31,918 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:31] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:53:31,951 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:31] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:53:31,967 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:31] "[37mGET /static/react/static/js/main.5623fd08.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:53:31,969 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:31] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:53:31,978 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:31] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:53:32,936 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:32] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 17:53:34,340 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:34] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 17:53:43,224 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:53:43] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 17:55:20,943 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:55:20] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 17:55:20,965 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:55:20] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 17:56:38,840 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:38] "[37mPOST /auth/api/change_information HTTP/1.1[0m" 200 -
+2021-06-21 17:56:41,146 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:41] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 17:56:41,156 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:41] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 17:56:51,187 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:51] "[37mPOST /auth/api/change_information HTTP/1.1[0m" 200 -
+2021-06-21 17:56:53,412 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:53] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 17:56:53,481 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:53] "[37mGET /static/react/static/js/2.d985089c.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:56:53,484 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:53] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 17:56:53,486 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:53] "[37mGET /static/react/static/js/main.5623fd08.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 17:56:54,328 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:54] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 17:56:54,612 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:54] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 17:56:54,627 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:54] "[37mGET /static/react/static/js/2.d985089c.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:56:54,629 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:54] "[37mGET /static/react/static/js/main.5623fd08.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 17:56:54,639 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:54] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 17:56:55,460 71096 I 113:_log             127.0.0.1 - - [21/Jun/2021 17:56:55] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 18:28:21,334 75712 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 18:28:50,670 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:50] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 18:28:50,746 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:50] "[37mGET /static/react/static/js/main.e97d4fa0.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:28:50,746 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:50] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:28:50,747 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:50] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 18:28:51,675 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:51] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 18:28:51,709 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:51] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 18:28:51,721 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:51] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:28:51,721 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:51] "[37mGET /static/react/static/js/main.e97d4fa0.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:28:51,734 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:51] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 18:28:52,303 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:52] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 18:28:53,310 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:28:53] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:29:00,967 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:00] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 18:29:04,017 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:04] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:29:04,026 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:04] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 18:29:09,565 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:09] "[37mPOST /auth/api/change_information HTTP/1.1[0m" 200 -
+2021-06-21 18:29:26,082 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:26] "[37mPOST /auth/api/change_information HTTP/1.1[0m" 200 -
+2021-06-21 18:29:31,747 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:31] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-21 18:29:31,814 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:31] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:29:31,819 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:31] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 18:29:31,821 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:31] "[37mGET /static/react/static/js/main.e97d4fa0.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:29:32,557 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:32] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 18:29:32,590 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:32] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 18:29:32,611 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:32] "[37mGET /static/react/static/js/main.e97d4fa0.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:29:32,612 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:32] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:29:32,620 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:32] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:29:32,625 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:32] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 18:29:32,722 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:32] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 18:29:32,892 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:29:32] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 18:30:16,830 75712 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:30:16] "[37mPOST /auth/api/change_information HTTP/1.1[0m" 200 -
+2021-06-21 18:38:17,399 77127 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 18:38:23,302 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:23] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-21 18:38:23,385 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:23] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:38:23,386 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:23] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 18:38:23,388 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:23] "[37mGET /static/react/static/js/main.e97d4fa0.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:38:24,341 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:24] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 18:38:24,375 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:24] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 18:38:24,397 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:24] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:38:24,398 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:24] "[37mGET /static/react/static/js/main.e97d4fa0.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:38:24,406 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:24] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:38:24,413 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:24] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 18:38:24,525 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:24] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 18:38:24,702 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:24] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 18:38:35,658 77127 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:38:35] "[37mPOST /auth/api/change_information HTTP/1.1[0m" 200 -
+2021-06-21 18:40:14,025 77416 I 113:_log              * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-21 18:40:20,346 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mGET /Information HTTP/1.1[0m" 200 -
+2021-06-21 18:40:20,421 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 18:40:20,422 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:40:20,425 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mGET /static/react/static/js/main.70483363.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:40:20,734 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 18:40:20,768 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 18:40:20,789 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:40:20,791 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mGET /static/react/static/js/main.70483363.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:40:20,800 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:40:20,804 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 18:40:20,914 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:20] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 18:40:21,084 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:21] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 18:40:30,862 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:30] "[37mPOST /auth/api/change_information HTTP/1.1[0m" 200 -
+2021-06-21 18:40:42,926 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:42] "[37mPOST /auth/api/change_information HTTP/1.1[0m" 200 -
+2021-06-21 18:40:45,404 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:45] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:40:45,414 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:45] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 18:40:50,572 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:50] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 18:40:59,525 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:40:59] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 18:41:02,836 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:02] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:41:02,845 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:02] "[37mPOST /auth/api/get_information HTTP/1.1[0m" 200 -
+2021-06-21 18:41:04,752 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:04] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 18:41:13,774 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:13] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 18:41:26,585 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:26] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 18:41:39,101 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:39] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 18:41:41,756 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:41] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:41:41,765 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:41] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 18:41:58,113 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:58] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 18:41:58,180 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:58] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 18:41:58,185 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:58] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:41:58,188 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:58] "[37mGET /static/react/static/js/main.70483363.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:41:58,488 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:58] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 18:41:58,518 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:58] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 18:41:58,535 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:58] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:41:58,537 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:58] "[37mGET /static/react/static/js/main.70483363.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:41:58,544 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:58] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 18:41:59,302 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:41:59] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 18:42:01,747 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:42:01] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 18:42:18,501 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:42:18] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 18:42:19,724 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:42:19] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:42:19,734 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:42:19] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 18:42:25,740 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:42:25] "[37mPOST /auth/api/change_member_information HTTP/1.1[0m" 200 -
+2021-06-21 18:42:31,434 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:42:31] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 18:42:42,769 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:42:42] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 18:43:01,812 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:01] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 18:43:05,790 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:05] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:43:05,800 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:05] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 18:43:15,889 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:15] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:43:15,898 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:15] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 18:43:17,603 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:17] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 18:43:17,679 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:17] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 18:43:17,681 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:17] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:43:17,684 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:17] "[37mGET /static/react/static/js/main.70483363.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:43:18,068 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:18] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 18:43:18,122 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:18] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 18:43:18,135 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:18] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 18:43:18,153 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:18] "[37mGET /static/react/static/js/main.70483363.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:43:18,153 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:18] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:43:18,767 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:18] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 18:43:18,982 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:18] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:43:18,992 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:18] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 18:43:33,349 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:33] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-21 18:43:33,409 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:33] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css HTTP/1.1[0m" 200 -
+2021-06-21 18:43:33,411 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:33] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:43:33,412 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:33] "[37mGET /static/react/static/js/main.70483363.chunk.js HTTP/1.1[0m" 200 -
+2021-06-21 18:43:33,719 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:33] "[37mGET /static/react/static/media/logo.4ade5cac.png HTTP/1.1[0m" 200 -
+2021-06-21 18:43:33,752 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:33] "[37mGET /static/react/static/media/background.77ce1a4d.jpg HTTP/1.1[0m" 200 -
+2021-06-21 18:43:33,774 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:33] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:43:33,774 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:33] "[37mGET /static/react/static/js/main.70483363.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:43:33,783 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:33] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 18:43:34,535 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:34] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -
+2021-06-21 18:43:35,026 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:35] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:43:35,036 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:35] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 18:43:39,149 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:39] "[37mPOST /auth/api/logout HTTP/1.1[0m" 200 -
+2021-06-21 18:43:47,576 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:47] "[37mPOST /auth/api/login HTTP/1.1[0m" 200 -
+2021-06-21 18:43:49,232 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:49] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:43:49,241 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:43:49] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 18:44:22,675 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:44:22] "[37mGET /MemberManagement HTTP/1.1[0m" 200 -
+2021-06-21 18:44:22,837 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:44:22] "[37mGET /static/react/static/css/main.3f39d67c.chunk.css.map HTTP/1.1[0m" 200 -
+2021-06-21 18:44:22,929 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:44:22] "[37mGET /static/react/static/js/2.80f12fc5.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:44:22,930 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:44:22] "[37mGET /static/react/static/js/main.70483363.chunk.js.map HTTP/1.1[0m" 200 -
+2021-06-21 18:44:22,940 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:44:22] "[37mGET /auth/api/session_check HTTP/1.1[0m" 200 -
+2021-06-21 18:44:22,974 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:44:22] "[37mGET /auth/api/get_all_information HTTP/1.1[0m" 200 -
+2021-06-21 18:44:23,096 77416 I 113:_log             127.0.0.1 - - [21/Jun/2021 18:44:23] "[37mGET /static/react/favicon.png HTTP/1.1[0m" 200 -

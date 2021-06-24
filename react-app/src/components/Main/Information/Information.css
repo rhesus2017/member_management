@@ -13,7 +13,7 @@
 .information_wrap > form > div > div > p > span:nth-child(1){ font-size: 1.4rem; color: #fff; line-height: 41px;}
 .information_wrap > form > div > div > p > span:nth-child(2){color: #e64135; font-size: 1.4rem; display: inline-block; transform: translate(2px, 2px); line-height: 41px;}
 .information_wrap > form > div > div > input{max-width: 263px; width: calc(100% - 101px); height: 33px; padding-left: 10px; font-size: 1.333rem; color: #fff; margin: 4px 0; border: 1px solid #fff; background: transparent;}
-.information_wrap > form > div:nth-of-type(1) > div:nth-of-type(1) > input{color: #000; cursor: default; background: #aaa;}
+.information_wrap > form > div:nth-of-type(1) > div:nth-of-type(1) > input{cursor: default;}
 .information_wrap > form > p{margin-top: 40px; text-align: center; margin-bottom: 0;}
 .information_wrap > form > p > a{width: 140px; height: 39px; display: inline-block; color: #fff; font-size: 1.5rem; line-height: 39px; border: 1px solid #fff;}
 .information_wrap > form > p > span{width: 140px; height: 39px; display: inline-block; color: #fff; font-size: 1.5rem; cursor: pointer; background: none; line-height: 39px; margin-right: 12px; border: 1px solid #fff; box-shadow: none;}

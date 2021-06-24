@@ -26,12 +26,19 @@ app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 app.debug = True
 
-socketio_server = SocketIO()
-socketio_server.init_app(app, cors_allowed_origins="*")
+socketio = SocketIO()
+socketio.init_app(app, cors_allowed_origins="*")
 
-@socketio_server.on('first')
-def first(data):
-    socketio_server.emit('second', {'message': 'Go To Client : connecting to socket'})
+
+@socketio.on('sendMessage')
+def sendMessage(data):
+    socketio.emit('receiveMessage', data)
+
+
+@socketio.on('confirmResult')
+def confirmResult(data):
+    socketio.emit('confirmResult', data)
+
 
 if __name__ == '__main__':
-    socketio_server.run(app, host='0.0.0.0', port=5050)
+    socketio.run(app, host='0.0.0.0', port=5050)

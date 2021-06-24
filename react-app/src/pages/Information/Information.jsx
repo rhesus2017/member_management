@@ -9,6 +9,7 @@ import Footer from '../../components/Footer/Footer';
 // css
 import './Information.css';
 
+
 const Information = ({ title, name, link }) => {
 
   return(
@@ -20,5 +21,6 @@ const Information = ({ title, name, link }) => {
   )
 
 }
+
 
 export default Information;

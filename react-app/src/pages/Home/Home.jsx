@@ -9,6 +9,7 @@ import Footer from '../../components/Footer/Footer';
 // css
 import './Home.css';
 
+
 const Home = ({ title, name, link }) => {
 
   return(
@@ -20,5 +21,6 @@ const Home = ({ title, name, link }) => {
   )
 
 }
+
 
 export default Home;

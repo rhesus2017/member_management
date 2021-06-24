@@ -9,6 +9,7 @@ import Footer from '../../components/Footer/Footer';
 // css
 import './MemberManagement.css';
 
+
 const MemberManagement = ({ title, name, link }) => {
 
   return(
@@ -20,5 +21,6 @@ const MemberManagement = ({ title, name, link }) => {
   )
 
 }
+
 
 export default MemberManagement;

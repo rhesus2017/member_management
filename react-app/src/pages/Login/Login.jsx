@@ -9,6 +9,7 @@ import Footer from '../../components/Footer/Footer';
 // css
 import './Login.css';
 
+
 const Login = ({ title, name, link }) => {
 
   return(
@@ -20,5 +21,6 @@ const Login = ({ title, name, link }) => {
   )
 
 }
+
 
 export default Login;

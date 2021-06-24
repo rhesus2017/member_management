@@ -2,11 +2,12 @@
 import React from 'react';
 import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link, useHistory } from "react-router-dom";
+import { Link, useHistory } from 'react-router-dom';
 import { MenuOpenClose } from '../../../action';
+import { UserIdSetting } from '../../../action';
 
 // hoc
-import useLocalStorage from "../../../hoc/useLocalStorage";
+import useLocalStorage from '../../../hoc/useLocalStorage';
 
 // img
 import logo from './img/logo.png';
@@ -14,18 +15,23 @@ import logo from './img/logo.png';
 // css
 import './TopNav.css';
 
+
 const TopNav = () => {
 
   const mySwal = require('sweetalert2');
   const history = useHistory();
   const dispatch = useDispatch();
-  // const UserNameSetting = useSelector(state => state.UserNameSetting);
-  const [UserId, setUserId] = useLocalStorage("userId", 0);
-  const [UserName, setUserName] = useLocalStorage("userName", ""); // eslint-disable-line no-unused-vars
-  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", ""); // eslint-disable-line no-unused-vars
+  const UserNameSetting = useSelector(state => state.UserNameSetting);
+  
+  const [UserId, setUserId] = useLocalStorage('userId', 0);
+  const [UserName, setUserName] = useLocalStorage('userName', ''); // eslint-disable-line no-unused-vars
+  const [UserGrade, setUserGrade] = useLocalStorage('userGrade', ''); // eslint-disable-line no-unused-vars
 
   const menuOpenClose = () => {
     dispatch(MenuOpenClose());
+  }
+  const userIdSetting = () => {
+    dispatch(UserIdSetting());
   }
   
   const logOut = (event) => {
@@ -38,8 +44,9 @@ const TopNav = () => {
           if ( response['data']['result'] === '000000' ) {
             mySwal.fire({icon: 'success', title: '성공', text: '로그아웃이 완료되었습니다'}).then((result) => {
               setUserId(0);
-              setUserName("");
-              setUserGrade("");
+              setUserName('');
+              setUserGrade('');
+              userIdSetting();
               history.push('/');
             });
           }
@@ -51,9 +58,9 @@ const TopNav = () => {
   }
 
   return(
-    <div className="top_nav">
+    <div className='top_nav'>
 
-      <div className="left">
+      <div className='left'>
 
         <button onClick={menuOpenClose}>
           <span></span>
@@ -61,20 +68,21 @@ const TopNav = () => {
           <span></span>
         </button>
 
-        <Link to="/">
-          <img src={logo} alt="react" />
+        <Link to='/'>
+          <img src={logo} alt='react' />
         </Link>
 
       </div>
       
         {
-          UserId !== 0 ? <div className="right"><Link to="/Information">{UserName}</Link><span></span><span onClick={logOut}>Logout</span></div>
-          : <div className="right"><Link to="/Login">Login</Link><span></span><Link to="/Join">Join</Link></div>
+          UserId !== 0 ? <div className='right'><Link to='/Information'>{UserNameSetting.name}</Link><span></span><span onClick={logOut}>Logout</span></div>
+          : <div className='right'><Link to='/Login'>Login</Link><span></span><Link to='/Join'>Join</Link></div>
         }
         
     </div>
   )
 
 }
+
 
 export default TopNav;

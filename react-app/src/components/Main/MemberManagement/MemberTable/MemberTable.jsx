@@ -1,24 +1,35 @@
 // react
 import React, { useState } from 'react'
 import axios from 'axios';
-// import { useDispatch } from 'react-redux';
+import { useHistory } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { UserNameSetting } from '../../../../action';
+import socketio from 'socket.io-client';
 
 // hoc
-import useLocalStorage from "../../../../hoc/useLocalStorage";
+import useLocalStorage from '../../../../hoc/useLocalStorage';
+
 
 const MemberTable = ({ Member }) => { 
 
-  const grades = ['master', 'admin', 'guest']
+  const grades = ['admin', 'guest']
+  const states = ['J', 'O', 'S']
   const mySwal = require('sweetalert2');
-  // const dispatch = useDispatch();
+  const socket = socketio.connect('http://192.168.0.22:5050/');
+  const dispatch = useDispatch();
+  const history = useHistory();
   const MemberId = Member['id'];
+
   const [Name, setName] = useState(Member['name']);
-  const [Password, setPassword] = useState("");
-  const [PasswordConfirm, setPasswordConfirm] = useState("");
+  const [Password, setPassword] = useState('');
+  const [PasswordConfirm, setPasswordConfirm] = useState('');
   const [Grade, setGrade] = useState(Member['grade']);
-  const [UserId, setUserId] = useLocalStorage("userId", 0); // eslint-disable-line no-unused-vars
-  const [UserName, setUserName] = useLocalStorage("userName", ""); // eslint-disable-line no-unused-vars
-  const [UserGrade, setUserGrade] = useLocalStorage("userGrade", "");
+  const [State, setState] = useState(Member['state']);
+
+  const [UserId, setUserId] = useLocalStorage('userId', 0); // eslint-disable-line no-unused-vars
+  const [UserName, setUserName] = useLocalStorage('userName', ''); // eslint-disable-line no-unused-vars
+  const [UserGrade, setUserGrade] = useLocalStorage('userGrade', ''); // eslint-disable-line no-unused-vars
+
 
   const onNameHandler = (event) => {
     setName(event.currentTarget.value);
@@ -32,10 +43,13 @@ const MemberTable = ({ Member }) => {
   const onGradeHandler = (event) => {
     setGrade(event.currentTarget.value);
   }
+  const onStateHandler = (event) => {
+    setState(event.currentTarget.value);
+  }
 
-  // const UserNameSetting = () => {
-  //   dispatch(UserNameSetting());
-  // }
+  const userNameSetting = () => {
+    dispatch(UserNameSetting());
+  }
 
   const onChangeClick = (event) => {
 
@@ -61,23 +75,42 @@ const MemberTable = ({ Member }) => {
           url: '/auth/api/change_member_information',
           method:'POST',
           data:{
+            userId: {UserId},
             memberId: {MemberId},
             name: {Name},
             password: {Password},
             grade: {Grade},
+            state: {State}
           }
         }).then(function (response) {
           if ( response['data']['result'] === '000000' ) {
             mySwal.fire({icon: 'success', title: '성공', text: '회원정보 변경이 완료됐습니다'});
             setPassword('');
             setPasswordConfirm('');
-
             if ( MemberId === UserId ) {
               setUserName(Name);
               setUserGrade(Grade);
-              // UserNameSetting();
+              userNameSetting();
             }
-
+          } else if ( response['data']['result'] === '000010' ) {
+            mySwal.fire({icon: 'error', title: '실패', text: '회원정보를 수정할 수 있는 등급이 아닙니다'});
+            history.push('/');
+          } else if ( response['data']['result'] === '000020' ) {
+            mySwal.fire({icon: 'error', title: '실패', text: '마스터 계정은 정보를 수정할 수 없습니다'});
+            setPassword('');
+            setPasswordConfirm('');
+          } else if ( response['data']['result'] === '000080' ) {
+            mySwal.fire({icon: 'error', title: '실패', text: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
+            setUserId(0);
+            setUserName('');
+            setUserGrade('');
+            history.push('/');
+          } else if ( response['data']['result'] === '000090' ) {
+            mySwal.fire({icon: 'error', title: '실패', text: '정지 된 계정입니다. 관리자에게 문의해주세요'});
+            setUserId(0);
+            setUserName('');
+            setUserGrade('');
+            history.push('/');
           }
         }).catch(function(error){
           mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원정보 변경이 실패했습니다'});
@@ -87,24 +120,46 @@ const MemberTable = ({ Member }) => {
       }
     })
   }
+  const alarm = () => {
+    mySwal.fire({icon: 'question', title: '질문', text: '해당 유저에게 보낼 메세지를 입력해주세요', input: 'text', showCancelButton: true}).then((result) => {
+      if (result.isConfirmed) {
+        socket.emit('sendMessage', {'message': result.value, 'memberId': MemberId})
+        socket.on('confirmResult', (data) => {
+          if ( data.result === '000000') {
+            mySwal.fire({icon: 'success', title: '성공', text: '메세지가 성공적으로 전송되었습니다'});
+          }
+        });
+      }
+    })
+  }
 
   return(
-    <form className="tr">
-      <div className="td"><input type="tel" value={Member['phone']} readOnly /></div>
-      <div className="td"><input type="text" value={Name} onChange={onNameHandler} /></div>
-      <div className="td"><input type="password" autocomplete="off" value={Password} onChange={onPasswordHandler} /></div>
-      <div className="td"><input type="password" autocomplete="off" value={PasswordConfirm} onChange={onPasswordConfirmHandler} /></div>
-      <div className="td">
-        <select disabled={UserGrade === 'admin' ? true : false || Member.grade === 'master' ? true : false} onChange={onGradeHandler}>
+    <form method='post' autocomplete='off' className='tr'>
+      <div className='td'><input type='tel' value={Member['phone']} readOnly /></div>
+      <div className='td'><input type='text' value={Name} onChange={onNameHandler} /></div>
+      <div className='td'><input type='password' autocomplete='off' value={Password} onChange={onPasswordHandler} /></div>
+      <div className='td'><input type='password' autocomplete='off' value={PasswordConfirm} onChange={onPasswordConfirmHandler} /></div>
+      <div className='td'>
+        <select onChange={onGradeHandler}>
           {
-          grades.map((grade) => { 
-            return <option selected={grade === Grade ? true : false}>{grade}</option> 
+            Member['grade'] === 'master' ? 
+              <option>{Grade}</option>
+            :
+              grades.map((grade) => {return <option selected={grade === Grade ? true : false}>{grade}</option> })
+          }
+        </select>
+      </div>
+      <div className='td'>
+        <select onChange={onStateHandler}>
+          {
+          states.map((state) => { 
+            return <option selected={state === State ? true : false}>{state}</option> 
             })
           }
         </select>
       </div>
-      <div className="td"><button onClick={onChangeClick}>변경</button></div>
-      <div className="td"><button>알림</button></div>
+      <div className='td'><div className='button' onClick={onChangeClick}>변경</div></div>
+      <div className='td'><div className='button' onClick={alarm}>알림</div></div>
     </form>
   )
     
