@@ -40,6 +40,12 @@ def stop_account(f):
             response = jsonify(response)
             return response
 
+        elif row['login_check'] == 'D':
+            session.clear()
+            response = {'result': '000100'}  
+            response = jsonify(response)
+            return response
+
     return f(*args, **kwargs) 
 
   return decoratored_function
@@ -51,7 +57,7 @@ def login():
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
 
     session.permanent = True
-    current_app.permanent_session_lifetime = timedelta(minutes=60)
+    current_app.permanent_session_lifetime = timedelta(minutes=5)
 
     phone = request.get_json()['phone']
     password = request.get_json()['password']
@@ -96,8 +102,10 @@ def login():
 def logout():
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
 
+    userId = request.get_json()['userId']
+
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
-        cursor.execute('UPDATE auth SET login_check = %s where id = %s', ['D', session['userId']])
+        cursor.execute('UPDATE auth SET login_check = %s where id = %s', ['D', userId])
         db.commit()
 
     session.clear()
@@ -281,9 +289,9 @@ def change_member_information():
     return response
 
 
-@blueprint.route('/api/out_member', methods=['POST'])
+@blueprint.route('/api/out_user', methods=['POST'])
 @stop_account
-def out_member():
+def out_user():
 
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
     
@@ -303,6 +311,39 @@ def out_member():
             return response
         
     response = {'result': '000010'}  
+    response = jsonify(response)
+    return response
+
+
+@blueprint.route('/api/logout_member', methods=['POST'])
+@stop_account
+def logout_member():
+
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+
+    memberId = request.get_json()['memberId']
+
+    with db.cursor(pymysql.cursors.DictCursor) as cursor:
+
+        cursor.execute('select grade from auth where id=%s', [memberId])
+        MemberGrade = cursor.fetchone()
+
+        if session['userGrade'] != 'master' and session['userGrade'] != 'admin':
+            response = {'result': '000010'}
+            response = jsonify(response)
+            return response
+        elif session['userGrade'] != 'master' and MemberGrade['grade'] == 'master':
+            response = {'result': '000020'}
+            response = jsonify(response)
+            return response
+
+        cursor.execute('UPDATE auth SET login_check = %s where id = %s', ['D', memberId])
+        db.commit()
+
+    if memberId == session['userId']:
+        session.clear()
+
+    response = {'result': '000000'}
     response = jsonify(response)
     return response
 

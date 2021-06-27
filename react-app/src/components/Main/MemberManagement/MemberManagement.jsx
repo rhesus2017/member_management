@@ -84,6 +84,12 @@ const MemberManagement = () => {
         setStorage('userName', '');
         setStorage('userGrade', '');
         history.push('/');
+      } else if ( response['data']['result'] === '000100' ) {
+        mySwal.fire({icon: 'error', title: '실패', text: '관리자에 의해 로그아웃 된 계정입니다. 다시 로그인 해주세요'});
+        setStorage('userId', 0);
+        setStorage('userName', '');
+        setStorage('userGrade', '');
+        history.push('/');
       }
     }).catch(function(error){
       mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원정보 가져오기를 실패했습니다'});
@@ -110,7 +116,9 @@ const MemberManagement = () => {
             <div className='td th'><span>비밀번호확인</span></div>
             <div className='td th'><span>등급</span></div>
             <div className='td th'><span>상태</span></div>
-            <div className='td th'></div>
+            <div className='td th'><span>변경</span></div>
+            <div className='td th'><span>알림</span></div>
+            <div className='td th'><span>로그아웃</span></div>
           </div>
           { 
             Members.map((Member) => {

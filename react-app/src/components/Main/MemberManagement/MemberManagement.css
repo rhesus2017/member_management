@@ -2,19 +2,20 @@
 
 /*.management_wrap*/
 .management_wrap{width: 100%; height: calc(100% - 70px); position: relative;}
-.management_wrap .table_wrap{display: block; width: 90%; max-width: 900px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.management_wrap .table_wrap{display: block; width: 90%; max-width: 1000px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
 .management_wrap .table{display: block; width: 100%; border-top: 2px solid #fff;}
 .management_wrap .tr{width: 100%; height: 50px; border-bottom: 1px solid #fff;}
 .management_wrap .tr:after{content: ""; display: block; clear: both;}
 .management_wrap .td{float: left; height: 100%; line-height: 50px; text-align: center; padding: 0 10px;}
-.management_wrap .td:nth-of-type(1){width: 17%;}
-.management_wrap .td:nth-of-type(2){width: 12%;}
-.management_wrap .td:nth-of-type(3){width: 15%;}
-.management_wrap .td:nth-of-type(4){width: 15%;}
-.management_wrap .td:nth-of-type(5){width: 15%;}
+.management_wrap .td:nth-of-type(1){width: 15%;}
+.management_wrap .td:nth-of-type(2){width: 10%;}
+.management_wrap .td:nth-of-type(3){width: 14%;}
+.management_wrap .td:nth-of-type(4){width: 14%;}
+.management_wrap .td:nth-of-type(5){width: 14%;}
 .management_wrap .td:nth-of-type(6){width: 10%;}
-.management_wrap .td:nth-of-type(7){width: 8%;}
-.management_wrap .td:nth-of-type(8){width: 8%;}
+.management_wrap .td:nth-of-type(7){width: 7%;}
+.management_wrap .td:nth-of-type(8){width: 7%;}
+.management_wrap .td:nth-of-type(9){width: 9%;}
 .management_wrap .td span{color: #fff; display: inline-block; font-size: 1.333rem;}
 .management_wrap .td input{color: #fff; background: none; display: inline-block; font-size: 1.333rem; width: 100%; height: 30px; border: 1px solid #fff; text-align: center; margin: 9px 0px;}
 .management_wrap .td:nth-of-type(1) input{cursor: default;}

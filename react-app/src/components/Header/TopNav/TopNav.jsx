@@ -29,7 +29,10 @@ const TopNav = () => {
       if (result.isConfirmed) {
         axios({
           url: '/auth/api/logout',
-          method:'POST'
+          method:'POST',
+          data:{
+            userId: getStorage('userId'),
+          }
         }).then(function (response) {
           if ( response['data']['result'] === '000000' ) {
             mySwal.fire({icon: 'success', title: '성공', text: '로그아웃이 완료되었습니다'}).then((result) => {

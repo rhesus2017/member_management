@@ -87,6 +87,12 @@ const Information = () => {
         setStorage('userName', '');
         setStorage('userGrade', '');
         history.push('/');
+      } else if ( response['data']['result'] === '000100' ) {
+        mySwal.fire({icon: 'error', title: '실패', text: '관리자에 의해 로그아웃 된 계정입니다. 다시 로그인 해주세요'});
+        setStorage('userId', 0);
+        setStorage('userName', '');
+        setStorage('userGrade', '');
+        history.push('/');
       }
     }).catch(function(error){
       mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원정보 가져오기를 실패했습니다'});
@@ -133,6 +139,12 @@ const Information = () => {
           setStorage('userName', '');
           setStorage('userGrade', '');
           history.push('/');
+        } else if ( response['data']['result'] === '000100' ) {
+          mySwal.fire({icon: 'error', title: '실패', text: '관리자에 의해 로그아웃 된 계정입니다. 다시 로그인 해주세요'});
+          setStorage('userId', 0);
+          setStorage('userName', '');
+          setStorage('userGrade', '');
+          history.push('/');
         }
       }).catch(function(error){
         mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원정보 변경이 실패했습니다'});
@@ -140,7 +152,7 @@ const Information = () => {
         setPasswordConfirm('');
       });
   }
-  const outMember = () => {
+  const outUser = () => {
     mySwal.fire({icon: 'question', title: '질문', text: '정말 회원탈퇴 하시겠습니까?', showCancelButton: true}).then((result) => {
       if (result.isConfirmed) {
         let password_regExp = /^[a-zA-Z0-9]{10,15}$/;
@@ -156,7 +168,7 @@ const Information = () => {
         else if (Password !== PasswordConfirm ) mySwal.fire({icon: 'error', title: '실패', text: '비밀번호가 일치하지 않습니다'});
         else 
           axios({
-            url: '/auth/api/out_member',
+            url: '/auth/api/out_user',
             method:'POST',
             data:{
               password: Password,
@@ -174,7 +186,7 @@ const Information = () => {
               setPassword('');
               setPasswordConfirm('');
             } else if ( response['data']['result'] === '000080' ) {
-              mySwal.fire({icon: 'error', title: '실패', text: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
+              mySwal.fire({icon: 'error', title: '실패', text: '이미 탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
               setStorage('userId', 0);
               setStorage('userName', '');
               setStorage('userGrade', '');
@@ -223,7 +235,7 @@ const Information = () => {
           </div>
         </div>
         <p>
-          <span onClick={onChangeClick}>변경하기</span><span onClick={outMember}>회원탈퇴</span><Link to='/'>취소</Link>
+          <span onClick={onChangeClick}>변경하기</span><span onClick={outUser}>회원탈퇴</span><Link to='/'>취소</Link>
         </p>
       </form>
     </div>

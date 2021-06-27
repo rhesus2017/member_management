@@ -106,6 +106,12 @@ const MemberTable = ({ Member }) => {
             setStorage('userName', '');
             setStorage('userGrade', '');
             history.push('/');
+          } else if ( response['data']['result'] === '000100' ) {
+            mySwal.fire({icon: 'error', title: '실패', text: '관리자에 의해 로그아웃 된 계정입니다. 다시 로그인 해주세요'});
+            setStorage('userId', 0);
+            setStorage('userName', '');
+            setStorage('userGrade', '');
+            history.push('/');
           }
         }).catch(function(error){
           mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원정보 변경이 실패했습니다'});
@@ -123,6 +129,53 @@ const MemberTable = ({ Member }) => {
           if ( data.result === '000000') {
             mySwal.fire({icon: 'success', title: '성공', text: '메세지가 성공적으로 전송되었습니다'});
           }
+        });
+      }
+    })
+  }
+  const logOutMember = () => {
+    mySwal.fire({icon: 'question', title: '질문', text: '해당 유저를 로그아웃 시키시겠습니까?', input: 'text', showCancelButton: true}).then((result) => {
+      if (result.isConfirmed) {
+        axios({
+          url: '/auth/api/logout_member',
+          method:'POST',
+          data:{
+            memberId: Member['id'],
+          }
+        }).then(function (response) {
+          if ( response['data']['result'] === '000000' ) {
+            mySwal.fire({icon: 'success', title: '성공', text: '해당 유저가 로그아웃 되었습니다'});
+            if ( Member['id'] === getStorage('userId') ) {
+              setStorage('userId', 0);
+              setStorage('userName', '');
+              setStorage('userGrade', '');
+            }
+          } else if ( response['data']['result'] === '000010' ) {
+            mySwal.fire({icon: 'error', title: '실패', text: '계정을 로그아웃 시킬 수 있는 등급이 아닙니다'});
+            history.push('/');
+          } else if ( response['data']['result'] === '000020' ) {
+            mySwal.fire({icon: 'error', title: '실패', text: '마스터 계정은 로그아웃 시킬 수 없습니다'});
+          } else if ( response['data']['result'] === '000080' ) {
+            mySwal.fire({icon: 'error', title: '실패', text: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
+            setStorage('userId', 0);
+            setStorage('userName', '');
+            setStorage('userGrade', '');
+            history.push('/');
+          } else if ( response['data']['result'] === '000090' ) {
+            mySwal.fire({icon: 'error', title: '실패', text: '정지 된 계정입니다. 관리자에게 문의해주세요'});
+            setStorage('userId', 0);
+            setStorage('userName', '');
+            setStorage('userGrade', '');
+            history.push('/');
+          } else if ( response['data']['result'] === '000100' ) {
+            mySwal.fire({icon: 'error', title: '실패', text: '관리자에 의해 로그아웃 된 계정입니다. 다시 로그인 해주세요'});
+            setStorage('userId', 0);
+            setStorage('userName', '');
+            setStorage('userGrade', '');
+            history.push('/');
+          }
+        }).catch(function(error){
+          mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 계정 로그아웃이 실패했습니다'});
         });
       }
     })
@@ -146,6 +199,7 @@ const MemberTable = ({ Member }) => {
       </div>
       <div className='td'><div className='button' onClick={onChangeClick}>변경</div></div>
       <div className='td'><div className='button' onClick={alarm}>알림</div></div>
+      <div className='td'><div className='button' onClick={logOutMember}>로그아웃</div></div>
     </form>
   )
     
