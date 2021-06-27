@@ -16,7 +16,8 @@ const words = [
   {text: 'Route', value: Math.random()*100}, {text: 'Local Storage', value: Math.random()*100}, {text: 'useSelect', value: Math.random()*100},
   {text: 'useEffect', value: Math.random()*100}, {text: 'useState', value: Math.random()*100}, {text: 'Axios', value: Math.random()*100},
   {text: 'useHistory', value: Math.random()*100}, {text: 'useDispatch', value: Math.random()*100}, {text: 'Wordcloud', value: Math.random()*100},
-  {text: 'Sweet Alert', value: Math.random()*100}, {text: 'useCookies', value: Math.random()*100}
+  {text: 'Sweet Alert', value: Math.random()*100}, {text: 'useCookies', value: Math.random()*100}, {text: 'Pagination', value: Math.random()*100},
+  {text: 'React Select', value: Math.random()*100}
 ]
 const options = {
   colors: ['#fff', '#ccc', '#999', '#666'],

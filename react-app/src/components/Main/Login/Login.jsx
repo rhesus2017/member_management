@@ -3,12 +3,10 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import { Link, useHistory } from 'react-router-dom';
 import { useCookies } from 'react-cookie';
+
+// redux
 import { useDispatch } from 'react-redux';
 import { UserNameSetting } from '../../../action';
-import { UserIdSetting } from '../../../action';
-
-// hoc
-import useLocalStorage from '../../../hoc/useLocalStorage';
 
 // css
 import './Login.css';
@@ -17,27 +15,22 @@ import './Login.css';
 const Login = () => {
 
   useEffect(() => {
-    if ( UserId !== 0 ) {
+    if ( getStorage('userId') !== 0 ) {
       mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'});
       history.push('/');
     }
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps  
-
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const mySwal = require('sweetalert2');
   const history = useHistory();
   const dispatch = useDispatch();
-
+  const userNameSetting = () => { dispatch(UserNameSetting()); };
+  const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)); };
+  const setStorage = (item, value) => { window.localStorage.setItem(item, JSON.stringify(value)); };
   const [Phone, setPhone] = useState('');
   const [Password, setPassword] = useState('');
   const [Checked, setChecked] = useState(false);
-
   const [Cookies, setCookie, removeCookie] = useCookies(['rememberId']);
-
-  const [UserId, setUserId] = useLocalStorage('userId', 0);
-  const [UserName, setUserName] = useLocalStorage('userName', ''); // eslint-disable-line no-unused-vars
-  const [UserGrade, setUserGrade] = useLocalStorage('userGrade', ''); // eslint-disable-line no-unused-vars
-
 
   useEffect(() => {
     if(Cookies.rememberId !== undefined) {
@@ -45,15 +38,7 @@ const Login = () => {
       setChecked(true);
     }
   }, [Cookies]);
-
-
-  const userNameSetting = () => {
-    dispatch(UserNameSetting());
-  }
-  const userIdSetting = () => {
-    dispatch(UserIdSetting());
-  }
-
+  
   const onPhoneHandler = (event) => {
     setPhone(event.currentTarget.value);
   }
@@ -63,8 +48,6 @@ const Login = () => {
   const onCheckedHandler = () => {
     Checked ? setChecked(false) : setChecked(true);
   }
-
-
   const onSubmitHandler = (event) => {
 
     if ( Phone === '' ) {
@@ -76,18 +59,16 @@ const Login = () => {
         url: '/auth/api/login',
         method:'POST',
         data:{
-          phone: {Phone},
-          password: {Password}
+          phone: Phone,
+          password: Password
         }
       }).then(function (response) {
         if ( response['data']['result'] === '000000' ) {
           Checked ? setCookie('rememberId', Phone, {maxAge: 2000}) : removeCookie('rememberId');
-          console.log(response['data']['userId'])
-          setUserId(response['data']['userId']);
-          setUserName(response['data']['userName']);
-          setUserGrade(response['data']['userGrade']);
-          userIdSetting();
-          userNameSetting();
+          setStorage('userId', response['data']['userId']);
+          setStorage('userName', response['data']['userName']);
+          setStorage('userGrade', response['data']['userGrade']);
+          userNameSetting()
           history.push('/');
         } else if ( response['data']['result'] === '000010' ) { 
           mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호 또는 비밀번호가 일치하지 않습니다'});
@@ -111,7 +92,6 @@ const Login = () => {
       onSubmitHandler();
     }
   }
-
 
   return(
     <div className='login_wrap'>

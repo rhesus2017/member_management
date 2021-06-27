@@ -2,11 +2,10 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import { Link, useHistory } from 'react-router-dom';
+
+// redux
 import { useDispatch } from 'react-redux';
 import { UserNameSetting } from '../../../action';
-
-// hoc
-import useLocalStorage from '../../../hoc/useLocalStorage';
 
 // css
 import './Information.css';
@@ -18,24 +17,16 @@ const Information = () => {
     sessionCheck();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-
   const mySwal = require('sweetalert2');
   const history = useHistory();
   const dispatch = useDispatch();
-
+  const userNameSetting = () => { dispatch(UserNameSetting()); };
+  const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)); };
+  const setStorage = (item, value) => { window.localStorage.setItem(item, JSON.stringify(value)); };
   const [Phone, setPhone] = useState('');
   const [Name, setName] = useState('');
   const [Password, setPassword] = useState('');
   const [PasswordConfirm, setPasswordConfirm] = useState('');
-
-  const [UserId, setUserId] = useLocalStorage('userId', 0);
-  const [UserName, setUserName] = useLocalStorage('userName', ''); // eslint-disable-line no-unused-vars
-  const [UserGrade, setUserGrade] = useLocalStorage('userGrade', ''); // eslint-disable-line no-unused-vars
-
-
-  const userNameSetting = () => {
-    dispatch(UserNameSetting());
-  }
 
   const onNameHandler = (event) => {
     setName(event.currentTarget.value);
@@ -46,23 +37,25 @@ const Information = () => {
   const onPasswordConfirmHandler = (event) => {
     setPasswordConfirm(event.currentTarget.value);
   }
-
   const sessionCheck = (event) => {
     axios({
       url: '/auth/api/session_check',
       method:'POST',
+      data:{
+        userId: getStorage('userId'),
+      }
     }).then(function (response) {
-      if ( UserId !== 0 && !response['data']['session'] ) {
+      if ( getStorage('userId') !== 0 && !response['data']['session'] ) {
         mySwal.fire({icon: 'error', title: '실패', text: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'});
-        setUserId(0);
-        setUserName('');
-        setUserGrade('');
+        setStorage('userId', 0);
+        setStorage('userName', '');
+        setStorage('userGrade', '');
         history.push('/Login');
-      } else if ( UserId === 0 && !response['data']['session'] ) {
+      } else if ( getStorage('userId') === 0 && !response['data']['session'] ) {
         mySwal.fire({icon: 'error', title: '실패', text: '로그인이 필요한 페이지입니다. 로그인 페이지로 이동합니다'});
-        setUserId(0);
-        setUserName('');
-        setUserGrade('');
+        setStorage('userId', 0);
+        setStorage('userName', '');
+        setStorage('userGrade', '');
         history.push('/Login');
       } else {
         getMemberInformation();
@@ -76,24 +69,23 @@ const Information = () => {
       url: '/auth/api/get_information',
       method:'POST',
       data:{
-        userId: {UserId},
+        userId: getStorage('userId'),
       }
     }).then(function (response) {
-
       if ( response['data']['result'] === '000000' ) {
         setPhone(response['data']['userPhone']);
         setName(response['data']['userName']);
       } else if ( response['data']['result'] === '000080' ) {
         mySwal.fire({icon: 'error', title: '실패', text: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
-        setUserId(0);
-        setUserName('');
-        setUserGrade('');
+        setStorage('userId', 0);
+        setStorage('userName', '');
+        setStorage('userGrade', '');
         history.push('/');
       } else if ( response['data']['result'] === '000090' ) {
         mySwal.fire({icon: 'error', title: '실패', text: '정지 된 계정입니다. 관리자에게 문의해주세요'});
-        setUserId(0);
-        setUserName('');
-        setUserGrade('');
+        setStorage('userId', 0);
+        setStorage('userName', '');
+        setStorage('userGrade', '');
         history.push('/');
       }
     }).catch(function(error){
@@ -118,28 +110,28 @@ const Information = () => {
         url: '/auth/api/change_information',
         method:'POST',
         data:{
-          userId: {UserId},
-          name: {Name},
-          password: {Password},
+          userId: getStorage('userId'),
+          name: Name,
+          password: Password,
         }
       }).then(function (response) {
         if ( response['data']['result'] === '000000' ) {
           mySwal.fire({icon: 'success', title: '성공', text: '회원정보 변경이 완료됐습니다'});
-          setUserName(response['data']['userName']);
+          setStorage('userName', Name)
           setPassword('');
           setPasswordConfirm('');
-          userNameSetting();
+          userNameSetting()
         } else if ( response['data']['result'] === '000080' ) {
           mySwal.fire({icon: 'error', title: '실패', text: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
-          setUserId(0);
-          setUserName('');
-          setUserGrade('');
+          setStorage('userId', 0);
+          setStorage('userName', '');
+          setStorage('userGrade', '');
           history.push('/');
         } else if ( response['data']['result'] === '000090' ) {
           mySwal.fire({icon: 'error', title: '실패', text: '정지 된 계정입니다. 관리자에게 문의해주세요'});
-          setUserId(0);
-          setUserName('');
-          setUserGrade('');
+          setStorage('userId', 0);
+          setStorage('userName', '');
+          setStorage('userGrade', '');
           history.push('/');
         }
       }).catch(function(error){
@@ -167,14 +159,14 @@ const Information = () => {
             url: '/auth/api/out_member',
             method:'POST',
             data:{
-              password: {Password},
+              password: Password,
             }
           }).then(function (response) {
             if ( response['data']['result'] === '000000' ) {
               mySwal.fire({icon: 'success', title: '성공', text: '회원탈퇴가 완료되었습니다'}).then((result) => {
-                setUserId(0);
-                setUserName('');
-                setUserGrade('');
+                setStorage('userId', 0);
+                setStorage('userName', '');
+                setStorage('userGrade', '');
                 history.push('/');
               });
             } else if ( response['data']['result'] === '000010' ) {
@@ -183,15 +175,15 @@ const Information = () => {
               setPasswordConfirm('');
             } else if ( response['data']['result'] === '000080' ) {
               mySwal.fire({icon: 'error', title: '실패', text: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
-              setUserId(0);
-              setUserName('');
-              setUserGrade('');
+              setStorage('userId', 0);
+              setStorage('userName', '');
+              setStorage('userGrade', '');
               history.push('/');
             } else if ( response['data']['result'] === '000090' ) {
               mySwal.fire({icon: 'error', title: '실패', text: '정지 된 계정입니다. 관리자에게 문의해주세요'});
-              setUserId(0);
-              setUserName('');
-              setUserGrade('');
+              setStorage('userId', 0);
+              setStorage('userName', '');
+              setStorage('userGrade', '');
               history.push('/');
             }
           }).catch(function(error){
@@ -200,7 +192,6 @@ const Information = () => {
       }
     })
   }
-
   const onEnterPress = (e) => {
     if (e.key === 'Enter') {
       onChangeClick();
@@ -239,5 +230,6 @@ const Information = () => {
   )
     
 }
+
 
 export default Information;

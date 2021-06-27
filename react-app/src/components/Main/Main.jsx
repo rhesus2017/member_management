@@ -1,6 +1,5 @@
 // react
-import React , { useState, useEffect } from 'react';
-import { useSelector } from 'react-redux';
+import React from 'react';
 import socketio from 'socket.io-client';
 
 // component
@@ -17,26 +16,17 @@ import './Main.css';
 
 const Main = ({title, name}) => {
 
-  const socket = socketio.connect('http://192.168.0.22:5050/');
-  const UserIdSetting = useSelector(state => state.UserIdSetting);
+  const socket = socketio.connect('http://192.168.1.166:5050/');
   const mySwal = require('sweetalert2');
-  
-  const [message, setMessage] = useState('');
+  const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)); };
 
-  useEffect(() => {
-    receiveMessage();
-  }, [message]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  const receiveMessage = () => {
-    socket.on('receiveMessage', (data) => {
-      if (data.memberId === UserIdSetting.id) {
-        setMessage(data.message);
-        mySwal.fire({icon: 'success', title: '성공', text: data.message}).then((result) => {
-          socket.emit('confirmResult', {'result': '000000'})
-        });
-      }
-    });
-  }
+  socket.on('receiveMessage', (data) => {
+    if (data.memberId === getStorage('userId')) {
+      mySwal.fire({icon: 'success', title: '성공', text: data.message}).then((result) => {
+        socket.emit('confirmResult', {'result': '000000'})
+      });
+    }
+  });
 
   return(
     <div className='main'>

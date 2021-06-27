@@ -1,10 +1,13 @@
 import { MENU_OPEN_CLOSE } from '../action';
 import { USER_NAME_SETTING } from '../action';
-import { USER_ID_SETTING } from '../action';
+import { GET_PAGINATION } from '../action';
 import { combineReducers } from 'redux';
 
 
-const MenuOpenCloseInit = {
+const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
+
+
+let MenuOpenCloseInit = {
     open: true 
 };
 const MenuOpenClose = (state = MenuOpenCloseInit, action) => {
@@ -19,14 +22,14 @@ const MenuOpenClose = (state = MenuOpenCloseInit, action) => {
 }
 
 
-const UserNameSettingInit = {
-    name: JSON.parse(window.localStorage.getItem('userName'))
+let UserNameSettingInit = {
+    name: getStorage('userName')
 };
 const UserNameSetting = (state = UserNameSettingInit, action) => {
     switch(action.type) {
         case USER_NAME_SETTING:
             return {
-                ...state, name: JSON.parse(window.localStorage.getItem('userName'))
+                ...state, name: getStorage('userName')
             };
         default:
             return state;
@@ -34,14 +37,14 @@ const UserNameSetting = (state = UserNameSettingInit, action) => {
 }
 
 
-const UserIdSettingInit = {
-    id: JSON.parse(window.localStorage.getItem('userId'))
+let GetPaginationInit = {
+    pager: 1
 };
-const UserIdSetting = (state = UserIdSettingInit, action) => {
+const GetPagination = (state = GetPaginationInit, action) => {
     switch(action.type) {
-        case USER_ID_SETTING:
+        case GET_PAGINATION:
             return {
-                ...state, id: JSON.parse(window.localStorage.getItem('userId'))
+                ...state, pager: action.payload
             };
         default:
             return state;
@@ -50,8 +53,8 @@ const UserIdSetting = (state = UserIdSettingInit, action) => {
 
 
 const ReducersApp = combineReducers({
-    MenuOpenClose, UserNameSetting, UserIdSetting
+    MenuOpenClose, UserNameSetting, GetPagination
 });
+
+
 export default ReducersApp;
-
-

@@ -1,13 +1,11 @@
 // react
 import React from 'react';
 import axios from 'axios';
-import { useDispatch, useSelector } from 'react-redux';
 import { Link, useHistory } from 'react-router-dom';
-import { MenuOpenClose } from '../../../action';
-import { UserIdSetting } from '../../../action';
 
-// hoc
-import useLocalStorage from '../../../hoc/useLocalStorage';
+// redux
+import { useDispatch, useSelector } from 'react-redux';
+import { MenuOpenClose } from '../../../action';
 
 // img
 import logo from './img/logo.png';
@@ -21,20 +19,12 @@ const TopNav = () => {
   const mySwal = require('sweetalert2');
   const history = useHistory();
   const dispatch = useDispatch();
+  const menuOpenClose = () => { dispatch(MenuOpenClose());}
   const UserNameSetting = useSelector(state => state.UserNameSetting);
+  const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
+  const setStorage = (item, value) => { window.localStorage.setItem(item, JSON.stringify(value)) }
   
-  const [UserId, setUserId] = useLocalStorage('userId', 0);
-  const [UserName, setUserName] = useLocalStorage('userName', ''); // eslint-disable-line no-unused-vars
-  const [UserGrade, setUserGrade] = useLocalStorage('userGrade', ''); // eslint-disable-line no-unused-vars
-
-  const menuOpenClose = () => {
-    dispatch(MenuOpenClose());
-  }
-  const userIdSetting = () => {
-    dispatch(UserIdSetting());
-  }
-  
-  const logOut = (event) => {
+  const logOut = () => {
     mySwal.fire({icon: 'question', title: '질문', text: '정말 로그아웃 하시겠습니까?', showCancelButton: true}).then((result) => {
       if (result.isConfirmed) {
         axios({
@@ -43,10 +33,9 @@ const TopNav = () => {
         }).then(function (response) {
           if ( response['data']['result'] === '000000' ) {
             mySwal.fire({icon: 'success', title: '성공', text: '로그아웃이 완료되었습니다'}).then((result) => {
-              setUserId(0);
-              setUserName('');
-              setUserGrade('');
-              userIdSetting();
+              setStorage('userId', 0);
+              setStorage('userName', '');
+              setStorage('userGrade', '');
               history.push('/');
             });
           }
@@ -59,7 +48,6 @@ const TopNav = () => {
 
   return(
     <div className='top_nav'>
-
       <div className='left'>
 
         <button onClick={menuOpenClose}>
@@ -75,7 +63,7 @@ const TopNav = () => {
       </div>
       
         {
-          UserId !== 0 ? <div className='right'><Link to='/Information'>{UserNameSetting.name}</Link><span></span><span onClick={logOut}>Logout</span></div>
+          getStorage('userId') !== 0 ? <div className='right'><Link to='/Information'>{UserNameSetting.name}</Link><span></span><span onClick={logOut}>Logout</span></div>
           : <div className='right'><Link to='/Login'>Login</Link><span></span><Link to='/Join'>Join</Link></div>
         }
         

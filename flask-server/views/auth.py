@@ -16,24 +16,32 @@ def stop_account(f):
   @wraps(f)
   def decoratored_function(*args, **kwargs):
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
-
+    
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
-        cursor.execute('select state from auth where id = %s', [session['userId']])
+
+        cursor.execute('select state, login_check from auth where id = %s', [session['userId']])
         row = cursor.fetchone()
-        
+
         if row['state'] == 'O':
+            cursor.execute('UPDATE auth SET login_check = %s where id = %s', ['D', session['userId']])
+            db.commit()
+
             session.clear()
             response = {'result': '000080'}  
             response = jsonify(response)
             return response
 
         elif row['state'] == 'S':
+            cursor.execute('UPDATE auth SET login_check = %s where id = %s', ['D', session['userId']])
+            db.commit()
+
             session.clear()
             response = {'result': '000090'}  
             response = jsonify(response)
             return response
 
     return f(*args, **kwargs) 
+
   return decoratored_function
 
 
@@ -45,8 +53,8 @@ def login():
     session.permanent = True
     current_app.permanent_session_lifetime = timedelta(minutes=60)
 
-    phone = request.get_json()['phone']['Phone']
-    password = request.get_json()['password']['Password']
+    phone = request.get_json()['phone']
+    password = request.get_json()['password']
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
         cursor.execute('select * from auth')
@@ -72,6 +80,9 @@ def login():
                     session['userName'] = userName
                     session['userGrade'] = userGrade
 
+                    cursor.execute('UPDATE auth SET login_check = %s where id = %s', ['C', session['userId']])
+                    db.commit()
+
                     response = {'result': '000000', 'userId': userId, 'userName': userName, 'userGrade': userGrade}
                     response = jsonify(response)
                     return response
@@ -83,9 +94,13 @@ def login():
 
 @blueprint.route('/api/logout', methods=['POST'])
 def logout():
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+
+    with db.cursor(pymysql.cursors.DictCursor) as cursor:
+        cursor.execute('UPDATE auth SET login_check = %s where id = %s', ['D', session['userId']])
+        db.commit()
 
     session.clear()
-
     response = {'result': '000000'}
     response = jsonify(response)
     return response
@@ -96,10 +111,10 @@ def join():
 
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
 
-    phone = request.get_json()['phone']['Phone']
-    name = request.get_json()['name']['Name']
-    certification = request.get_json()['certification']['Certification']
-    password = request.get_json()['password']['Password']
+    phone = request.get_json()['phone']
+    name = request.get_json()['name']
+    certification = request.get_json()['certification']
+    password = request.get_json()['password']
     password = (bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())).decode('utf-8')
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
@@ -108,7 +123,7 @@ def join():
 
         for row in rows:
             if row['phone'] == phone:
-                if row['state'] == 'S':
+                if row['state'] == 'O':
                     if certification != session['certification_number'] or phone != session['phone_number']:
                         response = {'result': '000020'}
                         response = jsonify(response)
@@ -121,6 +136,7 @@ def join():
                         response = jsonify(response)
                         return response
                 else:
+                    session.clear()
                     response = {'result': '000010'}
                     response = jsonify(response)
                     return response
@@ -144,16 +160,12 @@ def certification():
     number_array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     number = random.sample(number_array, 6)
     certification_number = str(number[0]) + str(number[1]) + str(number[2]) + str(number[3]) + str(number[4]) + str(number[5])
-    phone_number = request.get_json()['phone']['Phone']
+    phone_number = request.get_json()['phone']
 
     session['certification_number'] = certification_number
     session['phone_number'] = phone_number
 
     logger.info(f'인증번호 [{certification_number}] 발급 완료')
-
-    response = {'result': '000000', 'number' : certification_number}
-    response = jsonify(response)
-    return response
 
 
 @blueprint.route('/api/get_information', methods=['POST'])
@@ -162,10 +174,10 @@ def get_information():
 
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
 
-    userId = request.get_json()['userId']['UserId']
+    userId = request.get_json()['userId']
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
-        cursor.execute('select * from auth where id=%s', [userId])
+        cursor.execute('select phone, name from auth where id=%s', [userId])
         row = cursor.fetchone()
 
         userPhone = row['phone']
@@ -182,10 +194,10 @@ def change_information():
 
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
 
-    name = request.get_json()['name']['Name']
-    password = request.get_json()['password']['Password']
+    name = request.get_json()['name']
+    password = request.get_json()['password']
     password = (bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())).decode('utf-8')
-    userId = request.get_json()['userId']['UserId']
+    userId = request.get_json()['userId']
     
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
@@ -194,7 +206,7 @@ def change_information():
 
     session['userName'] = name
 
-    response = {'result': '000000', 'userName': name}
+    response = {'result': '000000'}
     response = jsonify(response)
     return response
 
@@ -205,17 +217,21 @@ def get_all_information():
 
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
 
-    userId = request.get_json()['userId']['UserId']
+    userId = request.get_json()['userId']
+    pager = request.get_json()['pager']
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
         cursor.execute('select grade from auth where id=%s', [userId])
         thisUser = cursor.fetchone()
 
-        cursor.execute('select * from auth')
-        rows = cursor.fetchall()                                               
+        cursor.execute('select * from auth where id between %s and %s', [7*pager-6, 7*pager])
+        rows = cursor.fetchall()
+
+        cursor.execute('select count(*) from auth')
+        count = cursor.fetchone()                          
 
     if thisUser['grade'] == 'master' or thisUser['grade'] == 'admin':
-        response = {'result': '000000', 'rows': rows}
+        response = {'result': '000000', 'rows': rows, 'count': count}
     else:
         response = {'result': '000010'}
 
@@ -229,28 +245,24 @@ def change_member_information():
 
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
 
-    name = request.get_json()['name']['Name']
-    password = request.get_json()['password']['Password']
+    name = request.get_json()['name']
+    password = request.get_json()['password']
     password_bcrypt = (bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt())).decode('utf-8')
-    grade = request.get_json()['grade']['Grade']
-    state = request.get_json()['state']['State']
-    memberId = request.get_json()['memberId']['MemberId']
-    userId = request.get_json()['userId']['UserId']
+    grade = request.get_json()['grade']
+    state = request.get_json()['state']
+    memberId = request.get_json()['memberId']
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
 
-        cursor.execute('select grade from auth where id=%s', [userId])
-        thisUser = cursor.fetchone()
-
         cursor.execute('select grade from auth where id=%s', [memberId])
-        row = cursor.fetchone()
+        MemberGrade = cursor.fetchone()
 
-        if row['grade'] == 'master' and session['userGrade'] != 'master':
-            response = {'result': '000020'}
+        if session['userGrade'] != 'master' and session['userGrade'] != 'admin':
+            response = {'result': '000010'}
             response = jsonify(response)
             return response
-        elif thisUser['grade'] != 'master' and thisUser['grade'] != 'admin':
-            response = {'result': '000010'}
+        elif session['userGrade'] != 'master' and MemberGrade['grade'] == 'master':
+            response = {'result': '000020'}
             response = jsonify(response)
             return response
 
@@ -260,7 +272,9 @@ def change_member_information():
             cursor.execute('UPDATE auth SET name = %s, grade = %s, state = %s where id = %s', [name, grade, state, memberId])
         db.commit()
 
-    session['grade'] = grade
+    if memberId == session['userId']:
+        session['userName'] = name
+        session['userGrade'] = grade
 
     response = {'result': '000000'}
     response = jsonify(response)
@@ -273,7 +287,7 @@ def out_member():
 
     db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
     
-    password = request.get_json()['password']['Password']
+    password = request.get_json()['password']
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
 
@@ -281,7 +295,7 @@ def out_member():
         userId = cursor.fetchone()
 
         if bcrypt.checkpw(password.encode('utf-8'), userId['password'].encode('utf-8')) == True:
-            cursor.execute('UPDATE auth SET state = %s where id = %s', ['O', session['userId']])
+            cursor.execute('UPDATE auth SET state = %s, login_check = %s where id = %s', ['O', 'D', session['userId']])
             db.commit()
             session.clear()
             response = {'result': '000000'}  
@@ -295,10 +309,16 @@ def out_member():
 
 @blueprint.route('/api/session_check', methods=['POST'])
 def session_check():
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+
+    userId = request.get_json()['userId']
 
     if 'userId' in session:
         response = {'result': '000000', 'session': True}
     else:
+        with db.cursor(pymysql.cursors.DictCursor) as cursor:
+            cursor.execute('UPDATE auth SET login_check = %s where id = %s', ['D', userId])
+            db.commit()
         response = {'result': '000000', 'session': False}
 
     response = jsonify(response)

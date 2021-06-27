@@ -3,9 +3,6 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import { Link, useHistory } from 'react-router-dom';
 
-// hoc
-import useLocalStorage from '../../../hoc/useLocalStorage';
-
 // css
 import './Join.css';
 
@@ -13,16 +10,15 @@ import './Join.css';
 const Join = () => {
 
   useEffect(() => {
-    if ( UserId !== 0 ) {
+    if ( getStorage('userId') !== 0 ) {
       mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'});
       history.push('/');
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-
   const mySwal = require('sweetalert2');
   const history = useHistory();
-
+  const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
   const [Phone, setPhone] = useState('');
   const [Name, setName] = useState('');
   const [Certification, setCertification] = useState('');
@@ -30,9 +26,6 @@ const Join = () => {
   const [CertificationProgress, setCertificationProgress] = useState(false);
   const [Password, setPassword] = useState('');
   const [PasswordConfirm, setPasswordConfirm] = useState('');
-
-  const [UserId] = useLocalStorage('userId', 0);
-
 
   const onPhoneHandler = (event) => {
     setPhone(event.currentTarget.value);
@@ -49,7 +42,6 @@ const Join = () => {
   const onPasswordConfirmHandler = (event) => {
     setPasswordConfirm(event.currentTarget.value);
   }
-
   const onSubmitClick = () => {
     let phone_regExp = /^(?:(010\d{4})|(01[1|6|7|8|9]\d{3,4}))(\d{4})$/;
     let password_regExp = /^[a-zA-Z0-9]{10,15}$/;
@@ -78,10 +70,10 @@ const Join = () => {
         url: '/auth/api/join',
         method:'POST',
         data:{
-          phone: {Phone},
-          name: {Name},
-          certification: {Certification},
-          password: {Password},
+          phone: Phone,
+          name: Name,
+          certification: Certification,
+          password: Password,
         }
       }).then(function (response) {
         if ( response['data']['result'] === '000000' ) {
@@ -108,7 +100,7 @@ const Join = () => {
         url: '/auth/api/join/certification',
         method:'POST',
         data:{
-          phone: {Phone} 
+          phone: Phone
         }
       }).then(function (response) {
         if (!CertificationProgress) {

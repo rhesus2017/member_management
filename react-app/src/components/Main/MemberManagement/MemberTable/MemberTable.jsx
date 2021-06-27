@@ -1,35 +1,42 @@
 // react
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
+import socketio from 'socket.io-client';
+import Select from "react-select";
+
+// redux
 import { useDispatch } from 'react-redux';
 import { UserNameSetting } from '../../../../action';
-import socketio from 'socket.io-client';
-
-// hoc
-import useLocalStorage from '../../../../hoc/useLocalStorage';
 
 
-const MemberTable = ({ Member }) => { 
-
-  const grades = ['admin', 'guest']
-  const states = ['J', 'O', 'S']
+const MemberTable = ({ Member }) => {
+  
+  const grades = [{ value: 'admin', label: 'admin' }, { value: 'guest', label: 'guest' }]
+  const masterGrades = [{ value: 'master', label: 'master'}]
+  const states = [{ value: 'J', label: 'J'}, { value: 'O', label: 'O'}, { value: 'S', label: 'S'}]
   const mySwal = require('sweetalert2');
-  const socket = socketio.connect('http://192.168.0.22:5050/');
-  const dispatch = useDispatch();
+  const socket = socketio.connect('http://192.168.1.166:5050/');
   const history = useHistory();
-  const MemberId = Member['id'];
-
+  const dispatch = useDispatch();
+  const userNameSetting = () => { dispatch(UserNameSetting()); }
+  const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
+  const setStorage = (item, value) => { window.localStorage.setItem(item, JSON.stringify(value)) }
   const [Name, setName] = useState(Member['name']);
   const [Password, setPassword] = useState('');
   const [PasswordConfirm, setPasswordConfirm] = useState('');
   const [Grade, setGrade] = useState(Member['grade']);
+  const [DefaultGrade, setDefaultGrade] = useState({ value: Grade, label: Grade });
   const [State, setState] = useState(Member['state']);
+  const [DefaultState, setDefaultState] = useState({ value: State, label: State });
 
-  const [UserId, setUserId] = useLocalStorage('userId', 0); // eslint-disable-line no-unused-vars
-  const [UserName, setUserName] = useLocalStorage('userName', ''); // eslint-disable-line no-unused-vars
-  const [UserGrade, setUserGrade] = useLocalStorage('userGrade', ''); // eslint-disable-line no-unused-vars
-
+  useEffect(() => {
+    setName(Member['name']);
+    setGrade(Member['grade']);
+    setState(Member['state']);
+    setDefaultGrade({ value: Member['grade'], label: Member['grade'] })
+    setDefaultState({ value: Member['state'], label: Member['state'] })
+  }, [Member])
 
   const onNameHandler = (event) => {
     setName(event.currentTarget.value);
@@ -40,17 +47,6 @@ const MemberTable = ({ Member }) => {
   const onPasswordConfirmHandler = (event) => {
     setPasswordConfirm(event.currentTarget.value);
   }
-  const onGradeHandler = (event) => {
-    setGrade(event.currentTarget.value);
-  }
-  const onStateHandler = (event) => {
-    setState(event.currentTarget.value);
-  }
-
-  const userNameSetting = () => {
-    dispatch(UserNameSetting());
-  }
-
   const onChangeClick = (event) => {
 
     mySwal.fire({icon: 'question', title: '질문', text: '회원정보를 변경하시겠습니까?', showCancelButton: true}).then((result) => {
@@ -75,22 +71,21 @@ const MemberTable = ({ Member }) => {
           url: '/auth/api/change_member_information',
           method:'POST',
           data:{
-            userId: {UserId},
-            memberId: {MemberId},
-            name: {Name},
-            password: {Password},
-            grade: {Grade},
-            state: {State}
+            memberId: Member['id'],
+            name: Name,
+            password: Password,
+            grade: Grade,
+            state: State
           }
         }).then(function (response) {
           if ( response['data']['result'] === '000000' ) {
             mySwal.fire({icon: 'success', title: '성공', text: '회원정보 변경이 완료됐습니다'});
             setPassword('');
             setPasswordConfirm('');
-            if ( MemberId === UserId ) {
-              setUserName(Name);
-              setUserGrade(Grade);
-              userNameSetting();
+            if ( Member['id'] === getStorage('userId') ) {
+              setStorage('userName', Name);
+              setStorage('userGrade', Grade);
+              userNameSetting()
             }
           } else if ( response['data']['result'] === '000010' ) {
             mySwal.fire({icon: 'error', title: '실패', text: '회원정보를 수정할 수 있는 등급이 아닙니다'});
@@ -101,15 +96,15 @@ const MemberTable = ({ Member }) => {
             setPasswordConfirm('');
           } else if ( response['data']['result'] === '000080' ) {
             mySwal.fire({icon: 'error', title: '실패', text: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
-            setUserId(0);
-            setUserName('');
-            setUserGrade('');
+            setStorage('userId', 0);
+            setStorage('userName', '');
+            setStorage('userGrade', '');
             history.push('/');
           } else if ( response['data']['result'] === '000090' ) {
             mySwal.fire({icon: 'error', title: '실패', text: '정지 된 계정입니다. 관리자에게 문의해주세요'});
-            setUserId(0);
-            setUserName('');
-            setUserGrade('');
+            setStorage('userId', 0);
+            setStorage('userName', '');
+            setStorage('userGrade', '');
             history.push('/');
           }
         }).catch(function(error){
@@ -123,7 +118,7 @@ const MemberTable = ({ Member }) => {
   const alarm = () => {
     mySwal.fire({icon: 'question', title: '질문', text: '해당 유저에게 보낼 메세지를 입력해주세요', input: 'text', showCancelButton: true}).then((result) => {
       if (result.isConfirmed) {
-        socket.emit('sendMessage', {'message': result.value, 'memberId': MemberId})
+        socket.emit('sendMessage', {'message': result.value, 'memberId': Member['id']})
         socket.on('confirmResult', (data) => {
           if ( data.result === '000000') {
             mySwal.fire({icon: 'success', title: '성공', text: '메세지가 성공적으로 전송되었습니다'});
@@ -140,23 +135,14 @@ const MemberTable = ({ Member }) => {
       <div className='td'><input type='password' autocomplete='off' value={Password} onChange={onPasswordHandler} /></div>
       <div className='td'><input type='password' autocomplete='off' value={PasswordConfirm} onChange={onPasswordConfirmHandler} /></div>
       <div className='td'>
-        <select onChange={onGradeHandler}>
-          {
-            Member['grade'] === 'master' ? 
-              <option>{Grade}</option>
-            :
-              grades.map((grade) => {return <option selected={grade === Grade ? true : false}>{grade}</option> })
-          }
-        </select>
+        {
+          Member['grade'] === 'master'
+          ? <Select options={masterGrades} defaultValue={DefaultGrade} value={{ value: Grade, label: Grade }} isSearchable={false} onChange={(e) => setGrade(e['value'])} />
+          : <Select options={grades} defaultValue={DefaultGrade} value={{ value: Grade, label: Grade }} isSearchable={false} onChange={(e) => setGrade(e['value'])} />
+        }
       </div>
       <div className='td'>
-        <select onChange={onStateHandler}>
-          {
-          states.map((state) => { 
-            return <option selected={state === State ? true : false}>{state}</option> 
-            })
-          }
-        </select>
+        <Select options={states} defaultValue={DefaultState} value={{ value: State, label: State }} isSearchable={false} onChange={(e) => setState(e['value'])} />
       </div>
       <div className='td'><div className='button' onClick={onChangeClick}>변경</div></div>
       <div className='td'><div className='button' onClick={alarm}>알림</div></div>

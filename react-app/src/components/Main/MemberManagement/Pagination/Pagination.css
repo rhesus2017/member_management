@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.pagination{display: inline-block; margin-top: 40px}
+.pagination:after{content: ""; display: block; clear: both;}
+.pagination > div{color: #fff; float: left; border: 1px solid #fff; width: 30px; height: 30px; font-size: 1.5rem; line-height: 27px; margin-right: 16px; cursor: pointer;}
+.pagination > div:last-of-type{margin-right: 0}
+.pagination > div.active{background: #fff; color: #000}
+.pagination > div.disable{opacity: .3;}

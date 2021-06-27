@@ -2,20 +2,44 @@
 
 /*.management_wrap*/
 .management_wrap{width: 100%; height: calc(100% - 70px); position: relative;}
-.management_wrap .table{display: block; width: 90%; max-width: 900px; position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); border-top: 2px solid #fff;}
+.management_wrap .table_wrap{display: block; width: 90%; max-width: 900px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.management_wrap .table{display: block; width: 100%; border-top: 2px solid #fff;}
 .management_wrap .tr{width: 100%; height: 50px; border-bottom: 1px solid #fff;}
 .management_wrap .tr:after{content: ""; display: block; clear: both;}
 .management_wrap .td{float: left; height: 100%; line-height: 50px; text-align: center; padding: 0 10px;}
-.management_wrap .td:nth-of-type(1){width: 15%;}
-.management_wrap .td:nth-of-type(2){width: 10%;}
+.management_wrap .td:nth-of-type(1){width: 17%;}
+.management_wrap .td:nth-of-type(2){width: 12%;}
 .management_wrap .td:nth-of-type(3){width: 15%;}
 .management_wrap .td:nth-of-type(4){width: 15%;}
 .management_wrap .td:nth-of-type(5){width: 15%;}
 .management_wrap .td:nth-of-type(6){width: 10%;}
-.management_wrap .td:nth-of-type(7){width: 10%;}
-.management_wrap .td:nth-of-type(8){width: 10%;}
+.management_wrap .td:nth-of-type(7){width: 8%;}
+.management_wrap .td:nth-of-type(8){width: 8%;}
 .management_wrap .td span{color: #fff; display: inline-block; font-size: 1.333rem;}
 .management_wrap .td input{color: #fff; background: none; display: inline-block; font-size: 1.333rem; width: 100%; height: 30px; border: 1px solid #fff; text-align: center; margin: 9px 0px;}
 .management_wrap .td:nth-of-type(1) input{cursor: default;}
-.management_wrap .td select{color: #fff; background: none; display: inline-block; font-size: 1.333rem; width: 100%; height: 30px; border: 1px solid #fff; margin: 9px 0px;text-align-last: center; text-align: center; -ms-text-align-last: center; -moz-text-align-last: center; cursor: pointer}
 .management_wrap .td .button{color: #fff; background: none; display: inline-block; font-size: 1.333rem; width: 100%; height: 30px; border: 1px solid #fff; text-align: center; margin: 9px 0px; box-shadow: none; cursor: pointer; line-height: 30px;}
+
+.management_wrap .td:nth-of-type(5) > div{color: #fff; background: none; width: 100%; height: 30px;  margin: 9px 0px; cursor: pointer}
+.management_wrap .td:nth-of-type(5) > div > div:nth-of-type(1){color: #fff; height: 30px; background: none; font-size: 1.333rem; width: 100%; cursor: pointer; border-radius: 0; border: 1px solid #fff; min-height: 30px; box-shadow: none;}
+.management_wrap .td:nth-of-type(5) > div > div:nth-of-type(1) > div{color: #fff; height: 30px; position: static;}
+.management_wrap .td:nth-of-type(5) > div > div:nth-of-type(1) > div > span{display: none;}
+.management_wrap .td:nth-of-type(5) > div > div:nth-of-type(1) > div > div{color: #fff; height: 30px; line-height: 30px; top: auto; transform: translateY(0);}
+.management_wrap .td:nth-of-type(5) > div > div:nth-of-type(1) > div:nth-of-type(1) > div{left: 50%; transform: translateX(-80%); margin: 0;}
+.management_wrap .td:nth-of-type(5) > div > div:nth-of-type(2){color: #fff; max-height: 90px; background: #000; font-size: 1.333rem; width: 100%; border: 1px solid #fff; border-radius: 0; margin: 0; border-top: 0;}
+.management_wrap .td:nth-of-type(5) > div > div:nth-of-type(2) > div{margin: 0; padding: 0;}
+.management_wrap .td:nth-of-type(5) > div > div:nth-of-type(2) > div > div{margin: 0; background: none; border-bottom: 1px solid #aaa; color: #fff; height: 30px; line-height: 30px; padding: 0; cursor: pointer;}
+.management_wrap .td:nth-of-type(5) > div > div:nth-of-type(2) > div > div:hover{background: #555;}
+.management_wrap .td:nth-of-type(5) > div > div > div:nth-of-type(2) > div{padding: 5px 2px;}
+
+.management_wrap .td:nth-of-type(6) > div{color: #fff; background: none; width: 100%; height: 30px;  margin: 9px 0px; cursor: pointer}
+.management_wrap .td:nth-of-type(6) > div > div:nth-of-type(1){color: #fff; height: 30px; background: none; font-size: 1.333rem; width: 100%; cursor: pointer; border-radius: 0; border: 1px solid #fff; min-height: 30px; box-shadow: none;}
+.management_wrap .td:nth-of-type(6) > div > div:nth-of-type(1) > div{color: #fff; height: 30px; position: static;}
+.management_wrap .td:nth-of-type(6) > div > div:nth-of-type(1) > div > span{display: none;}
+.management_wrap .td:nth-of-type(6) > div > div:nth-of-type(1) > div > div{color: #fff; height: 30px; line-height: 30px; top: auto; transform: translateY(0);}
+.management_wrap .td:nth-of-type(6) > div > div:nth-of-type(1) > div:nth-of-type(1) > div{left: 50%; transform: translateX(-140%); margin: 0;}
+.management_wrap .td:nth-of-type(6) > div > div:nth-of-type(2){color: #fff; max-height: 90px; background: #000; font-size: 1.333rem; width: 100%; border: 1px solid #fff; border-radius: 0; margin: 0; border-top: 0;}
+.management_wrap .td:nth-of-type(6) > div > div:nth-of-type(2) > div{margin: 0; padding: 0;}
+.management_wrap .td:nth-of-type(6) > div > div:nth-of-type(2) > div > div{margin: 0; background: none; border-bottom: 1px solid #aaa; color: #fff; height: 30px; line-height: 30px; padding: 0; cursor: pointer;}
+.management_wrap .td:nth-of-type(6) > div > div:nth-of-type(2) > div > div:hover{background: #555;}
+.management_wrap .td:nth-of-type(6) > div > div > div:nth-of-type(2) > div{padding: 5px 2px;}
