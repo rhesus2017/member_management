@@ -24,26 +24,44 @@ const TopNav = () => {
   const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
   const setStorage = (item, value) => { window.localStorage.setItem(item, JSON.stringify(value)) }
   
+  const storageClear = (route) => {
+    setStorage('userId', 0);
+    setStorage('userName', '');
+    setStorage('userGrade', '');
+    history.push(route);
+  }
   const logOut = () => {
-    mySwal.fire({icon: 'question', title: '질문', text: '정말 로그아웃 하시겠습니까?', showCancelButton: true}).then((result) => {
+    mySwal.fire({icon: 'question', title: '질문', html: '정말 로그아웃 하시겠습니까?', showCancelButton: true}).then((result) => {
       if (result.isConfirmed) {
         axios({
           url: '/auth/api/logout',
-          method:'POST',
-          data:{
-            userId: getStorage('userId'),
+          method: 'POST',
+          data: {
+            userId: getStorage('userId')
           }
         }).then(function (response) {
           if ( response['data']['result'] === '000000' ) {
-            mySwal.fire({icon: 'success', title: '성공', text: '로그아웃이 완료되었습니다'}).then((result) => {
-              setStorage('userId', 0);
-              setStorage('userName', '');
-              setStorage('userGrade', '');
-              history.push('/');
-            });
+            mySwal.fire({icon: 'success', title: '성공', html: '로그아웃이 완료되었습니다'});
+            storageClear('/');
+          } else if ( response['data']['result'] === '000300' ) {
+            mySwal.fire({icon: 'error', title: '실패', html: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'});
+            storageClear('/Login');
+          } else if ( response['data']['result'] === '000301' ) {
+            mySwal.fire({icon: 'error', title: '실패', html: '관리자에 의해 로그아웃 됐습니다.<br>로그인 페이지로 이동합니다'});
+            storageClear('/Login');
+          } else if ( response['data']['result'] === '000302' ) {
+            mySwal.fire({icon: 'error', title: '실패', html: '정지 된 계정입니다. 관리자에게 문의해주세요'});
+            storageClear('/');
+          } else if ( response['data']['result'] === '000303' ) {
+            mySwal.fire({icon: 'error', title: '실패', html: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
+            storageClear('/');
+          } else if ( response['data']['result'] === '000304' ) {
+            mySwal.fire({icon: 'error', title: '실패', html: '로그인이 필요합니다. 로그인 페이지로 이동합니다'});
+            storageClear('/Login');
           }
         }).catch(function(error){
-          mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 로그아웃이 실패했습니다'});
+          mySwal.fire({icon: 'error', title: '실패', html: '알수 없는 문제로 로그아웃이 실패했습니다'});
+          storageClear('/');
         });
       }
     })

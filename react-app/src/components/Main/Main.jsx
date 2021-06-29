@@ -16,13 +16,13 @@ import './Main.css';
 
 const Main = ({title, name}) => {
 
-  const socket = socketio.connect('http://192.168.1.166:5050/');
   const mySwal = require('sweetalert2');
+  const socket = socketio.connect('http://192.168.0.22:5050/');
   const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)); };
 
   socket.on('receiveMessage', (data) => {
     if (data.memberId === getStorage('userId')) {
-      mySwal.fire({icon: 'success', title: '성공', text: data.message}).then((result) => {
+      mySwal.fire({icon: 'success', title: '성공', html: data.message}).then((result) => {
         socket.emit('confirmResult', {'result': '000000'})
       });
     }

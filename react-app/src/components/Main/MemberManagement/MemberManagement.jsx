@@ -22,44 +22,21 @@ const MemberManagement = () => {
   const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
   const setStorage = (item, value) => { window.localStorage.setItem(item, JSON.stringify(value)) }
   const [Members, setMembers] = useState([]);
-  const [Count, setCount] = useState();
-  let getMemberComplete = false;
+  const [Count, setCount] = useState(); 
 
   useEffect(() => {
-    sessionCheck()
-    getMemberComplete = true; // eslint-disable-line react-hooks/exhaustive-deps
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+    getMemberInformation();
+  }, [currentPage.pager]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const sessionCheck = (event) => {
-    axios({
-      url: '/auth/api/session_check',
-      method:'POST',
-      data:{
-        userId: getStorage('userId'),
-      }
-    }).then(function (response) {
-      if ( getStorage('userId') !== 0 && !response['data']['session'] ) {
-        mySwal.fire({icon: 'error', title: '실패', text: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'});
-        setStorage('userId', 0);
-        setStorage('userName', '');
-        setStorage('userGrade', '');
-        history.push('/Login');
-      } else if ( getStorage('userId') === 0 && !response['data']['session'] ) {
-        mySwal.fire({icon: 'error', title: '실패', text: '로그인이 필요한 페이지입니다. 로그인 페이지로 이동합니다'});     
-        setStorage('userId', 0);
-        setStorage('userName', '');
-        setStorage('userGrade', '');
-        history.push('/Login');
-      } else {
-        getAllMemberInformation()
-      }
-    }).catch(function(error){
-      mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 새션 확인을 실패했습니다'});
-    });
+  const storageClear = (route) => {
+    setStorage('userId', 0);
+    setStorage('userName', '');
+    setStorage('userGrade', '');
+    history.push(route);
   }
-  const getAllMemberInformation = () => {
+  const getMemberInformation = () => {
     axios({
-      url: '/auth/api/get_all_information',
+      url: '/auth/api/get_member_information',
       method:'POST',
       data:{
         userId: getStorage('userId'),
@@ -70,40 +47,29 @@ const MemberManagement = () => {
         setMembers(response['data']['rows']);
         setCount(response['data']['count']['count(*)']);
       }else if ( response['data']['result'] === '000010' ) {
-        mySwal.fire({icon: 'error', title: '실패', text: '회원정보를 볼 수 있는 등급이 아닙니다'});
+        mySwal.fire({icon: 'error', title: '실패', html: '회원정보를 볼 수 있는 등급이 아닙니다'});
         history.push('/');
-      } else if ( response['data']['result'] === '000080' ) {
-        mySwal.fire({icon: 'error', title: '실패', text: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
-        setStorage('userId', 0);
-        setStorage('userName', '');
-        setStorage('userGrade', '');
-        history.push('/');
-      } else if ( response['data']['result'] === '000090' ) {
-        mySwal.fire({icon: 'error', title: '실패', text: '정지 된 계정입니다. 관리자에게 문의해주세요'});
-        setStorage('userId', 0);
-        setStorage('userName', '');
-        setStorage('userGrade', '');
-        history.push('/');
-      } else if ( response['data']['result'] === '000100' ) {
-        mySwal.fire({icon: 'error', title: '실패', text: '관리자에 의해 로그아웃 된 계정입니다. 다시 로그인 해주세요'});
-        setStorage('userId', 0);
-        setStorage('userName', '');
-        setStorage('userGrade', '');
-        history.push('/');
+      } else if ( response['data']['result'] === '000300' ) {
+        mySwal.fire({icon: 'error', title: '실패', html: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'});
+        storageClear('/Login');
+      } else if ( response['data']['result'] === '000301' ) {
+        mySwal.fire({icon: 'error', title: '실패', html: '관리자에 의해 로그아웃 됐습니다.<br>로그인 페이지로 이동합니다'});
+        storageClear('/Login');
+      } else if ( response['data']['result'] === '000302' ) {
+        mySwal.fire({icon: 'error', title: '실패', html: '정지 된 계정입니다. 관리자에게 문의해주세요'});
+        storageClear('/');
+      } else if ( response['data']['result'] === '000303' ) {
+        mySwal.fire({icon: 'error', title: '실패', html: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
+        storageClear('/');
+      } else if ( response['data']['result'] === '000304' ) {
+        mySwal.fire({icon: 'error', title: '실패', html: '로그인이 필요합니다. 로그인 페이지로 이동합니다'});
+        storageClear('/Login');
       }
     }).catch(function(error){
-      mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 회원정보 가져오기를 실패했습니다'});
-      history.push('/');
+      mySwal.fire({icon: 'error', title: '실패', html: '알수 없는 문제로 회원정보 가져오기를 실패했습니다'});
+      storageClear('/');
     });
   }
-
-  useEffect(() => {
-    if ( getMemberComplete === false ) {
-      getAllMemberInformation();
-    } else {
-      getMemberComplete = false;  // eslint-disable-line react-hooks/exhaustive-deps
-    }
-  }, [currentPage.pager])
 
   return(
     <div className='management_wrap'>

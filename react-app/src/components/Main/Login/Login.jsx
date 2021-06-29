@@ -16,7 +16,7 @@ const Login = () => {
 
   useEffect(() => {
     if ( getStorage('userId') !== 0 ) {
-      mySwal.fire({icon: 'error', title: '실패', text: '올바른 접근 경로가 아닙니다'});
+      mySwal.fire({icon: 'error', title: '실패', html: '올바른 접근 경로가 아닙니다'});
       history.push('/');
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -48,12 +48,11 @@ const Login = () => {
   const onCheckedHandler = () => {
     Checked ? setChecked(false) : setChecked(true);
   }
-  const onSubmitHandler = (event) => {
-
+  const submit = (event) => {
     if ( Phone === '' ) {
-      mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호를 입력해주세요'});
+      mySwal.fire({icon: 'error', title: '실패', html: '휴대폰 번호를 입력해주세요'});
     } else if (Password === '' ) {
-      mySwal.fire({icon: 'error', title: '실패', text: '비밀번호를 입력해주세요'});
+      mySwal.fire({icon: 'error', title: '실패', html: '비밀번호를 입력해주세요'});
     } else {
       axios({
         url: '/auth/api/login',
@@ -71,25 +70,25 @@ const Login = () => {
           userNameSetting()
           history.push('/');
         } else if ( response['data']['result'] === '000010' ) { 
-          mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호 또는 비밀번호가 일치하지 않습니다'});
+          mySwal.fire({icon: 'error', title: '실패', html: '휴대폰 번호 또는 비밀번호가 일치하지 않습니다'});
           setPassword('');
-        } else if ( response['data']['result'] === '000080' ) {
-          mySwal.fire({icon: 'error', title: '실패', text: '휴대폰 번호 또는 비밀번호가 일치하지 않습니다'});
+        } else if ( response['data']['result'] === '000303' ) {
+          mySwal.fire({icon: 'error', title: '실패', html: '휴대폰 번호 또는 비밀번호가 일치하지 않습니다'});
           setPassword('');
-        } else if ( response['data']['result'] === '000090' ) {
-          mySwal.fire({icon: 'error', title: '실패', text: '정지 된 계정입니다. 관리자에게 문의해주세요'});
+        } else if ( response['data']['result'] === '000302' ) {
+          mySwal.fire({icon: 'error', title: '실패', html: '정지 된 계정입니다. 관리자에게 문의해주세요'});
           setPassword('');
         }
       }).catch(function(error){
-        mySwal.fire({icon: 'error', title: '실패', text: '알수 없는 문제로 로그인이 실패했습니다'});
-        setPassword('');
+        mySwal.fire({icon: 'error', title: '실패', html: '알수 없는 문제로 로그인이 실패했습니다'});
+        history.push('/');
       });
     }
     
   }
-  const onEnterPress = (e) => {
-    if (e.key === 'Enter') {
-      onSubmitHandler();
+  const onEnterPress = (event) => {
+    if (event.key === 'Enter') {
+      submit();
     }
   }
 
@@ -100,7 +99,7 @@ const Login = () => {
           <input type='tel' placeholder='휴대폰 번호' className='loginIp' value={Phone} onChange={onPhoneHandler} onKeyPress={onEnterPress} />
           <input type='password' placeholder='비밀번호' className='loginIp' value={Password} onChange={onPasswordHandler} onKeyPress={onEnterPress} autocomplete='off' />
         </div>
-        <input type='button' value='로그인' className='loginButton' onClick={onSubmitHandler}/>
+        <input type='button' value='로그인' className='loginButton' onClick={submit}/>
         <p>
           <input type='checkbox' id='id_Save' onClick={onCheckedHandler} checked={Checked} /><label for='id_Save'><span>아이디 저장</span></label>
         </p>
