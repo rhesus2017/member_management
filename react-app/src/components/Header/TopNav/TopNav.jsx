@@ -84,8 +84,18 @@ const TopNav = () => {
       </div>
       
         {
-          getStorage('userId') !== 0 ? <div className='right'><Link to='/Information'>{UserNameSetting.name}</Link><span></span><span onClick={logOut}>Logout</span></div>
-          : <div className='right'><Link to='/Login'>Login</Link><span></span><Link to='/Join'>Join</Link></div>
+          getStorage('userId') !== 0
+          ? <div className='right'>
+              <div><span></span><span></span></div>
+              <Link to='/Information'>{UserNameSetting.name}</Link>
+              <span></span>
+              <span onClick={logOut}>Logout</span>
+            </div>
+          : 
+          <div className='right'>
+            <Link to='/Login'>Login</Link>
+            <span></span>
+            <Link to='/Join'>Join</Link></div>
         }
         
     </div>

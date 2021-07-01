@@ -8,4 +8,6 @@ React With Flask Init
     5. 터미널에서 flask_server 폴더로 들어간 후, 가상환경 만들고 접속 
     5. 패키지 설치[pip install -r requirements.txt / pip3 install -r requirements.txt]
     5. app.py 실행
+
+  - 로그인 하지 않았을 때 받은 메세지를 보여주는 페이지 만들기
  
