@@ -6,6 +6,7 @@ import axios from 'axios';
 // redux
 import { useDispatch, useSelector } from 'react-redux';
 import { RecentMessage } from '../../../action';
+import { MessagePagination } from '../../../action';
 
 // component
 import MessageTable from './MessageTable/MessageTable';
@@ -21,21 +22,24 @@ const Message = () => {
   const history = useHistory();
   const dispatch = useDispatch();
   const recentMessage = (check) => { dispatch(RecentMessage(check)); }
+  const messagePagination = (i) => { dispatch(MessagePagination(i)); }
   const currentPage = useSelector(state => state.MessagePagination);
   const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
   const setStorage = (item, value) => { window.localStorage.setItem(item, JSON.stringify(value)) }
   const [MessageLists, setMessageLists] = useState([]);
   const [Count, setCount] = useState();
-  const [Checked, setChecked] = useState(false);
   const [CheckList, setCheckList] = useState([]);
   const [AllChecked, setAllChecked] = useState(false);
 
   useEffect(() => {
     getMessage();
+    setAllChecked(false);
+    setCheckList([]);
   }, [currentPage.pager]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    setChecked(false);
+    if ( MessageLists.length === 0 && currentPage.pager !== 1 ) { messagePagination(currentPage.pager - 1);}
+    setAllChecked(false);
   }, [MessageLists]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const check = (num) => {
@@ -45,13 +49,7 @@ const Message = () => {
     setCheckList(CheckList => CheckList.filter(number => number !== num));
   }
   const onAllCheckedHandler = () => {
-    if ( AllChecked === false ) {
-      setAllChecked(true);
-      setChecked(true);
-    } else {
-      setAllChecked(false);
-      setChecked(false);
-    }
+    AllChecked === false ? setAllChecked(true) : setAllChecked(false);
   }
   const storageClear = (route) => {
     setStorage('userId', 0);
@@ -109,8 +107,8 @@ const Message = () => {
           }).then(function (response) {
             if ( response['data']['result'] === '000000' ) {
               mySwal.fire({icon: 'success', title: '성공', html: '선택한 메세지가 삭제되었습니다'}).then((result) => {
-                setCheckList([]);
                 getMessage();
+                setCheckList([]);
               });
             } else if ( response['data']['result'] === '000300' ) {
               mySwal.fire({icon: 'error', title: '실패', html: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'});
@@ -143,7 +141,7 @@ const Message = () => {
         <div className='table'>
           <div className='tr'>
             <div className='td th'>
-              <input type='checkbox' className='checkbox' onClick={onAllCheckedHandler} checked={Checked} />
+              <input type='checkbox' className='checkbox' onClick={onAllCheckedHandler} checked={AllChecked} />
               <label></label>
             </div>
             <div className='td th'><span>보낸 사람</span></div>

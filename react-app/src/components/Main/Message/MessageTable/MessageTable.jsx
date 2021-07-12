@@ -20,20 +20,20 @@ const MessageTable = ({ MessageList, check, nonCheck, AllChecked }) => {
     }
   }, [AllChecked]); // eslint-disable-line react-hooks/exhaustive-deps
   
-  const onCheckedHandler = (num) => {
+  const onCheckedHandler = () => {
     if ( Checked === false ) {
       setChecked(true);
-      check(num);
+      check(MessageList['id']);
     } else {
       setChecked(false);
-      nonCheck(num);
+      nonCheck(MessageList['id']);
     }
   }
 
   return(
     <form method='post' autocomplete='off' className='tr'>
       <div className='td'>
-        <input type='checkbox' className='checkbox' onClick={() => { onCheckedHandler(MessageList['id']) }} checked={Checked} id={'check_' + MessageList['id']} />
+        <input type='checkbox' className='checkbox' onClick={onCheckedHandler} checked={Checked} id={'check_' + MessageList['id']} />
         <label for={'check_' + MessageList['id']}></label>
       </div>
       <div className='td'><span>{MessageList['sender']}</span></div>
