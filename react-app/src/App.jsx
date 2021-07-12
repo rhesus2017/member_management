@@ -11,6 +11,7 @@ import MemberManagement from './pages/MemberManagement/MemberManagement';
 import Login from './pages/Login/Login';
 import Join from './pages/Join/Join';
 import Information from './pages/Information/Information';
+import Message from './pages/Message/Message';
 import NotFound from './pages/NotFound/NotFound';
 
 // css
@@ -21,7 +22,15 @@ import './css/class.css';
 const App = () => {
 
   const MenuOpenClose = useSelector(state => state.MenuOpenClose);
+  const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
+  const setStorage = (item, value) => { window.localStorage.setItem(item, JSON.stringify(value)) }
 
+  if ( getStorage('userId') === null ) {
+    setStorage('userId', 0);
+    setStorage('userName', '');
+    setStorage('userGrade', '');
+  } 
+  
   return(
     <div className={MenuOpenClose.open ? 'react_app open' : 'react_app close_'}>
       <BrowserRouter>
@@ -31,6 +40,7 @@ const App = () => {
           <Route path='/Login' exact={true} render={() => <Login title='LOGIN' name='login' link='/Login' />} />
           <Route path='/Join' exact={true} render={() => <Join title='JOIN' name='join' link='/Join' />} />
           <Route path='/Information' exact={true} render={() => <Information title='INFORMATION' name='information' link='/Information' />} />
+          <Route path='/Message' exact={true} render={() => <Message title='MESSAGE' name='message' link='/Message' />} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>

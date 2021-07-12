@@ -46,7 +46,7 @@ const Information = () => {
   }
   const getUserInformation = () => {
     axios({
-      url: '/auth/api/get_user_information',
+      url: '/api/get_user_information',
       method:'POST',
       data: {
         userId: getStorage('userId')
@@ -92,7 +92,7 @@ const Information = () => {
     }
     else 
       axios({
-        url: '/auth/api/change_user_information',
+        url: '/api/change_user_information',
         method: 'POST',
         data: {
           name: Name,
@@ -145,7 +145,7 @@ const Information = () => {
         }
         else 
           axios({
-            url: '/auth/api/out_user',
+            url: '/api/out_user',
             method:'POST',
             data:{
               password: Password,

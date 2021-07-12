@@ -6,9 +6,6 @@ import Header from '../../components/Header/Header';
 import Main from '../../components/Main/Main';
 import Footer from '../../components/Footer/Footer';
 
-// css
-import './Join.css';
-
 
 const Join = ({ title, name, link }) => {
 

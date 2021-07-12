@@ -1,6 +1,8 @@
 import { MENU_OPEN_CLOSE } from '../action';
 import { USER_NAME_SETTING } from '../action';
-import { GET_PAGINATION } from '../action';
+import { MEMBER_PAGINATION } from '../action';
+import { MESSAGE_PAGINATION } from '../action';
+import { RECENT_MESSAGE } from '../action';
 import { combineReducers } from 'redux';
 
 
@@ -37,12 +39,12 @@ const UserNameSetting = (state = UserNameSettingInit, action) => {
 }
 
 
-let GetPaginationInit = {
+let MemberPaginationInit = {
     pager: 1
 };
-const GetPagination = (state = GetPaginationInit, action) => {
+const MemberPagination = (state = MemberPaginationInit, action) => {
     switch(action.type) {
-        case GET_PAGINATION:
+        case MEMBER_PAGINATION:
             return {
                 ...state, pager: action.payload
             };
@@ -52,8 +54,38 @@ const GetPagination = (state = GetPaginationInit, action) => {
 }
 
 
+let MessagePaginationInit = {
+    pager: 1
+};
+const MessagePagination = (state = MessagePaginationInit, action) => {
+    switch(action.type) {
+        case MESSAGE_PAGINATION:
+            return {
+                ...state, pager: action.payload
+            };
+        default:
+            return state;
+    }
+}
+
+
+let RecentMessageInit = {
+    check: false
+};
+const RecentMessage = (state = RecentMessageInit, action) => {
+    switch(action.type) {
+        case RECENT_MESSAGE:
+            return {
+                ...state, check: action.payload
+            };
+        default:
+            return state;
+    }
+}
+
+
 const ReducersApp = combineReducers({
-    MenuOpenClose, UserNameSetting, GetPagination
+    MenuOpenClose, UserNameSetting, MemberPagination, MessagePagination, RecentMessage
 });
 
 

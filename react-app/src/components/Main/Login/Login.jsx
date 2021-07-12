@@ -55,7 +55,7 @@ const Login = () => {
       mySwal.fire({icon: 'error', title: '실패', html: '비밀번호를 입력해주세요'});
     } else {
       axios({
-        url: '/auth/api/login',
+        url: '/api/login',
         method:'POST',
         data:{
           phone: Phone,

@@ -3,7 +3,7 @@ import React from 'react';
 
 // redux
 import { useDispatch, useSelector } from 'react-redux';
-import { MemberPagination } from '../../../../action';
+import { MessagePagination } from '../../../../action';
 
 // css
 import './Pagination.css';
@@ -12,8 +12,8 @@ import './Pagination.css';
 function Pagination({ Count }){ 
 
   const dispatch = useDispatch();
-  const memberPagination = (i) => { dispatch(MemberPagination(i)); }
-  const currentPage = useSelector(state => state.MemberPagination);
+  const messagePagination = (i) => { dispatch(MessagePagination(i)); }
+  const currentPage = useSelector(state => state.MessagePagination);
 
   let contentLength = Count;
   let minPage = 1
@@ -36,21 +36,21 @@ function Pagination({ Count }){
 
   for (let i=leftSideNumber; i<=rightSideNumber; i++) {
     pager.push(
-      <div className={(i === currentPage.pager ? 'active' : '')} onClick={() => { memberPagination(i) }}>{i}</div>
+      <div className={(i === currentPage.pager ? 'active' : '')} onClick={() => { messagePagination(i) }}>{i}</div>
     );
   }
 
   const prevPageClick = () => {
-    if ( currentPage.pager > 1 ) { memberPagination(currentPage.pager - 1) }
+    if ( currentPage.pager > 1 ) { messagePagination(currentPage.pager - 1) }
   }
   const nextPageClick = () => {
-    if ( currentPage.pager < maxPage ) { memberPagination(currentPage.pager + 1) }
+    if ( currentPage.pager < maxPage ) { messagePagination(currentPage.pager + 1) }
   }
   const firstPageClick = () => {
-    memberPagination(minPage)
+    messagePagination(minPage)
   }
   const lastPageClick = () => {
-    memberPagination(maxPage)
+    messagePagination(maxPage)
   }
 
   return (

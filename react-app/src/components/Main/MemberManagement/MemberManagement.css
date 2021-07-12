@@ -17,8 +17,8 @@
 .management_wrap .td:nth-of-type(8){width: 7%;}
 .management_wrap .td:nth-of-type(9){width: 9%;}
 .management_wrap .td span{color: #fff; display: inline-block; font-size: 1.333rem;}
-.management_wrap .td input{color: #fff; background: none; display: inline-block; font-size: 1.333rem; width: 100%; height: 30px; border: 1px solid #fff; text-align: center; margin: 9px 0px;}
-.management_wrap .td:nth-of-type(1) input{cursor: default;}
+.management_wrap .td input.memberInput{color: #fff; background: none; display: inline-block; font-size: 1.333rem; width: 100%; height: 30px; border: 1px solid #fff; text-align: center; margin: 9px 0px;}
+.management_wrap .td:nth-of-type(1) input.memberInput{cursor: default;}
 .management_wrap .td .button{color: #fff; background: none; display: inline-block; font-size: 1.333rem; width: 100%; height: 30px; border: 1px solid #fff; text-align: center; margin: 9px 0px; box-shadow: none; cursor: pointer; line-height: 30px;}
 
 .management_wrap .td:nth-of-type(5) > div{color: #fff; background: none; width: 100%; height: 30px;  margin: 9px 0px; cursor: pointer}

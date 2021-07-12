@@ -1,11 +1,12 @@
 // react
-import React from 'react';
+import React, { useEffect } from 'react';
 import axios from 'axios';
 import { Link, useHistory } from 'react-router-dom';
 
 // redux
 import { useDispatch, useSelector } from 'react-redux';
 import { MenuOpenClose } from '../../../action';
+import { RecentMessage } from '../../../action';
 
 // img
 import logo from './img/logo.png';
@@ -16,11 +17,17 @@ import './TopNav.css';
 
 const TopNav = () => {
 
+  useEffect(() => {
+    checkMessage();
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
   const mySwal = require('sweetalert2');
   const history = useHistory();
   const dispatch = useDispatch();
   const menuOpenClose = () => { dispatch(MenuOpenClose());}
+  const recentMessage = (check) => { dispatch(RecentMessage(check)); }
   const UserNameSetting = useSelector(state => state.UserNameSetting);
+  const RecentMessageCheck = useSelector(state => state.RecentMessage);
   const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
   const setStorage = (item, value) => { window.localStorage.setItem(item, JSON.stringify(value)) }
   
@@ -30,11 +37,29 @@ const TopNav = () => {
     setStorage('userGrade', '');
     history.push(route);
   }
+  const checkMessage = () => {
+    axios({
+      url: '/api/check_message',
+      method: 'POST',
+      data: {
+        userId: getStorage('userId')
+      }
+    }).then(function (response) {
+      if ( response['data']['result'] === '000000' ) {
+        recentMessage(true);
+      } else if ( response['data']['result'] === '000010' ) {
+        recentMessage(false);
+      }
+    }).catch(function(error){
+      mySwal.fire({icon: 'error', title: '실패', html: '알수 없는 문제로 메세지 체크를 실패했습니다'});
+      storageClear('/');
+    });
+  }
   const logOut = () => {
     mySwal.fire({icon: 'question', title: '질문', html: '정말 로그아웃 하시겠습니까?', showCancelButton: true}).then((result) => {
       if (result.isConfirmed) {
         axios({
-          url: '/auth/api/logout',
+          url: '/api/logout',
           method: 'POST',
           data: {
             userId: getStorage('userId')
@@ -86,16 +111,16 @@ const TopNav = () => {
         {
           getStorage('userId') !== 0
           ? <div className='right'>
-              <div><span></span><span></span></div>
-              <Link to='/Information'>{UserNameSetting.name}</Link>
+              <Link to='/Message' className='message'><i class="far fa-comment-dots"></i><span className={RecentMessageCheck.check ? 'new' : ''}></span></Link>
+              <Link to='/Information' className='auth'>{UserNameSetting.name}</Link>
               <span></span>
               <span onClick={logOut}>Logout</span>
             </div>
           : 
           <div className='right'>
-            <Link to='/Login'>Login</Link>
+            <Link to='/Login' className='auth'>Login</Link>
             <span></span>
-            <Link to='/Join'>Join</Link></div>
+            <Link to='/Join' className='auth'>Join</Link></div>
         }
         
     </div>

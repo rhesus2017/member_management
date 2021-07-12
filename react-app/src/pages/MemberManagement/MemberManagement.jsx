@@ -6,9 +6,6 @@ import Header from '../../components/Header/Header';
 import Main from '../../components/Main/Main';
 import Footer from '../../components/Footer/Footer';
 
-// css
-import './MemberManagement.css';
-
 
 const MemberManagement = ({ title, name, link }) => {
 

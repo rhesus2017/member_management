@@ -9,6 +9,7 @@ import Login from './Login/Login';
 import Join from './Join/Join';
 import Information from './Information/Information';
 import MemberManagement from './MemberManagement/MemberManagement';
+import Message from './Message/Message';
 
 // css
 import './Main.css';
@@ -22,7 +23,7 @@ const Main = ({title, name}) => {
 
   socket.on('receiveMessage', (data) => {
     if (data.memberId === getStorage('userId')) {
-      mySwal.fire({icon: 'success', title: '성공', html: data.message}).then((result) => {
+      mySwal.fire({icon: 'success', title: data.sender, html: data.message}).then((result) => {
         socket.emit('confirmResult', {'result': '000000'})
       });
     }
@@ -39,6 +40,7 @@ const Main = ({title, name}) => {
           {name === 'join' && <Join />}
           {name === 'information' && <Information />}
           {name === 'member management' && <MemberManagement />}
+          {name === 'message' && <Message />}
         </div>
       </main>
     </div>

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*.message_wrap*/
+.message_wrap{width: 100%; height: calc(100% - 70px); position: relative;}
+.message_wrap .table_wrap{display: block; width: 90%; max-width: 1000px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.message_wrap .table{display: block; width: 100%; border-top: 2px solid #fff;}
+.message_wrap .tr{width: 100%; height: 50px; border-bottom: 1px solid #fff;}
+.message_wrap .tr:after{content: ""; display: block; clear: both;}
+.message_wrap .td{float: left; height: 100%; line-height: 50px; text-align: center; padding: 0 10px; position: relative;}
+.message_wrap .td:nth-of-type(1){width: 5%;}
+.message_wrap .td:nth-of-type(2){width: 15%;}
+.message_wrap .td:nth-of-type(3){width: 60%;}
+.message_wrap .td:nth-of-type(4){width: 20%;}
+.message_wrap .td span{color: #fff; font-size: 1.333rem; display: block; white-space: nowrap; overflow: hidden;  text-overflow: ellipsis;}
+.message_wrap .td input.checkbox{width: 14px; height: 14px; cursor: pointer; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; z-index: 10;}
+.message_wrap .td input.checkbox + label{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); cursor: pointer; background: url(./img/check.png) no-repeat left; background-size: 14px 14px; display: block; width: 14px; height: 14px;}
+.message_wrap .td input.checkbox:checked + label{background-image: url(./img/checked.png)}
+.message_wrap .nonData{width: 100%; height: 50px; border-bottom: 1px solid #fff; color: #fff; font-size: 1.333rem; line-height: 50px;}
+.message_wrap .button_wrap{display: block; width: 100%;}
+.message_wrap .button_wrap:after{content: ""; display: block; clear: both;}
+.message_wrap .button_wrap > button{display: block; float: right; width: 80px; height: 30px; background: none; box-shadow: none; border: 1px solid #fff; color: #fff; margin-top: 20px; line-height: 30px; margin-right: 10px; cursor: pointer;}

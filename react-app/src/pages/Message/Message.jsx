@@ -7,7 +7,7 @@ import Main from '../../components/Main/Main';
 import Footer from '../../components/Footer/Footer';
 
 
-const Home = ({ title, name, link }) => {
+const Message = ({ title, name, link }) => {
 
   return(
     <div className={name}>
@@ -20,4 +20,4 @@ const Home = ({ title, name, link }) => {
 }
 
 
-export default Home;
+export default Message;

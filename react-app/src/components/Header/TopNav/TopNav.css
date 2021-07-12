@@ -14,8 +14,15 @@ header .top_nav > .left > button > span:nth-of-type(3){top: 14px; left: 0;}
 .react_app.close_ header .top_nav > .left > button:hover > span:nth-of-type(1){transform: rotate(35deg); width: 11px; top: 3px; left: auto; right: 0;}
 header .top_nav > .left > a > img{width: 80px; display: inline-block; margin: 12px 0 11px 0;}
 header .top_nav > .right{float: right; height: 20px; margin: 15px 30px 15px 0;}
-header .top_nav > .right > a{color: #fff; line-height: 20px; font-size: 1.2rem;}
-header .top_nav > .right > a:nth-of-type(1){color: #09d9fe; font-weight: bold;}
-header .top_nav > .right > a:hover{color: #09d9fe; transition: .5s; text-decoration: none;}
+
+header .top_nav > .right > a.message{display: inline-block; color: #fff; position: relative; margin-right: 10px; width: 20px; height: 20px; transform: scaleX(-1);}
+header .top_nav > .right > a.message > svg{width: 17px; height: 17px; cursor: pointer;}
+header .top_nav > .right > a.message > span{display: none; width: 6px; height: 6px; border-radius: 50%; background: red; position: absolute; top: 20%; left: 85%; transform: translate(-50%, -50%);}
+header .top_nav > .right > a.message > span.new{display: block;}
+
+
+header .top_nav > .right > a.auth{color: #fff; line-height: 20px; font-size: 1.2rem;}
+header .top_nav > .right > a.auth:nth-of-type(1){color: #09d9fe; font-weight: bold;}
+header .top_nav > .right > a.auth:hover{color: #09d9fe; transition: .5s; text-decoration: none;}
 header .top_nav > .right > span:nth-of-type(1){display: inline-block; width: 1px; height: 10px; background: #fff; margin: 5px 8px;}
 header .top_nav > .right > span:nth-of-type(2){color: #fff; line-height: 20px; font-size: 1.2rem; cursor: pointer;}

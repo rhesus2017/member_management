@@ -71,7 +71,7 @@ const MemberTable = ({ Member }) => {
           }
         }
         axios({
-          url: '/auth/api/change_member_information',
+          url: '/api/change_member_information',
           method:'POST',
           data:{
             userId: getStorage('userId'),
@@ -125,16 +125,17 @@ const MemberTable = ({ Member }) => {
     mySwal.fire({icon: 'question', title: '질문', html: '해당 유저에게 보낼 메세지를 입력해주세요', input: 'text', showCancelButton: true}).then((result) => {
       if (result.isConfirmed) {
         axios({
-          url: '/auth/api/alarm',
+          url: '/api/alarm',
           method:'POST',
           data:{
             userId: getStorage('userId'),
             memberId: Member['id'],
+            sender: getStorage('userName'),
             message: result.value
           }
         }).then(function (response) {
           if ( response['data']['result'] === '000000' ) {
-            socket.emit('sendMessage', {'message': result.value, 'memberId': Member['id']})
+            socket.emit('sendMessage', {'message': result.value, 'memberId': Member['id'], 'sender': getStorage('userName')})
             socket.on('confirmResult', (data) => {
               if ( data.result === '000000') { mySwal.fire({icon: 'success', title: '성공', html: '메세지가 성공적으로 전송되었습니다'}); }
             });
@@ -170,7 +171,7 @@ const MemberTable = ({ Member }) => {
     mySwal.fire({icon: 'question', title: '질문', html: '해당 유저를 로그아웃 시키시겠습니까?', showCancelButton: true}).then((result) => {
       if (result.isConfirmed) {
         axios({
-          url: '/auth/api/logout_member',
+          url: '/api/logout_member',
           method:'POST',
           data:{
             userId: getStorage('userId'),
@@ -214,10 +215,10 @@ const MemberTable = ({ Member }) => {
 
   return(
     <form method='post' autocomplete='off' className='tr'>
-      <div className='td'><input type='tel' value={Member['phone']} readOnly /></div>
-      <div className='td'><input type='text' value={Name} onChange={onNameHandler} /></div>
-      <div className='td'><input type='password' autocomplete='off' value={Password} onChange={onPasswordHandler} /></div>
-      <div className='td'><input type='password' autocomplete='off' value={PasswordConfirm} onChange={onPasswordConfirmHandler} /></div>
+      <div className='td'><input type='tel' value={Member['phone']} readOnly className='memberInput' /></div>
+      <div className='td'><input type='text' value={Name} onChange={onNameHandler} className='memberInput' /></div>
+      <div className='td'><input type='password' autocomplete='off' value={Password} onChange={onPasswordHandler} className='memberInput' /></div>
+      <div className='td'><input type='password' autocomplete='off' value={PasswordConfirm} onChange={onPasswordConfirmHandler} className='memberInput' /></div>
       <div className='td'>
         {
           Member['grade'] === 'master'

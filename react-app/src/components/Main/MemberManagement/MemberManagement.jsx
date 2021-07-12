@@ -18,7 +18,7 @@ const MemberManagement = () => {
 
   const mySwal = require('sweetalert2');
   const history = useHistory();
-  const currentPage = useSelector(state => state.GetPagination);
+  const currentPage = useSelector(state => state.MemberPagination);
   const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
   const setStorage = (item, value) => { window.localStorage.setItem(item, JSON.stringify(value)) }
   const [Members, setMembers] = useState([]);
@@ -36,7 +36,7 @@ const MemberManagement = () => {
   }
   const getMemberInformation = () => {
     axios({
-      url: '/auth/api/get_member_information',
+      url: '/api/get_member_information',
       method:'POST',
       data:{
         userId: getStorage('userId'),

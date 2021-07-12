@@ -6,7 +6,12 @@ from flask import Flask
 import logging
 from logging.handlers import TimedRotatingFileHandler
 from views import index
-from views import auth
+from views import information
+from views import join
+from views import login
+from views import member_management
+from views import top_nav
+from views import message
 
 logger = logging.getLogger()
 logger.setLevel('INFO')
@@ -26,7 +31,12 @@ logger.addHandler(handler)
 app = Flask(__name__)
 
 app.register_blueprint(index.blueprint, url_prefix='/')
-app.register_blueprint(auth.blueprint, url_prefix='/auth')
+app.register_blueprint(information.blueprint, url_prefix='/')
+app.register_blueprint(join.blueprint, url_prefix='/')
+app.register_blueprint(login.blueprint, url_prefix='/')
+app.register_blueprint(member_management.blueprint, url_prefix='/')
+app.register_blueprint(top_nav.blueprint, url_prefix='/')
+app.register_blueprint(message.blueprint, url_prefix='/')
 
 if __name__ == '__main__':
     app.secret_key = 'secret_key'
