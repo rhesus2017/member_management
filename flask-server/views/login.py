@@ -12,7 +12,7 @@ blueprint = Blueprint('login', __name__)
 
 @blueprint.route('/api/login', methods=['POST'])
 def login():
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
 
     session.permanent = True
     current_app.permanent_session_lifetime = timedelta(minutes=30)

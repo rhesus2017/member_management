@@ -13,7 +13,7 @@ blueprint = Blueprint('join', __name__)
 
 @blueprint.route('/api/join', methods=['POST'])
 def join():
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
 
     phone = request.get_json()['phone']
     name = request.get_json()['name']

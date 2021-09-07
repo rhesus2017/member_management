@@ -9,7 +9,7 @@ const Footer = () => {
 
   return(
     <footer>
-      <h1 className="blind">React Example Footer</h1>
+      <h1 className="blind">Member Management Footer</h1>
       <p>&copy; 2021. REACT EXAMPLE all rights reserved.</p>
     </footer>
   )

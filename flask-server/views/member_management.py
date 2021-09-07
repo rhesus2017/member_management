@@ -15,7 +15,7 @@ blueprint = Blueprint('member_management', __name__)
 @check_account_state_decoration
 def get_member_information():
 
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
 
     pager = request.get_json()['pager']
 
@@ -41,7 +41,7 @@ def get_member_information():
 @blueprint.route('/api/change_member_information', methods=['POST'])
 @check_account_state_decoration
 def change_member_information():
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
 
     name = request.get_json()['name']
     password = request.get_json()['password']
@@ -82,7 +82,7 @@ def change_member_information():
 @blueprint.route('/api/logout_member', methods=['POST'])
 @check_account_state_decoration
 def logout_member():
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
 
     memberId = request.get_json()['memberId']
 
@@ -114,7 +114,7 @@ def logout_member():
 @blueprint.route('/api/alarm', methods=['POST'])
 @check_account_state_decoration
 def alarm():
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
 
     userId = request.get_json()['userId']
     memberId = request.get_json()['memberId']

@@ -12,7 +12,7 @@ blueprint = Blueprint('auth', __name__)
 @blueprint.route('/api/check_message', methods=['POST'])
 @check_account_state_decoration
 def check_message():
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
 
     userId = request.get_json()['userId']
 
@@ -34,7 +34,7 @@ def check_message():
 @blueprint.route('/api/logout', methods=['POST'])
 @check_account_state_decoration
 def logout():
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='react_example', charset='utf8', port=3306)
+    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
         cursor.execute('UPDATE auth SET login_check = %s where id = %s', ['D', session['userId']])
