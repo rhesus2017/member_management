@@ -13,7 +13,7 @@ blueprint = Blueprint('information', __name__)
 @blueprint.route('/api/get_user_information', methods=['POST'])
 @check_account_state_decoration
 def get_user_information():
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
+    db = pymysql.connect(host='amazon.cfu3xt0puybw.us-east-2.rds.amazonaws.com', user='amazon', passwd='amazon123', db='member_management', charset='utf8', port=3306)
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
         cursor.execute('select phone, name from auth where id=%s', [session['userId']])
@@ -27,7 +27,7 @@ def get_user_information():
 @blueprint.route('/api/change_user_information', methods=['POST'])
 @check_account_state_decoration
 def change_user_information():
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
+    db = pymysql.connect(host='amazon.cfu3xt0puybw.us-east-2.rds.amazonaws.com', user='amazon', passwd='amazon123', db='member_management', charset='utf8', port=3306)
 
     name = request.get_json()['name']
     password = request.get_json()['password']
@@ -45,7 +45,7 @@ def change_user_information():
 @blueprint.route('/api/out_user', methods=['POST'])
 @check_account_state_decoration
 def out_user():
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
+    db = pymysql.connect(host='amazon.cfu3xt0puybw.us-east-2.rds.amazonaws.com', user='amazon', passwd='amazon123', db='member_management', charset='utf8', port=3306)
     
     password = request.get_json()['password']
 

@@ -6,7 +6,7 @@ import pymysql
 def check_account_state_decoration(f):
   @wraps(f)
   def decoratored_function(*args, **kwargs):
-    db = pymysql.connect(host='127.0.0.1', user='root', passwd='root123', db='member_management', charset='utf8', port=3306)
+    db = pymysql.connect(host='amazon.cfu3xt0puybw.us-east-2.rds.amazonaws.com', user='amazon', passwd='amazon123', db='member_management', charset='utf8', port=3306)
 
     userId = request.get_json()['userId']
 
