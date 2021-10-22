@@ -15,7 +15,7 @@ import Message from './Message/Message';
 import './Main.css';
 
 
-const Main = ({title, name}) => {
+const Main = ({ title, name }) => {
 
   const mySwal = require('sweetalert2');
   const socket = socketio.connect('http://18.118.50.80:5050/');
@@ -34,7 +34,7 @@ const Main = ({title, name}) => {
       <main>
         <h1 className='blind'>Member Management Main</h1>
         <div className='content'>
-          {name !== 'home' && <Title title={title} />}
+          <Title title={title} />
           {name === 'home' && <Home />}
           {name === 'login' && <Login />}
           {name === 'join' && <Join />}

@@ -36,11 +36,11 @@ const App = () => {
       <BrowserRouter>
         <Switch>
           <Route path='/' exact={true} render={() => <Home title='Home' name='home' link='/' />} />
-          <Route path='/MemberManagement' exact={true} render={() => <MemberManagement title='Member Management' name='member management' link='/MemberManagement' />} />
-          <Route path='/Login' exact={true} render={() => <Login title='LOGIN' name='login' link='/Login' />} />
-          <Route path='/Join' exact={true} render={() => <Join title='JOIN' name='join' link='/Join' />} />
-          <Route path='/Information' exact={true} render={() => <Information title='INFORMATION' name='information' link='/Information' />} />
-          <Route path='/Message' exact={true} render={() => <Message title='MESSAGE' name='message' link='/Message' />} />
+          <Route path='/MemberManagement' exact={true} render={() => <MemberManagement title='회원관리' name='member management' link='/MemberManagement' />} />
+          <Route path='/Login' exact={true} render={() => <Login title='LOGIN' name='로그인' link='/Login' />} />
+          <Route path='/Join' exact={true} render={() => <Join title='JOIN' name='회원가입' link='/Join' />} />
+          <Route path='/Information' exact={true} render={() => <Information title='내정보' name='information' link='/Information' />} />
+          <Route path='/Message' exact={true} render={() => <Message title='메세지' name='message' link='/Message' />} />
           <Route component={NotFound} />
         </Switch>
       </BrowserRouter>

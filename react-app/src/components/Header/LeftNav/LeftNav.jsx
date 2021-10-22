@@ -9,7 +9,7 @@ import './LeftNav.css';
 const LeftNav = ({ link }) => {
 
   const [menus] = useState([
-    {id: 1, path: '/MemberManagement', name: 'Member Management', icon: 'fas fa-bezier-curve awesome-icon'}
+    {id: 1, path: '/MemberManagement', name: '회원관리', icon: 'fas fa-bezier-curve awesome-icon'}
   ]);
 
 
