@@ -114,13 +114,13 @@ const TopNav = () => {
               <Link to='/Message' className='message'><i class="far fa-comment-dots"></i><span className={RecentMessageCheck.check ? 'new' : ''}></span></Link>
               <Link to='/Information' className='auth'>{UserNameSetting.name}</Link>
               <span></span>
-              <span onClick={logOut}>Logout</span>
+              <span onClick={logOut}>로그아웃</span>
             </div>
           : 
           <div className='right'>
-            <Link to='/Login' className='auth'>Login</Link>
+            <Link to='/Login' className='auth'>로그인</Link>
             <span></span>
-            <Link to='/Join' className='auth'>Join</Link></div>
+            <Link to='/Join' className='auth'>회원가입</Link></div>
         }
         
     </div>
