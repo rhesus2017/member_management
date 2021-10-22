@@ -1,7 +1,7 @@
 // react
 import React, { useEffect } from 'react';
 import axios from 'axios';
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 // redux
 import { useDispatch, useSelector } from 'react-redux';
@@ -22,7 +22,6 @@ const TopNav = () => {
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const mySwal = require('sweetalert2');
-  const history = useHistory();
   const dispatch = useDispatch();
   const menuOpenClose = () => { dispatch(MenuOpenClose());}
   const recentMessage = (check) => { dispatch(RecentMessage(check)); }
