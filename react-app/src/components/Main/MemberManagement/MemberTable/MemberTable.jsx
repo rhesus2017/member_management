@@ -13,7 +13,7 @@ import { UserNameSetting } from '../../../../action';
 const MemberTable = ({ Member }) => {
   
   const mySwal = require('sweetalert2');
-  const socket = socketio.connect('http://18.118.50.80:5050/');
+  const socket = socketio.connect('http://18.222.185.237:5050/');
   const history = useHistory();
   const dispatch = useDispatch();
   const userNameSetting = () => { dispatch(UserNameSetting()); }

@@ -2,3 +2,4 @@
 
 .main_title{width: 100%; height: 70px; color: #eee; font-size: 2.2rem; font-weight: bold; line-height: 70px; margin: 0; padding-left: 50px; text-shadow: 0px 0px 15px #fff;}
 .main_text{width: 100%; color: #eee; font-size: 1.4rem; margin: 0; padding-left: 50px;}
+.main_text > a{color: #09d9fe !important;}
