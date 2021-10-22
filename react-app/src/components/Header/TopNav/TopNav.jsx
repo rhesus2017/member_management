@@ -35,7 +35,7 @@ const TopNav = () => {
     setStorage('userId', 0);
     setStorage('userName', '');
     setStorage('userGrade', '');
-    history.push(route);
+    window.location.replace(route);
   }
   const checkMessage = () => {
     axios({
