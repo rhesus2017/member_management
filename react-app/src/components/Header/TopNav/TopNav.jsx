@@ -51,7 +51,6 @@ const TopNav = () => {
         recentMessage(false);
       }
     }).catch(function(error){
-      mySwal.fire({icon: 'error', title: '실패', html: '알수 없는 문제로 메세지 체크를 실패했습니다'});
       storageClear('/');
     });
   }
@@ -66,26 +65,19 @@ const TopNav = () => {
           }
         }).then(function (response) {
           if ( response['data']['result'] === '000000' ) {
-            mySwal.fire({icon: 'success', title: '성공', html: '로그아웃이 완료되었습니다'});
             storageClear('/');
           } else if ( response['data']['result'] === '000300' ) {
-            mySwal.fire({icon: 'error', title: '실패', html: '세션이 만료되었습니다. 로그인 페이지로 이동합니다'});
             storageClear('/Login');
           } else if ( response['data']['result'] === '000301' ) {
-            mySwal.fire({icon: 'error', title: '실패', html: '관리자에 의해 로그아웃 됐습니다.<br>로그인 페이지로 이동합니다'});
             storageClear('/Login');
           } else if ( response['data']['result'] === '000302' ) {
-            mySwal.fire({icon: 'error', title: '실패', html: '정지 된 계정입니다. 관리자에게 문의해주세요'});
             storageClear('/');
           } else if ( response['data']['result'] === '000303' ) {
-            mySwal.fire({icon: 'error', title: '실패', html: '탈퇴 된 계정입니다. 관리자에게 문의해주세요'});
             storageClear('/');
           } else if ( response['data']['result'] === '000304' ) {
-            mySwal.fire({icon: 'error', title: '실패', html: '로그인이 필요합니다. 로그인 페이지로 이동합니다'});
             storageClear('/Login');
           }
         }).catch(function(error){
-          mySwal.fire({icon: 'error', title: '실패', html: '알수 없는 문제로 로그아웃이 실패했습니다'});
           storageClear('/');
         });
       }
