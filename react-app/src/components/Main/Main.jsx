@@ -18,7 +18,7 @@ import './Main.css';
 const Main = ({ title, name }) => {
 
   const mySwal = require('sweetalert2');
-  const socket = socketio.connect('http://18.222.185.237:5050/');
+  const socket = socketio.connect('http://3.144.85.216:5050/');
   const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)); };
 
   socket.on('receiveMessage', (data) => {
