@@ -8,19 +8,27 @@ import './LeftNav.css';
 
 const LeftNav = ({ link }) => {
 
-  const [menus] = useState([
-    {id: 1, path: '/MemberManagement', name: '회원관리', icon: 'fas fa-bezier-curve awesome-icon'}
-  ]);
+  const mySwal = require('sweetalert2');
+  const getStorage = (item) => { return JSON.parse(window.localStorage.getItem(item)) }
 
+  const clickMenu = () => {
+    if ( getStorage('userId') === 0 ) {
+      mySwal.fire({icon: 'error', title: '실패', html: '로그인이 필요합니다. 로그인 페이지로 이동합니다'});
+    } else if ( getStorage('userGrade') === 'guest' ) {
+      mySwal.fire({icon: 'error', title: '실패', html: '회원정보를 볼 수 있는 등급이 아닙니다'});
+    }
+   
+  }
 
   return(
     <nav className='left_nav'>
       <ul>
         {
-          menus.map((menu) => {
-            return <li><Link to={menu.path} className={link === menu.path && 'on'}><i className={menu.icon}></i><span>{menu.name}</span></Link></li>
-          })
+          getStorage('userId') === 0 || getStorage('userGrade') === 'guest'
+          ? <li><span className={link === '/MemberManagement' && 'on'} onClick={clickMenu}><i className='fas fa-bezier-curve awesome-icon'></i><span>회원관리</span></span></li>
+          : <li><Link to='/MemberManagement' className={link === '/MemberManagement' && 'on'}><i className='fas fa-bezier-curve awesome-icon'></i><span>회원관리</span></Link></li>
         }
+        
       </ul>
     </nav>
   )

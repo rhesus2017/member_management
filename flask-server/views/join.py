@@ -28,7 +28,7 @@ def join():
         for row in rows:
             if row['phone'] == phone:
                 if row['state'] == 'O':
-                    if certification != session['certification_number'] or phone != session['phone_number']:
+                    if 'certification_number' not in session or certification != session['certification_number'] or phone != session['phone_number']:
                         response = {'result': '000020'}
                         response = jsonify(response)
                         return response
@@ -45,7 +45,7 @@ def join():
                     response = jsonify(response)
                     return response
 
-        if certification != session['certification_number'] or phone != session['phone_number']:
+        if 'certification_number' not in session or certification != session['certification_number'] or phone != session['phone_number']:
             response = {'result': '000020'}
             response = jsonify(response)
             return response
@@ -68,8 +68,6 @@ def get_certification():
     session['certification_number'] = certification_number
     session['phone_number'] = phone_number
 
-    logger.info(f'인증번호 [{certification_number}] 발급 완료')
-
-    response = {'result': '000000'}
+    response = {'result': '000000', 'certification_number': certification_number}
     response = jsonify(response)
     return response

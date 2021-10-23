@@ -101,11 +101,11 @@ const Join = () => {
         }
       }).then(function (response) {
         if (!CertificationProgress) {
-          mySwal.fire({icon: 'success', title: '성공', html: '인증번호가 발송되었습니다. 인증번호를 입력해주세요'});
+          mySwal.fire({icon: 'success', title: '성공', html: '인증번호가 발송되었습니다. 인증번호는 ' + response['data']['certification_number'] + ' 입니다'});
           setCertificationButton('인증번호 재요청');
           setCertificationProgress(true);
         } else {
-          mySwal.fire({icon: 'success', title: '성공', html: '인증번호가 재발송되었습니다. 인증번호를 입력해주세요'});
+          mySwal.fire({icon: 'success', title: '성공', html: '인증번호가 재발송되었습니다. 인증번호는 ' + response['data']['certification_number'] + ' 입니다'});
           setCertification('');
         }
       }).catch(function(error){

@@ -10,3 +10,9 @@
 .left_nav > ul > li > a .awesome-icon{margin: 17px 15px 17px 0;}
 .left_nav > ul > li > a span{line-height: 50px !important;}
 .left_nav > ul > li > a.on{color: #09d9fe; font-weight: bold;}
+
+.left_nav > ul > li > span{display: block; width: 100%; height: 100%; color: #aaa; font-size: 1.4rem; padding-left: 20px; cursor: pointer;}
+.left_nav > ul > li > span:hover, .left_nav > ul > li > a:focus, .left_nav > ul > li > a.menu_active{color: #09d9fe; transition: .5s; text-decoration: none;}
+.left_nav > ul > li > span .awesome-icon{margin: 17px 15px 17px 0;}
+.left_nav > ul > li > span span{line-height: 50px !important;}
+.left_nav > ul > li > span.on{color: #09d9fe; font-weight: bold;}
