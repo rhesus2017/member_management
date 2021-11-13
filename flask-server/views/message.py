@@ -19,10 +19,10 @@ def get_message():
 
     with db.cursor(pymysql.cursors.DictCursor) as cursor:
 
-        cursor.execute('UPDATE message SET state = CASE user_id WHEN %s THEN %s ELSE state END' , [session['userId'], 'checked'])
+        cursor.execute('UPDATE message SET state = CASE user_id WHEN %s THEN %s ELSE state END', [session['userId'], 'checked'])
         db.commit()
 
-        cursor.execute('select * from message where user_id = %s and delete_state = %s LIMIT %s, %s', [session['userId'], 'N', 7*(pager-1), 7])
+        cursor.execute('select * from message where user_id = %s and delete_state = %s ORDER BY datetime DESC LIMIT %s, %s', [session['userId'], 'N', 7*(pager-1), 7])
         rows = cursor.fetchall()
 
         cursor.execute('select count(*) from message where user_id = %s and delete_state = %s', [session['userId'], 'N'])
