@@ -17,21 +17,16 @@ function Pagination({ Count }){
 
   let contentLength = Count;
   let minPage = 1
-  let maxPage = Math.ceil(contentLength/7) ;
+  let maxPage = Math.ceil(contentLength/7);
   let pager = [];
   let leftSideNumber = currentPage.pager - 2;
   let rightSideNumber = currentPage.pager + 2;
 
-  if ( leftSideNumber <= minPage ) { 
-    leftSideNumber = minPage;
-  } else if ( rightSideNumber === maxPage ) {
-    leftSideNumber = maxPage - 4;
-  }
 
-  if ( rightSideNumber >= maxPage ) {
+  if ( leftSideNumber < minPage ) {
+    leftSideNumber = minPage;
+  } else if ( rightSideNumber > maxPage ) {
     rightSideNumber = maxPage;
-  }else if ( leftSideNumber === minPage ) { 
-    rightSideNumber = minPage + 4;
   }
 
   for (let i=leftSideNumber; i<=rightSideNumber; i++) {
