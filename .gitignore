@@ -19,4 +19,5 @@ flask-server/views/__pycache__
 flask-server/log
 flask-server/static
 flask-server/templates
+
 __pycache__

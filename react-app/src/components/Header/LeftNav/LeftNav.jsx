@@ -13,7 +13,7 @@ const LeftNav = ({ link }) => {
 
   const clickMenu = () => {
     if ( getStorage('userId') === 0 ) {
-      mySwal.fire({icon: 'error', title: '실패', html: '로그인이 필요합니다.'});
+      mySwal.fire({icon: 'error', title: '실패', html: '관리자 계정은 <a href="https://github.com/rhesus2017/member_management" target="_blank">README.md</a> 에서 확인해주세요.'});
     } else if ( getStorage('userGrade') === 'guest' ) {
       mySwal.fire({icon: 'error', title: '실패', html: '회원정보를 볼 수 있는 등급이 아닙니다'});
     }
